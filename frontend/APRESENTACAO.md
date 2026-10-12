@@ -1,5 +1,7 @@
 # Apresentação — percurso de 8–10 minutos
 
+> Roteiro do banco existente dos autores. Para avaliar um clone com banco novo, use [ENTREGA-ACADEMICA](../docs/ENTREGA-ACADEMICA.md#percurso-em-uma-instalação-nova); IDs e datas abaixo pertencem ao conjunto local de 12/10.
+
 Conferido em **12/10/2026, fuso de São Paulo**, após a resolução D01–D05. Abra http://127.0.0.1:5173 e confira http://127.0.0.1:8000/api/saude. Comandos: [EXECUCAO.md](EXECUCAO.md). Resultados e evidências atuais: [RESOLUCAO-OVERVIEW.md](RESOLUCAO-OVERVIEW.md). A validação de 11/10 permanece como registro histórico em [VALIDACAO-FINAL.md](VALIDACAO-FINAL.md).
 
 ## História dos registros

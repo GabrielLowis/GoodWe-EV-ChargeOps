@@ -1,6 +1,6 @@
 # Frente 5 — contexto e base de desenvolvimento
 
-Escopo lido nas páginas 8–9 do plano da Sprint 2. As duas experiências usam a mesma API e a autorização é aplicada pelo backend. As telas das entregas 1–4 estão implementadas em React/TypeScript/Vite, com cliente gerado de OpenAPI, autenticação em memória, navegação por perfil e infraestrutura PWA. Consulte frontend/VALIDACAO-FINAL.md para a evidência atual e os cenários não comprovados. A tabela abaixo descreve contratos disponíveis; o pacote implementado segue docs/ENTREGAS-FRENTE5.md.
+Escopo lido nas páginas 8–9 do plano da Sprint 2. As duas experiências usam a mesma API e a autorização é aplicada pelo backend. As telas das entregas 1–4 estão implementadas em React/TypeScript/Vite, com cliente gerado de OpenAPI, autenticação em memória, navegação por perfil e infraestrutura PWA. Consulte frontend/RESOLUCAO-OVERVIEW.md para a validação funcional de 12/10 e docs/VALIDACAO-ENTREGA.md para a instalação/pacote; frontend/VALIDACAO-FINAL.md é histórico de 11/10. A tabela abaixo descreve contratos disponíveis; o pacote implementado segue docs/ENTREGAS-FRENTE5.md.
 
 ## Morador
 
@@ -60,4 +60,4 @@ O morador precisa entender o total e o motivo de cada parcela. O síndico precis
 
 PWA: manifest, ícones PNG 192/512 e maskable e worker de contingência incluídos. O service worker só registra em build de produção e guarda apenas uma página offline. Não armazenar tokens, sessões ou faturas em cache. Instalação nos dispositivos-alvo não foi comprovada; consultas e ações dependem da API.
 
-Sequência implementada nas quatro entregas: login/perfil → reserva e agenda → sessões → fatura e memória → revisão de anomalias → consulta de parâmetros → financeiro/recomendação. A revisão persistida de anomalias permanece pendente de dados disponíveis. Conservar acessibilidade semântica, foco, erros associados aos campos e funcionamento em telas estreitas.
+Sequência implementada nas quatro entregas: login/perfil → reserva e agenda → sessões → fatura e memória → revisão de anomalias → consulta de parâmetros → financeiro/recomendação. A rejeição de anomalia simulada pela interface foi persistida em 12/10; aprovação e atribuição órfã pela interface continuam sem comprovação. Conservar acessibilidade semântica, foco, erros associados aos campos e funcionamento em telas estreitas.

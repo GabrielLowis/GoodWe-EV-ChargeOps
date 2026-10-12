@@ -1,5 +1,7 @@
 # Frente 5 — quatro entregas para o prazo da faculdade
 
+> Plano salvo em 08/10/2026, preservado como histórico de escopo/prioridades. Expressões de trabalho futuro e checklist abaixo são daquele planejamento. Estado funcional posterior: [RESOLUCAO-OVERVIEW](../frontend/RESOLUCAO-OVERVIEW.md). Entrega acadêmica: [ENTREGA-ACADEMICA](ENTREGA-ACADEMICA.md).
+
 **Planejamento atualizado em:** 08/10/2026.  
 **Prazo de apresentação/entrega:** 13/10/2026.  
 **Disponibilidade considerada:** quatro sessões de aproximadamente duas horas, total de oito horas junto com o assistente. Uma terceira hora eventual é folga, não requisito do plano.  

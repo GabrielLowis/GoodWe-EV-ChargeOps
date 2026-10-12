@@ -15,3 +15,4 @@ condocharge_ai/artifacts/*.joblib
 frontend/src/api/schema.d.ts.tmp
 *.tsbuildinfo
 /USUARIOS-TESTE.md
+/entrega/

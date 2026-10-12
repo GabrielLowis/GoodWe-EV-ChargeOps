@@ -69,4 +69,4 @@ Faturamento serializado por lock transacional, sem commit por fatura intermediá
 - Recomendação: baseline de 24 horas com geração solar hipotética, disponibilidade atual e tarifas cadastradas. Não substitui o modelo de regressão/backtest previsto no plano.
 - Processamento de no-show: endpoint manual, sem agendador instalado; parâmetro de sete dias é uma decisão demonstrativa a validar com a equipe.
 - IA: treinamento do único regime HCA01, sem validação em equipamentos de outra potência. Score não é probabilidade calibrada.
-- Arquitetura preparada para desenvolvimento acadêmico. Não houve publicação, implantação externa ou migração de banco pré-existente.
+- Arquitetura preparada para desenvolvimento acadêmico. Publicação do código e pacote: docs/VALIDACAO-ENTREGA.md. Não há implantação externa do aplicativo; banco preexistente dos autores foi preservado nesta preparação.

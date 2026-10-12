@@ -1,5 +1,7 @@
 # Validação final — EV ChargeOps
 
+> Registro histórico de 11/10/2026, preservado. A validação funcional posterior está em [RESOLUCAO-OVERVIEW](RESOLUCAO-OVERVIEW.md); a preparação acadêmica está em [VALIDACAO-ENTREGA](../docs/VALIDACAO-ENTREGA.md).
+
 Conferência em **11/10/2026**, para apresentação acadêmica em **13/10/2026**. Trabalho limitado ao frontend e documentação, preservando as quatro entregas. Evidências atuais em [evidence/validacao-final](evidence/validacao-final/); registros ENTREGA1–4 e suas pastas de evidência permanecem como histórico.
 
 ## Checklist dos cinco pontos

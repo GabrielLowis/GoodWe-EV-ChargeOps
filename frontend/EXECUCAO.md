@@ -1,6 +1,8 @@
 # Executar o EV ChargeOps
 
-Frontend das entregas 1–4 e resolução dos cinco achados, conferidos em 12/10/2026 para apresentação em 13/10. Resultado atual: [RESOLUCAO-OVERVIEW.md](RESOLUCAO-OVERVIEW.md); conferência histórica de 11/10: [VALIDACAO-FINAL.md](VALIDACAO-FINAL.md). Sem publicação externa.
+Frontend das entregas 1–4 e resolução dos cinco achados, conferidos em 12/10/2026 para apresentação em 13/10. Resultado atual: [RESOLUCAO-OVERVIEW.md](RESOLUCAO-OVERVIEW.md); conferência histórica de 11/10: [VALIDACAO-FINAL.md](VALIDACAO-FINAL.md). Este documento preserva a operação do banco dos autores; publicação e pacote são conferidos em [VALIDACAO-ENTREGA](../docs/VALIDACAO-ENTREGA.md).
+
+Para instalar em outro computador, comece no [README](../README.md) e no [guia de primeira execução](../docs/DEVELOPMENT.md#primeira-instalação-nativa-no-windows). Os IDs deste roteiro não são distribuídos pelo clone.
 
 ## Endereços e contas
 
@@ -15,7 +17,7 @@ Primeiro consulte a saúde e abra o frontend. Reutilize serviços ativos. Em 11/
 
 Contas consultadas na API: `morador@demo.local` (resident, A-101) e `sindico@demo.local` (manager). Use a senha local em `DEMO_PASSWORD` do `.env` da raiz; não publique seu valor. Não precisa cadastrar usuários. Token em memória: sair ou recarregar exige novo login.
 
-## Iniciar somente o ambiente existente
+## Preservar e iniciar somente o ambiente existente dos autores
 
 Na raiz, confira se a API está ativa:
 
@@ -24,7 +26,7 @@ cd "C:\Users\Gabriel Luis\Documents\ChatGPT\GoodWe"
 Invoke-RestMethod http://127.0.0.1:8000/api/saude
 ```
 
-Se os serviços estiverem parados, use os comandos abaixo, cada serviço em seu terminal. O cluster deve existir. Não execute `start-local.ps1` para repetir esta conferência: esse helper também chama configure, criação de bancos e bootstrap. Nesta meta esses passos não estão autorizados.
+Se os serviços estiverem parados, use os comandos abaixo, cada serviço em seu terminal. O cluster deve existir. Não execute `start-local.ps1` para repetir esta conferência: esse helper também chama configure, criação de bancos e bootstrap. Esses passos preparam um ambiente novo; para preservar este conjunto, reutilize somente o cluster existente.
 
 ```powershell
 if (-not (Test-Path .local/pgdata/PG_VERSION)) { throw 'Cluster existente ausente; interromper sem inicializar.' }
@@ -70,7 +72,7 @@ Siga [APRESENTACAO.md](APRESENTACAO.md), em 8–10 minutos. Consulte a reserva #
 
 Não há telemetria física ou pagamentos. A anomalia #1 permanece pendente e #2 tem rejeição persistida pela interface, ambas simuladas e sem energia. Aprovação humana e atribuição órfã persistidas não foram executadas nesta resolução.
 
-## Lista local de logins e senhas de teste
+## Credenciais em uma instalação nova
 
-Consulte [USUARIOS-TESTE.md](../USUARIOS-TESTE.md) para as contas e senhas conferidas no banco local. O arquivo fica na raiz do projeto, ignorado pelo Git, e deve ser atualizado caso as contas ou senhas mudem.
+Use `morador@demo.local` e `sindico@demo.local` com `DEMO_PASSWORD` do `.env` criado pelo configurador daquela instalação. O seed só cria as contas em banco vazio e não altera senhas existentes. Arquivos privados de senhas dos autores ficam fora do Git/ZIP e não são necessários ao avaliador.
 

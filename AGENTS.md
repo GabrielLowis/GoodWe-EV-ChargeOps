@@ -3,7 +3,7 @@
 Leia README.md, docs/INTEGRATION.md e docs/FRONTEND.md antes de alterar o projeto.
 
 - Leia também docs/ENTREGAS-FRENTE5.md: é o plano atual e prevalece sobre o escopo amplo em docs/PLANEJAMENTO-FRENTE5.md e listas de funcionalidades dos outros documentos.
-- Estado atualizado em 11/10/2026: frontend das entregas 1–4 implementado. Revisão persistida de anomalias depende de ocorrência adequada e instalação PWA em aparelho não foi comprovada. Consulte frontend/VALIDACAO-FINAL.md para a conferência atual; execute somente o escopo autorizado pelo usuário.
+- Estado funcional em 12/10/2026: frontend das entregas 1–4 implementado; rejeição de anomalia simulada persistida pela interface. Aprovação/atribuição órfã pela interface e instalação PWA em aparelho não comprovadas. Consulte frontend/RESOLUCAO-OVERVIEW.md e docs/VALIDACAO-ENTREGA.md; execute somente o escopo autorizado pelo usuário.
 - Planejamento: quatro entregas de aproximadamente duas horas, oito horas totais, prazo acadêmico em 13/10/2026. Priorize os fluxos funcionais do pacote principal; cadastros administrativos complexos e acabamento detalhado são extras.
 - Desenvolva somente o frontend. Não altere backend, migrations, schema, IA ou infraestrutura para viabilizar uma tela sem aprovação específica do usuário. Informe a incompatibilidade concreta e continue as partes independentes.
 - Ações pela API existente (reservar, revisar, gerar/fechar faturas) fazem parte do frontend e podem persistir registros normalmente. Não confunda isso com autorização para mudar o código do backend ou a estrutura do banco.

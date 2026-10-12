@@ -1,5 +1,7 @@
 # Evidência da preparação integrada
 
+> Registro histórico de 08/10/2026. Para o estado funcional de 12/10, consulte [RESOLUCAO-OVERVIEW](../frontend/RESOLUCAO-OVERVIEW.md); para a primeira instalação e o pacote, [VALIDACAO-ENTREGA](VALIDACAO-ENTREGA.md). As pendências abaixo descrevem a data original.
+
 Validação realizada neste computador em 08/10/2026. As evidências abaixo são da cópia integrada; não são reprodução presumida dos arquivos de evidência recebidos nos ZIPs.
 
 | Verificação | Resultado |
