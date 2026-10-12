@@ -10,4 +10,3 @@
       Tests  50 passed (50)
    Start at  20:01:04
    Duration  1.10s (transform 42%, import 41%, tests 13%, worker 4%, environment 1%)
-

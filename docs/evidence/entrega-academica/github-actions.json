@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/GabrielLowis/GoodWe-EV-ChargeOps/actions/runs/38320595895",
+  "headSha": "5c8732bc17892fb2cff2176d93e4e76c677edaa2",
+  "jobs": [
+    {
+      "name": "frontend",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/GabrielLowis/GoodWe-EV-ChargeOps/actions/runs/38320595895/job/115047491346"
+    },
+    {
+      "name": "backend",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/GabrielLowis/GoodWe-EV-ChargeOps/actions/runs/38320595895/job/115047491492"
+    }
+  ]
+}

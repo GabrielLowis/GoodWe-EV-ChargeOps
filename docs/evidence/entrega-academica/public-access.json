@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/GabrielLowis/GoodWe-EV-ChargeOps",
+  "authenticated": false,
+  "page_status": 200,
+  "metadata_status": 200,
+  "readme_status": 200,
+  "public": true,
+  "default_branch": "main",
+  "readme_commit_checked": "5c8732bc17892fb2cff2176d93e4e76c677edaa2"
+}

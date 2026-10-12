@@ -6,7 +6,7 @@ Conferência de **12/10/2026, São Paulo**, específica para primeira instalaç�
 
 Foi criada uma cópia somente dos arquivos candidatos ao repositório em `.local/validacao-entrega`. Ela começou sem `.env`, banco, `.venv`, `node_modules` ou modelo ativo. Configuração nova, Python virtual e dependências foram preparados, com `pip install -r requirements.txt` e `npm ci`. Downloads usaram caches dos gerenciadores quando disponíveis; não foi copiado o ambiente instalado dos autores.
 
-Os binários PostgreSQL 16.15 já disponíveis foram reutilizados **como runtime**, com cluster novo e exclusivo. Não foi instalado serviço Windows. Banco de demonstração `evchargeops_entrega` e banco descartável `evchargeops_entrega_test`, ambos em 55432; API em 18000 e frontend em 15173. Bootstrap aplicou a migration existente e recompôs o modelo v1.0.0 dos CSVs, com 172 sessões de treinamento. Isso não é uma validação Docker, Linux ou de equipamento físico.
+Os binários PostgreSQL 16.15 já disponíveis foram reutilizados **como runtime**, com cluster novo e exclusivo. Não foi instalado serviço Windows. Banco de demonstração `evchargeops_entrega` e banco descartável `evchargeops_entrega_test`, ambos em 55432; API em 18000 e frontend em 15173. Bootstrap aplicou a migration existente e recompôs o modelo v1.0.0 dos CSVs, com 172 sessões de treinamento. A instalação local verifica Windows; a CI abaixo acrescenta testes/build em Ubuntu com serviço PostgreSQL. Não se validou o Compose completo nem equipamento físico.
 
 | Verificação | Resultado observado |
 |---|---|
@@ -22,6 +22,7 @@ Os binários PostgreSQL 16.15 já disponíveis foram reutilizados **como runtime
 | Testes frontend | **50 aprovados em 12 arquivos** |
 | Build frontend | TypeScript e Vite concluídos |
 | Lint Python | All checks passed |
+| Reprodução dos contratos na cópia temporária | OpenAPI e tipos gerados idênticos ao commit, normalizando somente CRLF/LF |
 | Navegador da cópia nova | Login/saída dos dois perfis, recarga, vínculo, memória expandida e relatório financeiro conferidos |
 
 O total R$ 4,61 é resultado desta execução, não um valor fixo do protótipo. A sessão começou às 21h01 e atravessou faixas; a fatura mostrou Green R$ 0,30, Grid R$ 3,89, subtotal R$ 4,19, imposto R$ 0,21 e operacional R$ 0,21. O banco novo não recebeu o feriado demonstrativo cadastrado no banco dos autores. As capturas históricas com R$ 4,04 continuam válidas para o conjunto anterior.
@@ -39,7 +40,17 @@ Artefatos sanitizados em [evidence/entrega-academica](evidence/entrega-academica
 
 ## Publicação e pacote
 
-A publicação de GabrielLowis/GoodWe-EV-ChargeOps e o pacote serão conferidos após os commits desta preparação. O resultado remoto, os links dos checks e a verificação do ZIP serão acrescentados antes da entrega final. Não se presume CI aprovada enquanto não existir resultado remoto.
+O repositório **[GabrielLowis/GoodWe-EV-ChargeOps](https://github.com/GabrielLowis/GoodWe-EV-ChargeOps)** foi criado público, com branch principal `main`. Página, metadados e README responderam HTTP 200 sem autenticação. O HEAD local foi comparado ao remoto. [Registro de acesso público](evidence/entrega-academica/public-access.json).
+
+A **[CI de publicação](https://github.com/GabrielLowis/GoodWe-EV-ChargeOps/actions/runs/38320595895)** concluiu com sucesso os jobs backend e frontend em Ubuntu: instalação, treino, testes, lint, build e conferência dos contratos. [Resultado com SHA e jobs](evidence/entrega-academica/github-actions.json). Esse registro identifica a revisão verificada; o manifesto local da entrega registra o commit final e o resultado do workflow correspondente, conferidos após o último envio.
+
+`entrega/ENTREGA.txt` contém somente o link real. `entrega/EV-ChargeOps.zip` é produzido por `git archive`, com uma pasta superior `GoodWe-EV-ChargeOps/`, e foi extraído para conferência de CRC, conteúdo e hashes. README, código, dependências, CSVs e evidências estão presentes; somente arquivos do commit entram no ZIP. Banco, segredos, ambientes, node_modules, builds e a própria pasta de saída ficam excluídos. O binário original recebido da Frente 4 permanece em deliveries como referência; o artefato ativo é reconstruído na instalação.
+
+`entrega/manifesto.json` fica fora do ZIP e registra commit final, tamanho, SHA-256, contagem de arquivos e CI correspondente. Assim o manifesto não precisa incluir seu próprio hash no pacote. A extração final é repetida após consolidar esta documentação.
+
+Foram comparados **245 arquivos de código/dados/entregas/scripts/infraestrutura/testes e referências originais**, sem mudança, e **1.788 arquivos locais originais**, incluindo configuração, lista de senhas, estado dos serviços e cluster, sem mudança. Os três serviços da cópia isolada foram encerrados. [Preservação](evidence/entrega-academica/preservation.json), [links dos documentos](evidence/entrega-academica/links.json) e [conferência dos arquivos publicáveis](evidence/entrega-academica/publication-scan.json).
+
+Commits reais registram a base recebida, a orientação acadêmica, a validação isolada e a conferência da publicação. Não houve reconstrução artificial de histórico anterior. O enunciado original continua em sua forma recebida e as referências da Sprint 01/deliveries foram preservadas.
 
 ## Limites e pendências humanas
 

@@ -13,8 +13,8 @@ O enunciado fornecido pede **TXT com o link do repositório do grupo**; código,
 | Justificativa dos desvios da Sprint 01 | Tabela comparativa e fontes no README | Atendido documentalmente; não substitui avaliação funcional |
 | Evidências de funcionamento | Seis capturas com legendas, relatório de 12/10 e logs | Presentes; limites de cada validação registrados |
 | Português claro, sem abuso de emojis | README principal em português | Atendido |
-| Repositório do grupo acessível | GabrielLowis/GoodWe-EV-ChargeOps público | Conferência em VALIDACAO-ENTREGA |
-| TXT com link | entrega/ENTREGA.txt, fora do repositório | Gerado ao concluir publicação |
+| Repositório do grupo acessível | GabrielLowis/GoodWe-EV-ChargeOps público | Atendido; acesso público/CI conferidos em VALIDACAO-ENTREGA |
+| TXT com link | entrega/ENTREGA.txt, fora do repositório | Gerado com o link real para envio pelo aluno |
 | Commits frequentes/descritivos | Base recebida e mudanças desta preparação | Mensagens descritivas nesta etapa; frequência anterior não comprovada |
 | Autoria/compreensão, inclusive de código auxiliado por IA | Decisões, referência da Frente 4 e explicação pelos integrantes | Compreensão de cada integrante depende de verificação humana |
 | Escolhas refletindo raciocínio da equipe | Justificativas documentadas | Defesa pela equipe continua necessária |

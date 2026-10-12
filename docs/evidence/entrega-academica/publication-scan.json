@@ -1,0 +1,29 @@
+{
+  "files_checked": 808,
+  "groups": {
+    ".dockerignore": 1,
+    ".env.example": 1,
+    ".github": 1,
+    ".gitignore": 1,
+    "AGENTS.md": 1,
+    "Dockerfile": 1,
+    "README.md": 1,
+    "alembic.ini": 1,
+    "backend": 50,
+    "compose.yaml": 1,
+    "condocharge_ai": 11,
+    "data": 15,
+    "deliveries": 139,
+    "docs": 42,
+    "frontend": 518,
+    "infra": 1,
+    "pyproject.toml": 1,
+    "pytest.ini": 1,
+    "requirements.txt": 1,
+    "scripts": 9,
+    "tests": 11
+  },
+  "secret_findings": [],
+  "private_local_values_checked": 5,
+  "demo_template_public": true
+}
