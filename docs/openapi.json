@@ -1,0 +1,3134 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "EV ChargeOps",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/saude": {
+      "get": {
+        "tags": [
+          "infra"
+        ],
+        "summary": "Health",
+        "operationId": "health_api_saude_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HealthOut"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/login": {
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Login",
+        "operationId": "login_api_login_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TokenOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/usuarios/eu": {
+      "get": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Me",
+        "operationId": "me_api_usuarios_eu_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserOut"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/usuarios": {
+      "get": {
+        "tags": [
+          "cadastros"
+        ],
+        "summary": "Users",
+        "operationId": "users_api_usuarios_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/UserOut"
+                  },
+                  "type": "array",
+                  "title": "Response Users Api Usuarios Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "auth"
+        ],
+        "summary": "Register",
+        "operationId": "register_api_usuarios_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UserOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/unidades": {
+      "get": {
+        "tags": [
+          "cadastros"
+        ],
+        "summary": "Units",
+        "operationId": "units_api_unidades_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/UnitOut"
+                  },
+                  "type": "array",
+                  "title": "Response Units Api Unidades Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "cadastros"
+        ],
+        "summary": "Create Unit",
+        "operationId": "create_unit_api_unidades_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UnitCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UnitOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/carregadores": {
+      "get": {
+        "tags": [
+          "carregadores"
+        ],
+        "summary": "Chargers",
+        "operationId": "chargers_api_carregadores_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ChargerOut"
+                  },
+                  "type": "array",
+                  "title": "Response Chargers Api Carregadores Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "carregadores"
+        ],
+        "summary": "Create Charger",
+        "operationId": "create_charger_api_carregadores_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChargerCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChargerOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/carregadores/{charger_id}/disponibilidade": {
+      "get": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Availability",
+        "operationId": "availability_api_carregadores__charger_id__disponibilidade_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "charger_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Charger Id"
+            }
+          },
+          {
+            "name": "start",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "title": "Start"
+            }
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "date-time",
+              "title": "End"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AvailabilityOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reservas": {
+      "get": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Reservations",
+        "operationId": "reservations_api_reservas_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationOut"
+                  },
+                  "type": "array",
+                  "title": "Response Reservations Api Reservas Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Create Reservation",
+        "operationId": "create_reservation_api_reservas_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/reservas/{reservation_id}/cancelar": {
+      "post": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "Cancel",
+        "operationId": "cancel_api_reservas__reservation_id__cancelar_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "reservation_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Reservation Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReservationOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/reservas/no-show/processar": {
+      "post": {
+        "tags": [
+          "reservas"
+        ],
+        "summary": "No Show",
+        "operationId": "no_show_api_reservas_no_show_processar_post",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/ReservationOut"
+                  },
+                  "type": "array",
+                  "title": "Response No Show Api Reservas No Show Processar Post"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/sessoes": {
+      "get": {
+        "tags": [
+          "sessoes"
+        ],
+        "summary": "Sessions",
+        "operationId": "sessions_api_sessoes_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/SessionOut"
+                  },
+                  "type": "array",
+                  "title": "Response Sessions Api Sessoes Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "sessoes"
+        ],
+        "summary": "Ingest Session",
+        "operationId": "ingest_session_api_sessoes_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SessionIn"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IngestOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/sessoes/{session_id}": {
+      "get": {
+        "tags": [
+          "sessoes"
+        ],
+        "summary": "Session Detail",
+        "operationId": "session_detail_api_sessoes__session_id__get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "session_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Session Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SessionOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/anomalias": {
+      "get": {
+        "tags": [
+          "anomalias"
+        ],
+        "summary": "Anomalies",
+        "operationId": "anomalies_api_anomalias_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "status",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "default": "pending_review",
+              "title": "Status"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AnomalyOut"
+                  },
+                  "title": "Response Anomalies Api Anomalias Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/anomalias/{anomaly_id}/revisao": {
+      "post": {
+        "tags": [
+          "anomalias"
+        ],
+        "summary": "Review",
+        "operationId": "review_api_anomalias__anomaly_id__revisao_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "anomaly_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Anomaly Id"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReviewIn"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/AnomalyOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/tarifas": {
+      "get": {
+        "tags": [
+          "configuracao"
+        ],
+        "summary": "Tariffs",
+        "operationId": "tariffs_api_tarifas_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/TariffOut"
+                  },
+                  "type": "array",
+                  "title": "Response Tariffs Api Tarifas Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "configuracao"
+        ],
+        "summary": "Tariff Create",
+        "operationId": "tariff_create_api_tarifas_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TariffCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TariffOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/impostos": {
+      "get": {
+        "tags": [
+          "configuracao"
+        ],
+        "summary": "Taxes",
+        "operationId": "taxes_api_impostos_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/TaxOut"
+                  },
+                  "type": "array",
+                  "title": "Response Taxes Api Impostos Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      },
+      "post": {
+        "tags": [
+          "configuracao"
+        ],
+        "summary": "Tax Create",
+        "operationId": "tax_create_api_impostos_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/TaxCreate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/TaxOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/faturas/gerar": {
+      "post": {
+        "tags": [
+          "faturas"
+        ],
+        "summary": "Generate",
+        "operationId": "generate_api_faturas_gerar_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InvoiceGenerate"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceOut"
+                  },
+                  "type": "array",
+                  "title": "Response Generate Api Faturas Gerar Post"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/faturas": {
+      "get": {
+        "tags": [
+          "faturas"
+        ],
+        "summary": "Invoices",
+        "operationId": "invoices_api_faturas_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/InvoiceOut"
+                  },
+                  "type": "array",
+                  "title": "Response Invoices Api Faturas Get"
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ]
+      }
+    },
+    "/api/faturas/{invoice_id}": {
+      "get": {
+        "tags": [
+          "faturas"
+        ],
+        "summary": "Invoice Detail",
+        "operationId": "invoice_detail_api_faturas__invoice_id__get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "invoice_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Invoice Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvoiceOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/faturas/{invoice_id}/fechar": {
+      "post": {
+        "tags": [
+          "faturas"
+        ],
+        "summary": "Close",
+        "operationId": "close_api_faturas__invoice_id__fechar_post",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "invoice_id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Invoice Id"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/InvoiceOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/relatorios/arrecadacao": {
+      "get": {
+        "tags": [
+          "financeiro"
+        ],
+        "summary": "Report",
+        "operationId": "report_api_relatorios_arrecadacao_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "year",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "maximum": 2100,
+              "minimum": 2000,
+              "title": "Year"
+            }
+          },
+          {
+            "name": "month",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "maximum": 12,
+              "minimum": 1,
+              "title": "Month"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "additionalProperties": true,
+                  "title": "Response Report Api Relatorios Arrecadacao Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/recomendacao-janela": {
+      "get": {
+        "tags": [
+          "recomendacao"
+        ],
+        "summary": "Recommendation",
+        "operationId": "recommendation_api_recomendacao_janela_get",
+        "security": [
+          {
+            "HTTPBearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "name": "charger_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "title": "Charger Id"
+            }
+          },
+          {
+            "name": "kwh",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "maximum": 200.0,
+                  "exclusiveMinimum": 0.0
+                },
+                {
+                  "type": "string",
+                  "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+                }
+              ],
+              "title": "Kwh"
+            }
+          },
+          {
+            "name": "power_kw",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "anyOf": [
+                {
+                  "type": "number",
+                  "maximum": 22.0,
+                  "exclusiveMinimum": 0.0
+                },
+                {
+                  "type": "string",
+                  "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$"
+                }
+              ],
+              "default": "3.3",
+              "title": "Power Kw"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/RecommendationOut"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AnomalyOut": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "session_id": {
+            "type": "integer",
+            "title": "Session Id"
+          },
+          "detected_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Detected At"
+          },
+          "detector": {
+            "type": "string",
+            "title": "Detector"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "reasons": {
+            "items": {
+              "additionalProperties": true,
+              "type": "object"
+            },
+            "type": "array",
+            "title": "Reasons"
+          },
+          "status": {
+            "type": "string",
+            "title": "Status"
+          },
+          "reviewed_by": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviewed By"
+          },
+          "reviewed_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviewed At"
+          },
+          "review_note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Review Note"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "session_id",
+          "detected_at",
+          "detector",
+          "score",
+          "reasons",
+          "status",
+          "reviewed_by",
+          "reviewed_at",
+          "review_note"
+        ],
+        "title": "AnomalyOut"
+      },
+      "AvailabilityOut": {
+        "properties": {
+          "charger_id": {
+            "type": "integer",
+            "title": "Charger Id"
+          },
+          "connectors": {
+            "type": "integer",
+            "title": "Connectors"
+          },
+          "busy": {
+            "items": {
+              "$ref": "#/components/schemas/BusyWindow"
+            },
+            "type": "array",
+            "title": "Busy"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "charger_id",
+          "connectors",
+          "busy"
+        ],
+        "title": "AvailabilityOut"
+      },
+      "BandPriceIn-Input": {
+        "properties": {
+          "band": {
+            "type": "string",
+            "enum": [
+              "off_peak",
+              "intermediate",
+              "peak"
+            ],
+            "title": "Band"
+          },
+          "green_price_per_kwh": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$"
+              }
+            ],
+            "title": "Green Price Per Kwh"
+          },
+          "grid_price_per_kwh": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$"
+              }
+            ],
+            "title": "Grid Price Per Kwh"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "band",
+          "green_price_per_kwh",
+          "grid_price_per_kwh"
+        ],
+        "title": "BandPriceIn"
+      },
+      "BandPriceIn-Output": {
+        "properties": {
+          "band": {
+            "type": "string",
+            "enum": [
+              "off_peak",
+              "intermediate",
+              "peak"
+            ],
+            "title": "Band"
+          },
+          "green_price_per_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$",
+            "title": "Green Price Per Kwh"
+          },
+          "grid_price_per_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$",
+            "title": "Grid Price Per Kwh"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "band",
+          "green_price_per_kwh",
+          "grid_price_per_kwh"
+        ],
+        "title": "BandPriceIn"
+      },
+      "BusyWindow": {
+        "properties": {
+          "connector": {
+            "type": "integer",
+            "title": "Connector"
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "ends_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Ends At"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "connector",
+          "starts_at",
+          "ends_at"
+        ],
+        "title": "BusyWindow"
+      },
+      "ChargerCreate": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Code"
+          },
+          "serial_number": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Serial Number"
+          },
+          "model": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Model"
+          },
+          "rated_power_kw": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 99.0,
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$"
+              }
+            ],
+            "title": "Rated Power Kw"
+          },
+          "connectors": {
+            "type": "integer",
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "title": "Connectors",
+            "default": 1
+          },
+          "location": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Location"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "serial_number",
+          "model",
+          "rated_power_kw"
+        ],
+        "title": "ChargerCreate"
+      },
+      "ChargerOut": {
+        "properties": {
+          "code": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Code"
+          },
+          "serial_number": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Serial Number"
+          },
+          "model": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Model"
+          },
+          "rated_power_kw": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$",
+            "title": "Rated Power Kw"
+          },
+          "connectors": {
+            "type": "integer",
+            "maximum": 10.0,
+            "minimum": 1.0,
+            "title": "Connectors",
+            "default": 1
+          },
+          "location": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Location"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "active": {
+            "type": "boolean",
+            "title": "Active"
+          },
+          "telemetry_status": {
+            "type": "string",
+            "const": "unavailable",
+            "title": "Telemetry Status",
+            "default": "unavailable"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "code",
+          "serial_number",
+          "model",
+          "rated_power_kw",
+          "id",
+          "active"
+        ],
+        "title": "ChargerOut"
+      },
+      "DetectionOut": {
+        "properties": {
+          "is_anomaly": {
+            "type": "boolean",
+            "title": "Is Anomaly"
+          },
+          "layer": {
+            "type": "string",
+            "title": "Layer"
+          },
+          "score": {
+            "anyOf": [
+              {
+                "type": "number"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Score"
+          },
+          "reasons": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Reasons"
+          },
+          "reasons_human": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Reasons Human"
+          },
+          "model_version": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Model Version"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "is_anomaly",
+          "layer",
+          "score",
+          "reasons",
+          "reasons_human",
+          "model_version"
+        ],
+        "title": "DetectionOut"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "HealthOut": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "const": "ok",
+            "title": "Status"
+          },
+          "database": {
+            "type": "string",
+            "const": "ok",
+            "title": "Database"
+          },
+          "schema_version": {
+            "type": "string",
+            "title": "Schema Version"
+          },
+          "ai_model": {
+            "type": "string",
+            "title": "Ai Model"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "status",
+          "database",
+          "schema_version",
+          "ai_model"
+        ],
+        "title": "HealthOut"
+      },
+      "IngestOut": {
+        "properties": {
+          "session": {
+            "$ref": "#/components/schemas/SessionOut"
+          },
+          "anomaly_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Anomaly Id"
+          },
+          "duplicate": {
+            "type": "boolean",
+            "title": "Duplicate"
+          },
+          "detection": {
+            "$ref": "#/components/schemas/DetectionOut"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "session",
+          "anomaly_id",
+          "duplicate",
+          "detection"
+        ],
+        "title": "IngestOut"
+      },
+      "InvoiceGenerate": {
+        "properties": {
+          "year": {
+            "type": "integer",
+            "maximum": 2100.0,
+            "minimum": 2000.0,
+            "title": "Year"
+          },
+          "month": {
+            "type": "integer",
+            "maximum": 12.0,
+            "minimum": 1.0,
+            "title": "Month"
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "year",
+          "month"
+        ],
+        "title": "InvoiceGenerate"
+      },
+      "InvoiceItemOut": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "session_id": {
+            "type": "integer",
+            "title": "Session Id"
+          },
+          "tariff_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Tariff Id"
+          },
+          "charge_rule": {
+            "type": "string",
+            "title": "Charge Rule"
+          },
+          "is_late_entry": {
+            "type": "boolean",
+            "title": "Is Late Entry"
+          },
+          "green_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Green Kwh"
+          },
+          "grid_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Grid Kwh"
+          },
+          "idle_minutes": {
+            "type": "integer",
+            "title": "Idle Minutes"
+          },
+          "green_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Green Amount"
+          },
+          "grid_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Grid Amount"
+          },
+          "idle_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Idle Amount"
+          },
+          "subtotal": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Subtotal"
+          },
+          "tax_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Tax Amount"
+          },
+          "overhead_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Overhead Amount"
+          },
+          "total": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Total"
+          },
+          "calculation": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Calculation"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "session_id",
+          "tariff_id",
+          "charge_rule",
+          "is_late_entry",
+          "green_kwh",
+          "grid_kwh",
+          "idle_minutes",
+          "green_amount",
+          "grid_amount",
+          "idle_amount",
+          "subtotal",
+          "tax_amount",
+          "overhead_amount",
+          "total",
+          "calculation"
+        ],
+        "title": "InvoiceItemOut"
+      },
+      "InvoiceOut": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "period": {
+            "type": "string",
+            "format": "date",
+            "title": "Period"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "open",
+              "closed"
+            ],
+            "title": "Status"
+          },
+          "sessions_count": {
+            "type": "integer",
+            "title": "Sessions Count"
+          },
+          "green_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Green Kwh"
+          },
+          "grid_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Grid Kwh"
+          },
+          "idle_minutes": {
+            "type": "integer",
+            "title": "Idle Minutes"
+          },
+          "green_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Green Amount"
+          },
+          "grid_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Grid Amount"
+          },
+          "idle_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Idle Amount"
+          },
+          "subtotal": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Subtotal"
+          },
+          "tax_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Tax Amount"
+          },
+          "overhead_amount": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Overhead Amount"
+          },
+          "total": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Total"
+          },
+          "calculation": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Calculation"
+          },
+          "engine_version": {
+            "type": "string",
+            "title": "Engine Version"
+          },
+          "items": {
+            "items": {
+              "$ref": "#/components/schemas/InvoiceItemOut"
+            },
+            "type": "array",
+            "title": "Items"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "user_id",
+          "period",
+          "status",
+          "sessions_count",
+          "green_kwh",
+          "grid_kwh",
+          "idle_minutes",
+          "green_amount",
+          "grid_amount",
+          "idle_amount",
+          "subtotal",
+          "tax_amount",
+          "overhead_amount",
+          "total",
+          "calculation",
+          "engine_version",
+          "items"
+        ],
+        "title": "InvoiceOut"
+      },
+      "LoginIn": {
+        "properties": {
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "password": {
+            "type": "string",
+            "title": "Password"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "email",
+          "password"
+        ],
+        "title": "LoginIn"
+      },
+      "PowerSample": {
+        "properties": {
+          "measured_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Measured At"
+          },
+          "power_kw": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              }
+            ],
+            "title": "Power Kw"
+          },
+          "green_power_kw": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Green Power Kw"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "measured_at",
+          "power_kw"
+        ],
+        "title": "PowerSample"
+      },
+      "RecommendationOut": {
+        "properties": {
+          "recommended_start": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Recommended Start"
+          },
+          "recommended_end": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Recommended End"
+          },
+          "predicted_cost": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Predicted Cost"
+          },
+          "cost_if_now": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Cost If Now"
+          },
+          "savings": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Savings"
+          },
+          "model": {
+            "type": "string",
+            "const": "baseline-deterministico",
+            "title": "Model"
+          },
+          "assumptions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array",
+            "title": "Assumptions"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "recommended_start",
+          "recommended_end",
+          "predicted_cost",
+          "cost_if_now",
+          "savings",
+          "model",
+          "assumptions"
+        ],
+        "title": "RecommendationOut"
+      },
+      "ReservationCreate": {
+        "properties": {
+          "charger_id": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Charger Id"
+          },
+          "connector": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Connector",
+            "default": 1
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "ends_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Ends At"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "charger_id",
+          "starts_at",
+          "ends_at"
+        ],
+        "title": "ReservationCreate"
+      },
+      "ReservationOut": {
+        "properties": {
+          "charger_id": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Charger Id"
+          },
+          "connector": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Connector",
+            "default": 1
+          },
+          "starts_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Starts At"
+          },
+          "ends_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Ends At"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "user_id": {
+            "type": "integer",
+            "title": "User Id"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "active",
+              "in_use",
+              "completed",
+              "cancelled",
+              "no_show"
+            ],
+            "title": "Status"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "charger_id",
+          "starts_at",
+          "ends_at",
+          "id",
+          "user_id",
+          "status"
+        ],
+        "title": "ReservationOut"
+      },
+      "ReviewIn": {
+        "properties": {
+          "decision": {
+            "type": "string",
+            "enum": [
+              "approve",
+              "reject"
+            ],
+            "title": "Decision"
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "exclusiveMinimum": 0.0
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Id"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string",
+                "maxLength": 2000
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "decision"
+        ],
+        "title": "ReviewIn"
+      },
+      "SessionIn": {
+        "properties": {
+          "source": {
+            "type": "string",
+            "enum": [
+              "simulator",
+              "sems",
+              "gateway"
+            ],
+            "title": "Source"
+          },
+          "session_id": {
+            "type": "string",
+            "maxLength": 200,
+            "minLength": 1,
+            "title": "Session Id"
+          },
+          "charger_id": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Charger Id",
+            "description": "Código público do carregador, ex.: HCA01"
+          },
+          "connector": {
+            "type": "integer",
+            "minimum": 1.0,
+            "title": "Connector",
+            "default": 1
+          },
+          "card_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Card Id"
+          },
+          "started_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Started At"
+          },
+          "energy_ended_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Energy Ended At"
+          },
+          "ended_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Ended At"
+          },
+          "total_kwh": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              }
+            ],
+            "title": "Total Kwh"
+          },
+          "green_kwh": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              }
+            ],
+            "title": "Green Kwh"
+          },
+          "grid_kwh": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              }
+            ],
+            "title": "Grid Kwh"
+          },
+          "average_power_kw": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$"
+              }
+            ],
+            "title": "Average Power Kw"
+          },
+          "max_power_kw": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$"
+              }
+            ],
+            "title": "Max Power Kw"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "completed",
+              "user_stopped",
+              "system_failure",
+              "abnormal_disconnection"
+            ],
+            "title": "Status"
+          },
+          "failure_code": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Failure Code"
+          },
+          "power_samples": {
+            "items": {
+              "$ref": "#/components/schemas/PowerSample"
+            },
+            "type": "array",
+            "maxItems": 10000,
+            "title": "Power Samples"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "source",
+          "session_id",
+          "charger_id",
+          "started_at",
+          "ended_at",
+          "total_kwh",
+          "green_kwh",
+          "grid_kwh",
+          "average_power_kw",
+          "max_power_kw",
+          "status"
+        ],
+        "title": "SessionIn"
+      },
+      "SessionOut": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "source": {
+            "type": "string",
+            "title": "Source"
+          },
+          "external_id": {
+            "type": "string",
+            "title": "External Id"
+          },
+          "charger_id": {
+            "type": "integer",
+            "title": "Charger Id"
+          },
+          "connector": {
+            "type": "integer",
+            "title": "Connector"
+          },
+          "card_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Card Id"
+          },
+          "reservation_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reservation Id"
+          },
+          "user_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "User Id"
+          },
+          "attribution_method": {
+            "type": "string",
+            "title": "Attribution Method"
+          },
+          "started_at": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Started At"
+          },
+          "energy_ended_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Energy Ended At"
+          },
+          "ended_at": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Ended At"
+          },
+          "total_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Total Kwh"
+          },
+          "green_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Green Kwh"
+          },
+          "grid_kwh": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$",
+            "title": "Grid Kwh"
+          },
+          "average_power_kw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Average Power Kw"
+          },
+          "max_power_kw": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d*$"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Max Power Kw"
+          },
+          "end_status": {
+            "type": "string",
+            "title": "End Status"
+          },
+          "validation_status": {
+            "type": "string",
+            "title": "Validation Status"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "source",
+          "external_id",
+          "charger_id",
+          "connector",
+          "card_id",
+          "reservation_id",
+          "user_id",
+          "attribution_method",
+          "started_at",
+          "energy_ended_at",
+          "ended_at",
+          "total_kwh",
+          "green_kwh",
+          "grid_kwh",
+          "average_power_kw",
+          "max_power_kw",
+          "end_status",
+          "validation_status"
+        ],
+        "title": "SessionOut"
+      },
+      "TariffCreate": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Name"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Valid From"
+          },
+          "idle_tolerance_minutes": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Idle Tolerance Minutes",
+            "default": 15
+          },
+          "idle_fee_per_minute": {
+            "anyOf": [
+              {
+                "type": "number",
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$"
+              }
+            ],
+            "title": "Idle Fee Per Minute"
+          },
+          "overhead_percent": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$"
+              }
+            ],
+            "title": "Overhead Percent"
+          },
+          "weekends_holidays_off_peak": {
+            "type": "boolean",
+            "title": "Weekends Holidays Off Peak",
+            "default": true
+          },
+          "assembly_reference": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assembly Reference"
+          },
+          "bands": {
+            "items": {
+              "$ref": "#/components/schemas/BandPriceIn-Input"
+            },
+            "type": "array",
+            "maxItems": 3,
+            "minItems": 1,
+            "title": "Bands"
+          },
+          "windows": {
+            "items": {
+              "$ref": "#/components/schemas/WindowIn"
+            },
+            "type": "array",
+            "maxItems": 8,
+            "title": "Windows"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "valid_from",
+          "idle_fee_per_minute",
+          "overhead_percent",
+          "bands"
+        ],
+        "title": "TariffCreate"
+      },
+      "TariffOut": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Name"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Valid From"
+          },
+          "idle_tolerance_minutes": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Idle Tolerance Minutes",
+            "default": 15
+          },
+          "idle_fee_per_minute": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,4}0*$",
+            "title": "Idle Fee Per Minute"
+          },
+          "overhead_percent": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,2}0*$",
+            "title": "Overhead Percent"
+          },
+          "weekends_holidays_off_peak": {
+            "type": "boolean",
+            "title": "Weekends Holidays Off Peak",
+            "default": true
+          },
+          "assembly_reference": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Assembly Reference"
+          },
+          "bands": {
+            "items": {
+              "$ref": "#/components/schemas/BandPriceIn-Output"
+            },
+            "type": "array",
+            "maxItems": 3,
+            "minItems": 1,
+            "title": "Bands"
+          },
+          "windows": {
+            "items": {
+              "$ref": "#/components/schemas/WindowIn"
+            },
+            "type": "array",
+            "maxItems": 8,
+            "title": "Windows"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "valid_to": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valid To"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "valid_from",
+          "idle_fee_per_minute",
+          "overhead_percent",
+          "bands",
+          "id",
+          "valid_to"
+        ],
+        "title": "TariffOut"
+      },
+      "TaxCreate": {
+        "properties": {
+          "tax_type": {
+            "type": "string",
+            "enum": [
+              "iss",
+              "icms",
+              "ibs",
+              "cbs"
+            ],
+            "title": "Tax Type"
+          },
+          "jurisdiction": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Jurisdiction"
+          },
+          "rate_percent": {
+            "anyOf": [
+              {
+                "type": "number",
+                "maximum": 100.0,
+                "minimum": 0.0
+              },
+              {
+                "type": "string",
+                "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$"
+              }
+            ],
+            "title": "Rate Percent"
+          },
+          "exclude_compensated_energy": {
+            "type": "boolean",
+            "title": "Exclude Compensated Energy",
+            "default": false
+          },
+          "legal_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Legal Basis"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Valid From"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "tax_type",
+          "jurisdiction",
+          "rate_percent",
+          "valid_from"
+        ],
+        "title": "TaxCreate"
+      },
+      "TaxOut": {
+        "properties": {
+          "tax_type": {
+            "type": "string",
+            "enum": [
+              "iss",
+              "icms",
+              "ibs",
+              "cbs"
+            ],
+            "title": "Tax Type"
+          },
+          "jurisdiction": {
+            "type": "string",
+            "minLength": 1,
+            "title": "Jurisdiction"
+          },
+          "rate_percent": {
+            "type": "string",
+            "pattern": "^(?!^[-+.]*$)[+-]?0*\\d*\\.?\\d{0,3}0*$",
+            "title": "Rate Percent"
+          },
+          "exclude_compensated_energy": {
+            "type": "boolean",
+            "title": "Exclude Compensated Energy",
+            "default": false
+          },
+          "legal_basis": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Legal Basis"
+          },
+          "valid_from": {
+            "type": "string",
+            "format": "date-time",
+            "title": "Valid From"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "valid_to": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Valid To"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "tax_type",
+          "jurisdiction",
+          "rate_percent",
+          "valid_from",
+          "id",
+          "valid_to"
+        ],
+        "title": "TaxOut"
+      },
+      "TokenOut": {
+        "properties": {
+          "access_token": {
+            "type": "string",
+            "title": "Access Token"
+          },
+          "token_type": {
+            "type": "string",
+            "const": "bearer",
+            "title": "Token Type",
+            "default": "bearer"
+          },
+          "expires_in": {
+            "type": "integer",
+            "title": "Expires In",
+            "default": 28800
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "access_token"
+        ],
+        "title": "TokenOut"
+      },
+      "UnitCreate": {
+        "properties": {
+          "block": {
+            "type": "string",
+            "maxLength": 100,
+            "title": "Block",
+            "default": ""
+          },
+          "number": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Number"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "number"
+        ],
+        "title": "UnitCreate"
+      },
+      "UnitOut": {
+        "properties": {
+          "block": {
+            "type": "string",
+            "maxLength": 100,
+            "title": "Block",
+            "default": ""
+          },
+          "number": {
+            "type": "string",
+            "maxLength": 100,
+            "minLength": 1,
+            "title": "Number"
+          },
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "label": {
+            "type": "string",
+            "title": "Label"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "number",
+          "id",
+          "label"
+        ],
+        "title": "UnitOut"
+      },
+      "UserCreate": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 200,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "email": {
+            "type": "string",
+            "maxLength": 254,
+            "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+            "title": "Email"
+          },
+          "password": {
+            "type": "string",
+            "maxLength": 256,
+            "minLength": 8,
+            "title": "Password"
+          },
+          "unit_id": {
+            "type": "integer",
+            "exclusiveMinimum": 0.0,
+            "title": "Unit Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "email",
+          "password",
+          "unit_id"
+        ],
+        "title": "UserCreate"
+      },
+      "UserOut": {
+        "properties": {
+          "id": {
+            "type": "integer",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "email": {
+            "type": "string",
+            "title": "Email"
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "resident",
+              "manager"
+            ],
+            "title": "Role"
+          },
+          "unit_id": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Unit Id"
+          },
+          "active": {
+            "type": "boolean",
+            "title": "Active"
+          },
+          "reservation_blocked_until": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reservation Blocked Until"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "email",
+          "role",
+          "unit_id",
+          "active",
+          "reservation_blocked_until"
+        ],
+        "title": "UserOut"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "WindowIn": {
+        "properties": {
+          "band": {
+            "type": "string",
+            "enum": [
+              "intermediate",
+              "peak"
+            ],
+            "title": "Band"
+          },
+          "start_time": {
+            "type": "string",
+            "format": "time",
+            "title": "Start Time"
+          },
+          "end_time": {
+            "type": "string",
+            "format": "time",
+            "title": "End Time"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "band",
+          "start_time",
+          "end_time"
+        ],
+        "title": "WindowIn"
+      }
+    },
+    "securitySchemes": {
+      "HTTPBearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}

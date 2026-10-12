@@ -1,0 +1,824 @@
+[
+  {
+    "name": "01-morador-inicio",
+    "at": "2026-10-12T15:45:24.909Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Olá, Morador.",
+    "height": 900,
+    "links": [
+      {
+        "href": "#nova-reserva",
+        "text": "Agendar recarga →"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Entender minha fatura →"
+      },
+      {
+        "href": "#recargas",
+        "text": "Ver todas →"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1 · 08 de out. de 2026"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver detalhes →"
+      },
+      {
+        "href": "#sugestao",
+        "text": "Sugestão de horárioConsulte uma estimativa para planejar a recarga."
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "02-morador-reservas",
+    "at": "2026-10-12T15:45:45.436Z",
+    "focus": "main-content",
+    "hash": "#reservas",
+    "heading": "Minhas reservas",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "03-cancelamento-antigo-confirmacao",
+    "at": "2026-10-12T15:45:46.820Z",
+    "focus": "",
+    "hash": "#reservas",
+    "heading": "Minhas reservas",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "04-morador-recargas",
+    "at": "2026-10-12T15:46:03.450Z",
+    "focus": "main-content",
+    "hash": "#recargas",
+    "heading": "Minhas recargas",
+    "height": 900,
+    "links": [
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver recarga #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "05-morador-recarga1",
+    "at": "2026-10-12T15:46:04.856Z",
+    "focus": "main-content",
+    "hash": "#recargas/1",
+    "heading": "Detalhe da recarga",
+    "height": 900,
+    "links": [
+      {
+        "href": "#recargas",
+        "text": "← Voltar para minhas recargas"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "06-morador-faturas",
+    "at": "2026-10-12T15:46:05.298Z",
+    "focus": "main-content",
+    "hash": "#faturas",
+    "heading": "Minhas faturas",
+    "height": 900,
+    "links": [
+      {
+        "href": "#faturas/2",
+        "text": "novembro de 2026"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Ver fatura #2"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Ver fatura #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "07-morador-fatura1-memoria",
+    "at": "2026-10-12T15:46:38.841Z",
+    "focus": "",
+    "hash": "#faturas/1",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "08-morador-sugestao",
+    "at": "2026-10-12T15:46:52.673Z",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Sugestão de horário",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "09-morador-reserva-rascunho",
+    "at": "2026-10-12T15:47:27.624Z",
+    "focus": "main-content",
+    "hash": "#nova-reserva",
+    "heading": "Nova reserva",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "10-mobile-reserva",
+    "at": "2026-10-12T15:47:28.942Z",
+    "focus": "main-content",
+    "hash": "#nova-reserva",
+    "heading": "Nova reserva",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "11-mobile-inicio",
+    "at": "2026-10-12T15:47:30.377Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Olá, Morador.",
+    "height": 844,
+    "links": [
+      {
+        "href": "#nova-reserva",
+        "text": "Agendar recarga →"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Entender minha fatura →"
+      },
+      {
+        "href": "#recargas",
+        "text": "Ver todas →"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1 · 08 de out. de 2026"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver detalhes →"
+      },
+      {
+        "href": "#sugestao",
+        "text": "Sugestão de horárioConsulte uma estimativa para planejar a recarga."
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "12-mobile-reservas",
+    "at": "2026-10-12T15:47:31.848Z",
+    "focus": "main-content",
+    "hash": "#reservas",
+    "heading": "Minhas reservas",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "13-mobile-faturas",
+    "at": "2026-10-12T15:47:33.242Z",
+    "focus": "main-content",
+    "hash": "#faturas",
+    "heading": "Minhas faturas",
+    "height": 844,
+    "links": [
+      {
+        "href": "#faturas/2",
+        "text": "novembro de 2026"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Ver fatura #2"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Ver fatura #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "14-mobile-fatura1",
+    "at": "2026-10-12T15:47:34.808Z",
+    "focus": "",
+    "hash": "#faturas/1",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "15-mobile-recargas",
+    "at": "2026-10-12T15:47:56.029Z",
+    "focus": "main-content",
+    "hash": "#recargas",
+    "heading": "Minhas recargas",
+    "height": 844,
+    "links": [
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver recarga #1"
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "16-mobile-recarga1",
+    "at": "2026-10-12T15:47:57.480Z",
+    "focus": "main-content",
+    "hash": "#recargas/1",
+    "heading": "Detalhe da recarga",
+    "height": 844,
+    "links": [
+      {
+        "href": "#recargas",
+        "text": "← Voltar para minhas recargas"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "17-mobile-sugestao",
+    "at": "2026-10-12T15:47:59.287Z",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Sugestão de horário",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "18-mobile-login",
+    "at": "2026-10-12T15:48:00.512Z",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "19-desktop-login",
+    "at": "2026-10-12T15:48:26.740Z",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "20-sindico-inicio",
+    "at": "2026-10-12T15:48:38.409Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Visão geral",
+    "height": 900,
+    "links": [
+      {
+        "href": "#agenda",
+        "text": "Abrir agenda →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Consultar sessões →"
+      },
+      {
+        "href": "#anomalias",
+        "text": "Abrir fila de revisão →"
+      },
+      {
+        "href": "#agenda",
+        "text": "Ver agenda do condomínio →"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1 →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Ver todas as sessões →"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "21-sindico-agenda",
+    "at": "2026-10-12T15:48:39.870Z",
+    "focus": "main-content",
+    "hash": "#agenda",
+    "heading": "Agenda do condomínio",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "22-sindico-sessoes",
+    "at": "2026-10-12T15:48:40.274Z",
+    "focus": "main-content",
+    "hash": "#sessoes",
+    "heading": "Sessões do condomínio",
+    "height": 900,
+    "links": [
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "23-sindico-sessao1",
+    "at": "2026-10-12T15:48:51.925Z",
+    "focus": "main-content",
+    "hash": "#sessoes/1",
+    "heading": "Detalhe da sessão",
+    "height": 900,
+    "links": [
+      {
+        "href": "#sessoes",
+        "text": "← Voltar para sessões do condomínio"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "24-sindico-anomalias-pendentes",
+    "at": "2026-10-12T15:49:01.272Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "25-sindico-anomalias-aprovadas",
+    "at": "2026-10-12T15:49:21.131Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "26-sindico-anomalias-rejeitadas",
+    "at": "2026-10-12T15:49:21.503Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "27-sindico-financeiro-outubro",
+    "at": "2026-10-12T15:49:23.059Z",
+    "focus": "main-content",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "28-geracao-confirmacao-sem-executar",
+    "at": "2026-10-12T15:49:44.029Z",
+    "focus": "",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "29-fechamento-confirmacao-sem-executar",
+    "at": "2026-10-12T15:49:45.688Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "30-sindico-fatura1",
+    "at": "2026-10-12T15:49:47.145Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "31-sindico-financeiro-novembro",
+    "at": "2026-10-12T15:50:08.421Z",
+    "focus": "invoice-period",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro/2",
+        "text": "Fatura #2 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/2",
+        "text": "Ver fatura #2"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "32-sindico-fatura2-fechada",
+    "at": "2026-10-12T15:50:09.869Z",
+    "focus": "main-content",
+    "hash": "#financeiro/2",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      }
+    ],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "33-sindico-parametros",
+    "at": "2026-10-12T15:50:44.666Z",
+    "focus": "main-content",
+    "hash": "#parametros",
+    "heading": "Cadastros e parâmetros",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "34-mobile-parametros",
+    "at": "2026-10-12T15:50:46.042Z",
+    "focus": "main-content",
+    "hash": "#parametros",
+    "heading": "Cadastros e parâmetros",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "35-mobile-sindico-inicio",
+    "at": "2026-10-12T15:50:47.499Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Visão geral",
+    "height": 844,
+    "links": [
+      {
+        "href": "#agenda",
+        "text": "Abrir agenda →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Consultar sessões →"
+      },
+      {
+        "href": "#anomalias",
+        "text": "Abrir fila de revisão →"
+      },
+      {
+        "href": "#agenda",
+        "text": "Ver agenda do condomínio →"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1 →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Ver todas as sessões →"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "36-mobile-sindico-agenda",
+    "at": "2026-10-12T15:50:48.936Z",
+    "focus": "main-content",
+    "hash": "#agenda",
+    "heading": "Agenda do condomínio",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "37-mobile-sindico-sessoes",
+    "at": "2026-10-12T15:50:49.269Z",
+    "focus": "main-content",
+    "hash": "#sessoes",
+    "heading": "Sessões do condomínio",
+    "height": 844,
+    "links": [
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1"
+      }
+    ],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "38-mobile-sindico-sessao1",
+    "at": "2026-10-12T15:50:50.709Z",
+    "focus": "main-content",
+    "hash": "#sessoes/1",
+    "heading": "Detalhe da sessão",
+    "height": 844,
+    "links": [
+      {
+        "href": "#sessoes",
+        "text": "← Voltar para sessões do condomínio"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "39-mobile-sindico-anomalias",
+    "at": "2026-10-12T15:51:23.753Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "40-mobile-financeiro-novembro",
+    "at": "2026-10-12T15:51:25.262Z",
+    "focus": "main-content",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro/2",
+        "text": "Fatura #2 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/2",
+        "text": "Ver fatura #2"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "41-mobile-financeiro-outubro",
+    "at": "2026-10-12T15:51:26.747Z",
+    "focus": "invoice-period",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "42-mobile-geracao-confirmacao",
+    "at": "2026-10-12T15:51:28.092Z",
+    "focus": "",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "43-mobile-sindico-fatura1",
+    "at": "2026-10-12T15:51:29.686Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "44-mobile-fechamento-confirmacao",
+    "at": "2026-10-12T15:51:31.039Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "45-reload-exige-login",
+    "at": "2026-10-12T15:51:33.504Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "width": 390
+  }
+]

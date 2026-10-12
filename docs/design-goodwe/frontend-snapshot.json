@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-12",
+  "purpose": "Snapshot para comparação na futura implementação; não é comparação antes/depois desta pesquisa",
+  "files": [
+    {
+      "path": "frontend/public\\sw.js",
+      "hash": "53E74F6AF36A80074AA6E3AAD928D175FEDA55448EF6F6F2ED0CAC8FAC8050A7"
+    },
+    {
+      "path": "frontend/public\\offline.html",
+      "hash": "CF8050AB4B09EE36028E8EBA4FF68C50F857CC680F1460AF5F259672DCCE39FC"
+    },
+    {
+      "path": "frontend/public\\manifest.webmanifest",
+      "hash": "C62DB39A7F203196D7593E24DD0F30C31F741F347C4F0C7759EC236D1443D483"
+    },
+    {
+      "path": "frontend/public\\icon.svg",
+      "hash": "2074CB4CB333C376E683C5D12D99B280926533C60CCA1B0AA5833F1A5FF83483"
+    },
+    {
+      "path": "frontend/public\\icon-maskable-512.png",
+      "hash": "4DD378DECA2CD3FE88159DDEDD92F3E1F9BDC7F2220662B2EB17920E506EBDAE"
+    },
+    {
+      "path": "frontend/public\\icon-512.png",
+      "hash": "1BB3A0D3A6BED507FB3E2A12B2FD7419FEDBD0EA008E055CBB822012F67F32EE"
+    },
+    {
+      "path": "frontend/public\\icon-192.png",
+      "hash": "314A00BC589ACBED6FAA14550908DF162085A645C715A84698821BD49D0E5FD5"
+    },
+    {
+      "path": "frontend/src\\utils\\review.ts",
+      "hash": "B87B874FC0352434A7453BCD1B75EAE292C75ABF42798A9FFAA67FDA2170148C"
+    },
+    {
+      "path": "frontend/src\\utils\\review.test.ts",
+      "hash": "E2B4D1C3B85FB836BDCE1C0F34B074081BD13D8E4EC7A60C7272216454036798"
+    },
+    {
+      "path": "frontend/src\\utils\\reservations.ts",
+      "hash": "79C2EF24E5D56D8EFE0C68B6ABDB8ADAB6F49715ED24DD5CCAA90FD999993330"
+    },
+    {
+      "path": "frontend/src\\utils\\presentation.ts",
+      "hash": "C01E87871479A8D1C66254FF3C88A62635C6C920388E1F59A346D34045340A86"
+    },
+    {
+      "path": "frontend/src\\utils\\presentation.test.ts",
+      "hash": "5E0DD242425621588A8285ADA14761C41154F39BF8F2173354CF6A874EA8C75B"
+    },
+    {
+      "path": "frontend/src\\utils\\offline.test.ts",
+      "hash": "1FC164C638F6A77D681B747B24DB66F083C85876568160E7D496542E2C824CF5"
+    },
+    {
+      "path": "frontend/src\\utils\\finance.ts",
+      "hash": "1BFA0EC9AE626F6C21B1DB6B6BBD986894F0D7C5D651C0FAAFC5D33CC02D95AE"
+    },
+    {
+      "path": "frontend/src\\utils\\finance.test.ts",
+      "hash": "64F857533FB16506175B037FE73A5C75D23B198A4190117FA7879FD9345183CB"
+    },
+    {
+      "path": "frontend/src\\styles.css",
+      "hash": "CB252497850D112E5481B18B5A567272F6CEE9C90B329AD6931D94099C95B15A"
+    },
+    {
+      "path": "frontend/src\\components\\ui.tsx",
+      "hash": "81A6331DB6295F3E4082E0C64607589007532DFA90D32B85DDDC9546F3EFD02A"
+    },
+    {
+      "path": "frontend/src\\pages\\SessionsPage.tsx",
+      "hash": "58F587F672E55FA2B92C546D5042A3175E8545E6804ECB4ABA58A2AF99BCEB49"
+    },
+    {
+      "path": "frontend/src\\pages\\SessionsPage.test.tsx",
+      "hash": "534A440AE0ED06262553EA5FE7B65F9CB0EF6FD5B106794D437E03BD551358E1"
+    },
+    {
+      "path": "frontend/src\\pages\\ReservationsPage.tsx",
+      "hash": "AA30781A0109E084ADC4742936945DEE1E66A244B171316691CBE123DA5C0064"
+    },
+    {
+      "path": "frontend/src\\pages\\ReservationsPage.test.tsx",
+      "hash": "FDD68798B0198DF10ECD1109C0380472D8725FC206672AF8947C349F74969F7A"
+    },
+    {
+      "path": "frontend/src\\pages\\RecommendationPage.tsx",
+      "hash": "E1716325481D3CE9ED69ABC0416B28A022F6C2225DCD7BDB854E15F9DA32E3DC"
+    },
+    {
+      "path": "frontend/src\\pages\\ParametersPage.tsx",
+      "hash": "118016E2FF16612886802370AA9310FD65D549779FE376C2B7C4A711FA04AD1D"
+    },
+    {
+      "path": "frontend/src\\pages\\ManagerPage.tsx",
+      "hash": "51F283E2B5F1EC64BBAD1435FE9F41AB17064554E4C1205F2F4B5A2C1C7ED79C"
+    },
+    {
+      "path": "frontend/src\\pages\\ManagerPage.test.tsx",
+      "hash": "2D5E5AF8EDE0BF256980939A02F101A9E5D60F63700A803B345C3AAD86735648"
+    },
+    {
+      "path": "frontend/src\\pages\\LoginPage.tsx",
+      "hash": "DFD9F3363F2BC2296C80BFC3F332A581598C023959E2C973B21E073F3029A778"
+    },
+    {
+      "path": "frontend/src\\pages\\InvoicesPage.tsx",
+      "hash": "D37B834889163989F94B5BAB6B100B7FA0848B4B6F2CB44BC7E4E9411CBC18CB"
+    },
+    {
+      "path": "frontend/src\\pages\\InvoicesPage.test.tsx",
+      "hash": "452E93A9122D29689FC77027493069C66CF6198F09D55F93F97A89B23A288F39"
+    },
+    {
+      "path": "frontend/src\\pages\\HomePage.tsx",
+      "hash": "045EF921DD5423783382E6690ED8BCE35E7A86AB2A657E1F58A2DE148060A0E3"
+    },
+    {
+      "path": "frontend/src\\pages\\HomePage.test.tsx",
+      "hash": "8CE3F5151E31B313D8676ED686C482480C7E3FF64811D06E0EFABEE38BEE3EDE"
+    },
+    {
+      "path": "frontend/src\\pages\\FinancePage.tsx",
+      "hash": "D54EA0E5AD6ACD1828995CC547ADA930790AC7E719979DA41597D7845D019C16"
+    },
+    {
+      "path": "frontend/src\\pages\\AnomaliesPage.tsx",
+      "hash": "D40EFDBA3FF151006B7582746FA93E33B039BA578D094C20AEBF8DC0FA0A81AB"
+    },
+    {
+      "path": "frontend/src\\pages\\AnomaliesPage.test.tsx",
+      "hash": "67422EDE773C1C9F2B6375AAA4EB3B1A0AF7B76A0B69340DA21D9803E653C30B"
+    },
+    {
+      "path": "frontend/src\\main.tsx",
+      "hash": "877413C2A21E5834024953240E5C3FD080AB0DFF7011A5BF22742C5FEB146E52"
+    },
+    {
+      "path": "frontend/src\\auth\\AuthProvider.tsx",
+      "hash": "1C4D2BB732FF2A4EC31008D121E8A4D1F3784C3596B7B38AABD606CA53785C86"
+    },
+    {
+      "path": "frontend/src\\App.tsx",
+      "hash": "1D652347280A439EC77CF084C0FF03CF853B465166A9D20A8672AEFC8400AA61"
+    },
+    {
+      "path": "frontend/src\\api\\schema.d.ts",
+      "hash": "2828661FF081E7F89E8D0157A441DF5410E219A79A8611680AE362D9AA73712C"
+    },
+    {
+      "path": "frontend/src\\hooks\\useTimeBoundaries.ts",
+      "hash": "B524C3581E7852333DE091307BB37FA3009827B8AB197F0B8F66DD198B948538"
+    },
+    {
+      "path": "frontend/src\\hooks\\useTimeBoundaries.test.ts",
+      "hash": "139801F3C02147B47DE1265564D257959F5AF97D2B6CB8E2BAD9A9C32066FE1F"
+    },
+    {
+      "path": "frontend/src\\api\\client.ts",
+      "hash": "E99D0A4D6A0D37DFFCE373E58F36FA8F0B52792D316DF590F1B8263D86563158"
+    },
+    {
+      "path": "frontend/src\\hooks\\useQuery.ts",
+      "hash": "0A43089235BFC850AB435A8CD479264C479948C2B311A09D298FDD4DCE440B62"
+    },
+    {
+      "path": "frontend/src\\api\\client.test.ts",
+      "hash": "2D75A6C68949AA4ECA2B07E33EFF9817EF15CD278999B3AB677C5F6C8D7F856C"
+    },
+    {
+      "path": "frontend/index.html",
+      "hash": "D46E08DB8982BD70D68E898388CEE2D263A78D24712D89FA6C5BDAC1CC219C83"
+    },
+    {
+      "path": "frontend/package.json",
+      "hash": "14ED5ECCCC14B6EEB0B92223224DCD3B4EC95E4A6F4A14D863F0E7948E99B6D9"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "hash": "7E685BE83FAEA64489027BFF76DEAC35DB443C9FEF762E990B8CA7F25EDA19B6"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "hash": "AD6019514740E206ABE5A3CFA79F62EE0AFD22711C61412206767B65DA943A62"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.local/
+tmp/
+condocharge_ai/artifacts/*.joblib
+!deliveries/**
+frontend/src/api/schema.d.ts.tmp
+*.tsbuildinfo
+/USUARIOS-TESTE.md

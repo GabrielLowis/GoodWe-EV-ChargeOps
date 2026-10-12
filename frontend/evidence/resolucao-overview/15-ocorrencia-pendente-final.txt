@@ -1,0 +1,117 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#anomalias/1".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#anomalias/1
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Fila de anomalias Síndico
+		71 container main-content
+			72 text VALIDAÇÃO DAS RECARGAS
+			73 heading Ocorrência #1, Value: 1
+				74 text Ocorrência #1
+			75 text Confira os motivos e os dados registrados antes de decidir sobre a cobrança.
+			76 link Description: ← Voltar para a fila de anomalias, Value: 127.0.0.1:5173/#anomalias
+			77 container
+				78 heading Motivos e revisão, Value: 2
+					79 text Motivos e revisão
+				80 button Atualizar ocorrência
+					81 text Atualizar 
+					82 text ocorrência
+				83 text Pendente Sessão # 2 Detectada em  12 de out. de 2026 ,  13:36 .
+				84 content list
+					85 container
+						86 AXListMarker • 
+						87 text Carro plugado sem receber energia: vaga ocupada sem recarga.
+					88 container
+						89 AXListMarker • 
+						90 text Sem reserva correspondente; síndico deve atribuir o morador.
+				91 definition list
+					92 container Detecção
+						93 text Detecção
+					94 text Regras de validação
+					95 container Score retornado
+						96 text Score retornado
+					97 text 1.0000
+				98 text O score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.
+				99 heading Registrar decisão, Value: 3
+					100 text Registrar decisão
+				101 container
+					102 text Decisão
+					103 pop up button (collapsed, settable) Decisão, Value: Aprovar para cobrança, Secondary Actions: Expand
+						104 menu
+							105 (selected) Aprovar para cobrança
+							106 Rejeitar para cobrança
+				107 text Esta sessão não tem morador identificado. Para aprovar, selecione o responsável ativo. A rejeição não atribui um morador.
+				108 container
+					109 text Morador responsável
+					110 pop up button (collapsed, settable) Morador responsável, Value: Selecione o morador, Secondary Actions: Expand
+						111 menu
+							112 (selected) Selecione o morador
+							113 Morador Demo · morador@demo.local
+				114 container
+					115 text Observação
+					116 text entry area (settable) Observação
+				117 text Até 2.000 caracteres. A decisão atualiza a validação da sessão.
+				118 button (disabled) Confirmar revisão
+			119 link Description: ← Abrir detalhe da sessão, Value: 127.0.0.1:5173/#sessoes/2
+			120 container
+				121 heading Recarga #2, Value: 2
+					122 text Recarga #
+				123 text Simulação
+				124 definition list
+					125 container Morador
+						126 text Morador
+					127 text Sem morador identificado
+					128 container Atribuição
+						129 text Atribuição
+					130 text Aguardando identificação
+				131 text Energia total 0 kWh Green · solar/bateria 0 kWh Grid · rede elétrica 0 kWh
+				132 definition list
+					133 container Reserva
+						134 text Reserva
+					135 text Sem reserva vinculada
+					136 container Carregador / conector
+						137 text Carregador / conector
+					138 text HCA01 · Conector 1
+					139 container Início
+						140 text Início
+					141 text 12 de out. de 2026, 13:26
+					142 container Fim da energia
+						143 text Fim da energia
+					144 text 12 de out. de 2026, 13:27
+					145 container Encerramento
+						146 text Encerramento
+					147 text 12 de out. de 2026, 13:27
+					148 container Situação da recarga
+						149 text Situação da recarga
+					150 text Encerrada pelo usuário
+					151 container Validação para cobrança
+						152 text Validação para cobrança
+					153 text Suspensa para revisão
+					154 container Origem
+						155 text Origem
+					156 text Simulação
+					157 container Potência média / máxima
+						158 text Potência média / máxima
+					159 container
+						160 text 0,00 kW  /  0,00 kW
+				161 heading Vínculo de faturamento, Value: 3
+					162 text Vínculo de faturamento
+				163 text Sem morador responsável identificado; aguardando identificação e revisão.
+				164 text Inclusão em fatura indica faturamento; o sistema não registra pagamentos.
+				165 text Uma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento.  Esta recarga foi simulada; não comprova uso de equipamento físico.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

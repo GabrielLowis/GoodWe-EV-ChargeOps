@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-12",
+  "checks": {
+    "App_only_icon_names_changed": true,
+    "HomePage_only_icon_names_changed": true,
+    "LoginPage_only_asset_import_and_decorative_art_changed": true,
+    "Alert_and_QueryError_unchanged": true,
+    "service_worker_unchanged": true,
+    "API_snapshot_data_unchanged": true,
+    "official_logo_copy_identical": true
+  },
+  "build": "passed",
+  "tests": {
+    "passed": 50,
+    "files": 12
+  },
+  "screenshots": 59,
+  "assets": {
+    "frontend/src/assets/brand/goodwe.svg": {
+      "bytes": 2979,
+      "sha256": "c2a6851dfced998041f1f32769a31267b7d25f8e974b63f0f15db24c938c0d23"
+    },
+    "frontend/src/assets/fonts/Montserrat-Variable.ttf": {
+      "bytes": 744936,
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    "frontend/src/assets/fonts/OFL.txt": {
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    "frontend/src/assets/images/goodwe-hca-g2.png": {
+      "bytes": 193734,
+      "sha256": "0583fa3fbfc5e05515a703de3a38d7eafeda7c22c18b1c988230f644c02fa065",
+      "dimensions": [
+        1020,
+        1300
+      ],
+      "mode": "RGBA"
+    },
+    "frontend/public/icon-192.png": {
+      "bytes": 5026,
+      "sha256": "8ac371f301abb61f181dabf7ff2d5489c5282f058d460fd4ac2a807739497b14",
+      "dimensions": [
+        192,
+        192
+      ],
+      "mode": "RGBA"
+    },
+    "frontend/public/icon-512.png": {
+      "bytes": 16505,
+      "sha256": "c516014c036dc28ec7ac0b5c1265e144415be1c4719811b2b076cbe305bdbd28",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    },
+    "frontend/public/icon-maskable-512.png": {
+      "bytes": 8890,
+      "sha256": "436949785f40831348b899d8a6476af3b99225d209a77462975b51678fcdbbd3",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA"
+    }
+  },
+  "scope": "Visual only; no domain writes, new dependencies, commits or publication"
+}

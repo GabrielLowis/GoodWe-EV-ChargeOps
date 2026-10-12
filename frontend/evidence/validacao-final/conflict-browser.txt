@@ -1,0 +1,37 @@
+SUA RECARGA, ORGANIZADA
+
+Nova reserva
+
+Escolha o ponto de recarga e o melhor horário para sua rotina.
+
+Agendar recarga
+Até 12 horas
+
+Todos os horários seguem o fuso de São Paulo (UTC−03:00).
+
+Dados da reserva
+Carregador
+HCA01 · Vaga compartilhada (simulação)
+
+GoodWe HCA G2 · 7,00 kW nominais · 1 conector
+
+Conector
+Conector 1
+Data de início
+Horário de início
+Data de término
+Horário de término
+Esse horário já foi reservado. Confira a disponibilidade atualizada e escolha outra janela.
+Confirmar reserva
+
+A reserva é confirmada após a verificação do horário.
+
+Horários ocupados
+
+12 de out. de 2026 · Conector 1
+
+Ocupado
+11:00 – 12:52
+Atualizar horários
+
+A disponibilidade pode mudar até a confirmação. A agenda não indica o estado físico do equipamento.

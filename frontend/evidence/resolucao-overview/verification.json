@@ -1,0 +1,249 @@
+{
+  "at": "2026-10-12T16:03:40.826196-03:00",
+  "passed": true,
+  "checks": [
+    {
+      "criterion": "Ambas as transações PostgreSQL explicitamente somente leitura",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Nenhum registro anterior excluído",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "criterion": "Única atualização de registro anterior: reserva #3 active → no_show",
+      "passed": true,
+      "detail": {
+        "reservations": {
+          "3": {
+            "status": {
+              "before": "active",
+              "after": "no_show"
+            }
+          }
+        }
+      }
+    },
+    {
+      "criterion": "Somente inclusões autorizadas",
+      "passed": true,
+      "detail": {
+        "holidays": 1,
+        "audit_events": 8,
+        "reservations": 1,
+        "charging_sessions": 2,
+        "anomalies": 2
+      }
+    },
+    {
+      "criterion": "Faturas, itens e seus snapshots integralmente preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Reserva #1 e recarga #1 preservadas",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Usuários, parâmetros e cadastro preservados; nenhum bloqueio",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Oito eventos explicados; nenhuma geração/fechamento",
+      "passed": true,
+      "detail": [
+        {
+          "id": 51,
+          "action": "no_show",
+          "entity_id": "3"
+        },
+        {
+          "id": 52,
+          "action": "reservation_created",
+          "entity_id": "9"
+        },
+        {
+          "id": 53,
+          "action": "anomaly_detected",
+          "entity_id": "1"
+        },
+        {
+          "id": 54,
+          "action": "session_ingested",
+          "entity_id": "2"
+        },
+        {
+          "id": 55,
+          "action": "anomaly_detected",
+          "entity_id": "2"
+        },
+        {
+          "id": 56,
+          "action": "session_ingested",
+          "entity_id": "3"
+        },
+        {
+          "id": 57,
+          "action": "anomaly_review",
+          "entity_id": "2"
+        },
+        {
+          "id": 58,
+          "action": "demo_holiday_added",
+          "entity_id": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "criterion": "Reserva #9, primeiro horário livre de amanhã, 09–10",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Sessão #2: simulada, passada, órfã, zero, >=60s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Sessão #3: simulada, passada, órfã, zero, >=60s",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Dois identificadores fixos e sessões sem sobreposição",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Pendente #1 permanece; rejeição #2 persistida pelo síndico",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Nenhuma cobrança das novas sessões",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Feriado correto, único",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Reexecução do feriado sem registros/eventos novos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "resident: detalhes integrais das faturas #1/#2 preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "resident: detalhe recarga #1 preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "manager: detalhes integrais das faturas #1/#2 preservados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "manager: detalhe recarga #1 preservado",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Coleta final somente GET e login; todas respostas 200",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Relatório mantém totais 4,04/6,2 e agrupa órfãs sem consumo",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Código anterior alterado apenas nas exceções API e frontend",
+      "passed": true,
+      "detail": [
+        "backend/api/routes.py",
+        "backend/faturamento/service.py",
+        "frontend/src/pages/FinancePage.tsx",
+        "frontend/src/pages/HomePage.tsx",
+        "frontend/src/pages/InvoicesPage.test.tsx",
+        "frontend/src/pages/InvoicesPage.tsx",
+        "frontend/src/pages/ParametersPage.tsx",
+        "frontend/src/pages/ReservationsPage.tsx",
+        "frontend/src/pages/SessionsPage.tsx",
+        "frontend/src/utils/finance.ts"
+      ]
+    },
+    {
+      "criterion": "Contratos OpenAPI e cliente idênticos após regeneração",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "44 capturas indexadas, sem transbordamento horizontal",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Capturas desktop e 390px existentes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Início mostra outubro R$4,04 e reserva #9",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Console da conferência retomada sem erros/avisos",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Frontend: 50 testes aprovados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Backend: 150 aprovados sem pulados",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "criterion": "Build Vite e TypeScript aprovado",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "modified_existing_files": [
+    "backend/api/routes.py",
+    "backend/faturamento/service.py",
+    "frontend/src/pages/FinancePage.tsx",
+    "frontend/src/pages/HomePage.tsx",
+    "frontend/src/pages/InvoicesPage.test.tsx",
+    "frontend/src/pages/InvoicesPage.tsx",
+    "frontend/src/pages/ParametersPage.tsx",
+    "frontend/src/pages/ReservationsPage.tsx",
+    "frontend/src/pages/SessionsPage.tsx",
+    "frontend/src/utils/finance.ts"
+  ],
+  "new_files_in_tracked_scope": [
+    "frontend/src/hooks/useTimeBoundaries.test.ts",
+    "frontend/src/hooks/useTimeBoundaries.ts",
+    "frontend/src/pages/HomePage.test.tsx",
+    "frontend/src/pages/ReservationsPage.test.tsx",
+    "frontend/src/pages/SessionsPage.test.tsx",
+    "frontend/src/utils/reservations.ts",
+    "scripts/register_demo_holiday.py"
+  ]
+}

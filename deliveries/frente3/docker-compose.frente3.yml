@@ -1,0 +1,25 @@
+# PostgreSQL 16 para rodar as migrations, os testes e a demo da Frente 3.
+#   docker compose -f docker-compose.frente3.yml up -d
+# Cria dois bancos: evchargeops (demo) e evchargeops_test (testes).
+# Ao integrar, este serviço pode virar o "db" do docker-compose principal do grupo.
+
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres   # apenas para desenvolvimento local
+      POSTGRES_DB: evchargeops
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./infra/postgres-init:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d evchargeops"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

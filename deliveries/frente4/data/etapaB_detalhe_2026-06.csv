@@ -1,0 +1,20 @@
+inicio,green_kwh,importada_kwh,potencia_media_kw,potencia_maxima_kw,motivo_fim
+2026-06-01 21:48:53,5.60,0.00,2.05,3.40,Charging stopped at full charge
+2026-06-03 21:05:17,7.10,0.00,2.29,3.50,Charging stopped at full charge
+2026-06-05 10:27:16,4.50,0.00,1.85,3.40,Abnormal disconnection of charging gun from vehicle.
+2026-06-07 16:47:24,9.60,0.00,2.40,3.40,Charging stopped at full charge
+2026-06-09 21:00:48,11.20,0.00,2.61,3.50,Charging stopped at full charge
+2026-06-10 21:23:01,0.00,0.00,3.35,3.50,Generation Loss
+2026-06-10 22:37:22,2.30,0.00,1.38,3.40,Charging stopped at full charge
+2026-06-12 21:33:49,10.70,0.00,2.57,3.50,Charging stopped at full charge
+2026-06-13 23:12:09,5.70,0.00,2.01,3.50,Charging stopped at full charge
+2026-06-14 20:11:10,0.00,0.00,0.00,0.00,Charging stopped at full charge
+2026-06-15 20:56:59,6.00,0.00,2.14,3.40,Charging stopped at full charge
+2026-06-17 21:20:26,14.60,0.00,2.76,3.50,Charging stopped at full charge
+2026-06-19 19:27:28,11.40,0.00,2.60,3.50,Charging stopped at full charge
+2026-06-21 21:46:22,7.90,0.00,2.34,3.40,Charging stopped at full charge
+2026-06-22 21:07:48,5.10,0.00,1.82,3.50,Charging stopped at full charge
+2026-06-24 20:01:33,10.70,0.00,2.53,3.50,Charging stopped at full charge
+2026-06-25 20:53:03,5.90,0.00,2.14,3.40,Charging stopped at full charge
+2026-06-29 08:03:50,0.70,0.00,2.71,3.40,Abnormal disconnection of charging gun from vehicle.
+2026-06-29 18:05:49,14.60,0.00,2.72,3.50,Charging stopped at full charge

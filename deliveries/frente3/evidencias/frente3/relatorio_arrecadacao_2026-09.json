@@ -1,0 +1,144 @@
+{
+  "period": "2026-09",
+  "invoices": [
+    {
+      "invoice_id": 1,
+      "user_id": 2,
+      "user_name": "Ana Souza",
+      "unit": "A-101",
+      "status": "closed",
+      "sessions_count": 3,
+      "green_kwh": "14.100",
+      "grid_kwh": "32.100",
+      "green_amount": "4.23",
+      "grid_amount": "34.08",
+      "idle_amount": "1.25",
+      "subtotal": "39.56",
+      "tax_amount": "1.99",
+      "overhead_amount": "1.99",
+      "total": "43.54"
+    },
+    {
+      "invoice_id": 2,
+      "user_id": 3,
+      "user_name": "Bruno Lima",
+      "unit": "A-101",
+      "status": "closed",
+      "sessions_count": 2,
+      "green_kwh": "4.200",
+      "grid_kwh": "18.100",
+      "green_amount": "1.26",
+      "grid_amount": "20.80",
+      "idle_amount": "0.00",
+      "subtotal": "22.06",
+      "tax_amount": "1.10",
+      "overhead_amount": "1.10",
+      "total": "24.26"
+    },
+    {
+      "invoice_id": 3,
+      "user_id": 4,
+      "user_name": "Carla Mendes",
+      "unit": "A-102",
+      "status": "closed",
+      "sessions_count": 0,
+      "green_kwh": "0.000",
+      "grid_kwh": "0.000",
+      "green_amount": "0.00",
+      "grid_amount": "0.00",
+      "idle_amount": "0.00",
+      "subtotal": "0.00",
+      "tax_amount": "0.00",
+      "overhead_amount": "0.00",
+      "total": "0.00"
+    },
+    {
+      "invoice_id": 4,
+      "user_id": 5,
+      "user_name": "Diego Rocha",
+      "unit": "B-201",
+      "status": "closed",
+      "sessions_count": 3,
+      "green_kwh": "6.000",
+      "grid_kwh": "29.000",
+      "green_amount": "1.80",
+      "grid_amount": "18.86",
+      "idle_amount": "0.25",
+      "subtotal": "20.91",
+      "tax_amount": "1.04",
+      "overhead_amount": "0.79",
+      "total": "22.74"
+    }
+  ],
+  "totals": {
+    "green_amount": "7.29",
+    "grid_amount": "73.74",
+    "idle_amount": "1.50",
+    "subtotal": "82.53",
+    "tax_amount": "4.13",
+    "overhead_amount": "3.88",
+    "total": "90.54",
+    "invoices_count": 4,
+    "closed_invoices": 4,
+    "billed_kwh": "103.500"
+  },
+  "condominium_reimbursement": {
+    "energy_amount": "81.03",
+    "idle_amount": "1.50",
+    "overhead_amount": "3.88",
+    "tax_to_collect": "4.13",
+    "description": "Energia (Green + Grid) reembolsa o que o condomínio pagou à distribuidora; ociosidade e overhead ficam com o condomínio; o imposto destacado deve ser recolhido."
+  },
+  "energy_balance": {
+    "delivered_kwh": "144.800",
+    "sessions_in_period": 9,
+    "billed": {
+      "count": 6,
+      "kwh": "84.000",
+      "session_ids": [
+        2,
+        3,
+        4,
+        5,
+        9,
+        10
+      ]
+    },
+    "system_failure_not_charged": {
+      "count": 1,
+      "kwh": "4.300",
+      "session_ids": [
+        6
+      ]
+    },
+    "waiting_review": {
+      "count": 0,
+      "kwh": "0.000",
+      "session_ids": []
+    },
+    "rejected": {
+      "count": 1,
+      "kwh": "50.000",
+      "session_ids": [
+        7
+      ]
+    },
+    "unattributed": {
+      "count": 1,
+      "kwh": "6.500",
+      "session_ids": [
+        8
+      ]
+    },
+    "approved_not_invoiced": {
+      "count": 0,
+      "kwh": "0.000",
+      "session_ids": []
+    },
+    "late_entries_from_previous_periods": {
+      "count": 1,
+      "kwh": "19.500",
+      "amount": "13.69"
+    }
+  }
+}

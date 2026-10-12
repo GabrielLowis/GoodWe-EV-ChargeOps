@@ -1,0 +1,106 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Visão geral
+  - generic: Síndico
+- main [active]:
+  - paragraph: OPERAÇÃO DO CONDOMÍNIO
+  - heading "Visão geral" [level=1]
+  - paragraph: Olá, Síndico Demo. Acompanhe os registros e as revisões que precisam de atenção.
+  - heading "Reservas registradas" [level=2]
+  - paragraph:
+    - strong: "9"
+    - text: Inclui todos os estados da agenda.
+  - link "Abrir agenda →":
+    - /url: "#agenda"
+  - button "Atualizar reservas registradas": Atualizar
+  - heading "Sessões registradas" [level=2]
+  - paragraph:
+    - strong: "3"
+    - text: Inclui simulações identificadas na lista.
+  - link "Consultar sessões →":
+    - /url: "#sessoes"
+  - button "Atualizar sessões registradas": Atualizar
+  - heading "Anomalias pendentes" [level=2]
+  - paragraph:
+    - strong: "2"
+    - text: Ocorrências aguardando decisão.
+  - link "Abrir fila de revisão →":
+    - /url: "#anomalias"
+  - button "Atualizar anomalias pendentes": Atualizar
+  - region "Próximas reservas":
+    - heading "Próximas reservas" [level=2]
+    - button "Atualizar reservas"
+    - list:
+      - 'link "Reserva #9"':
+        - /url: "#agenda"
+      - paragraph: 13 de out. de 2026, 09:00 – 10:00
+      - paragraph: "Morador #2 · Carregador #1 · Conector 1"
+    - link "Ver agenda do condomínio →":
+      - /url: "#agenda"
+  - region "Sessões recentes":
+    - heading "Sessões recentes" [level=2]
+    - button "Atualizar sessões"
+    - list:
+      - 'link "Sessão #2"':
+        - /url: "#sessoes/2"
+      - paragraph: 12 de out. de 2026, 13:26 · 0 kWh
+      - generic: Encerrada pelo usuário
+      - generic: Suspensa para revisão
+      - generic: Simulação
+      - 'link "Ver sessão #2 →"':
+        - /url: "#sessoes/2"
+      - 'link "Sessão #3"':
+        - /url: "#sessoes/3"
+      - paragraph: 12 de out. de 2026, 13:23 · 0 kWh
+      - generic: Encerrada pelo usuário
+      - generic: Suspensa para revisão
+      - generic: Simulação
+      - 'link "Ver sessão #3 →"':
+        - /url: "#sessoes/3"
+      - 'link "Sessão #1"':
+        - /url: "#sessoes/1"
+      - paragraph: 08 de out. de 2026, 01:09 · 6,2 kWh
+      - generic: Concluída
+      - generic: Aprovada para cobrança
+      - generic: Simulação
+      - 'link "Ver sessão #1 →"':
+        - /url: "#sessoes/1"
+    - link "Ver todas as sessões →":
+      - /url: "#sessoes"
+  - paragraph: As contagens vêm dos registros da API. Não indicam disponibilidade física nem equipamento online.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

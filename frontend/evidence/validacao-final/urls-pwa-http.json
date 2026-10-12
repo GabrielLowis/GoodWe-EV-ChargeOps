@@ -1,0 +1,58 @@
+{
+  "queried_at": "2026-10-11T21:19:31.878226+00:00",
+  "urls": [
+    {
+      "url": "http://127.0.0.1:5173",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/docs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/saude",
+      "status": 200
+    }
+  ],
+  "preview_assets": [
+    {
+      "path": "/manifest.webmanifest",
+      "status": 200,
+      "bytes": 709
+    },
+    {
+      "path": "/icon-192.png",
+      "status": 200,
+      "bytes": 3261
+    },
+    {
+      "path": "/icon-512.png",
+      "status": 200,
+      "bytes": 10989
+    },
+    {
+      "path": "/icon-maskable-512.png",
+      "status": 200,
+      "bytes": 9578
+    },
+    {
+      "path": "/sw.js",
+      "status": 200,
+      "bytes": 867
+    },
+    {
+      "path": "/offline.html",
+      "status": 200,
+      "bytes": 1767
+    },
+    {
+      "path": "/api/saude",
+      "status": 200,
+      "bytes": 90
+    }
+  ]
+}

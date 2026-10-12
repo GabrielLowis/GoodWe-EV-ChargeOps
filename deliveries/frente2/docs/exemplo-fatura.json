@@ -1,0 +1,89 @@
+{
+  "1_sessao_ingerida": {
+    "session_id": "abc123",
+    "processing_status": "Approved",
+    "reservation_id": 1,
+    "user_id": 2,
+    "anomaly_id": null,
+    "reasons": []
+  },
+  "2_fatura": {
+    "id": 1,
+    "user_id": 2,
+    "year": 2026,
+    "month": 9,
+    "status": "Open",
+    "subtotal": "13.50",
+    "tax": "0.68",
+    "overhead": "1.35",
+    "total": "15.53",
+    "items": [
+      {
+        "id": 1,
+        "session_id": "abc123",
+        "green_cost": "2.25",
+        "grid_cost": "11.25",
+        "idle_cost": "0.00",
+        "subtotal": "13.50",
+        "tax": "0.68",
+        "overhead": "1.35",
+        "total": "15.53",
+        "memory": {
+          "formula": "subtotal = green + grid + ociosidade; total = subtotal + imposto + overhead",
+          "assumptions": [
+            "Energia distribuida entre as faixas proporcionalmente ao tempo (potencia constante).",
+            "Ociosidade estimada: duracao - total_kwh/max_power_kw."
+          ],
+          "config": {
+            "idle_fee_per_min": "0.5000",
+            "idle_tolerance_min": 15,
+            "tax_pct": "5.00",
+            "overhead_pct": "10.00"
+          },
+          "session_failed": false,
+          "segments": [
+            {
+              "band": "Ponta",
+              "from": "2026-09-22T19:00:00",
+              "to": "2026-09-22T21:00:00",
+              "fraction": "0.9231",
+              "green_kwh": "3.8769",
+              "grid_kwh": "9.7846",
+              "green_price": "0.5500",
+              "grid_price": "1.1000",
+              "green_cost": "2.1323",
+              "grid_cost": "10.7631"
+            },
+            {
+              "band": "Fora de ponta",
+              "from": "2026-09-22T21:00:00",
+              "to": "2026-09-22T21:10:00",
+              "fraction": "0.0769",
+              "green_kwh": "0.3231",
+              "grid_kwh": "0.8154",
+              "green_price": "0.3500",
+              "grid_price": "0.6000",
+              "green_cost": "0.1131",
+              "grid_cost": "0.4892"
+            }
+          ],
+          "idle": {
+            "estimated_minutes": 4,
+            "billable_minutes": 0,
+            "cost": "0.00"
+          },
+          "components": {
+            "green": "2.25",
+            "grid": "11.25",
+            "idle": "0.00",
+            "subtotal": "13.50",
+            "tax": "0.68",
+            "overhead": "1.35",
+            "total": "15.53"
+          },
+          "session_id": "abc123"
+        }
+      }
+    ]
+  }
+}

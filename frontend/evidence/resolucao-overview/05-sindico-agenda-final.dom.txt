@@ -1,0 +1,103 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Agenda do condomínio
+  - generic: Síndico
+- main [active]:
+  - paragraph: HORÁRIOS COMPARTILHADOS
+  - heading "Agenda do condomínio" [level=1]
+  - paragraph: Consulte os moradores, os horários e a situação das reservas.
+  - heading "Agenda do condomínio" [level=2]
+  - button "Atualizar lista"
+  - list:
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 13 de out. de 2026 · 09:00 – 10:00
+    - generic: "Reserva #9 · Morador Demo"
+    - generic: Agendada
+    - 'button "Cancelar reserva #9"': Cancelar reserva
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 14 de out. de 2026 · 10:00 – 11:00
+    - generic: "Reserva #6 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 13 de out. de 2026 · 10:00 – 11:00
+    - generic: "Reserva #2 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 13 de out. de 2026 · 10:00 – 11:00
+    - generic: "Reserva #4 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 12 de out. de 2026 · 11:00 – 12:52
+    - generic: "Reserva #8 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 09 de out. de 2026 · 13:00 – 18:00
+    - generic: "Reserva #3 · Morador Demo"
+    - generic: Não compareceu
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 09 de out. de 2026 · 11:00 – 12:52
+    - generic: "Reserva #5 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 09 de out. de 2026 · 11:00 – 12:52
+    - generic: "Reserva #7 · Morador Demo"
+    - generic: Cancelada
+    - strong:
+      - text: HCA01
+      - generic: · Conector 1
+    - paragraph: 08 de out. de 2026 · 01:09 – 04:09
+    - generic: "Reserva #1 · Morador Demo"
+    - generic: Concluída
+  - paragraph: Horários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

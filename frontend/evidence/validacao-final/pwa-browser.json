@@ -1,0 +1,7 @@
+{
+  "preview": "http://127.0.0.1:4173",
+  "both_profiles_login": true,
+  "offline_contingency": "Sem conexão displayed after stopping only preview",
+  "recovery": "Tentar novamente returned to login",
+  "physical_installation": "not validated - no device or installation flow available"
+}

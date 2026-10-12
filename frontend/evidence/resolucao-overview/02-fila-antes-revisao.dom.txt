@@ -1,0 +1,64 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Fila de anomalias
+  - generic: Síndico
+- main [active]:
+  - paragraph: VALIDAÇÃO DAS RECARGAS
+  - heading "Fila de anomalias" [level=1]
+  - paragraph: Confira os motivos e os dados registrados antes de decidir sobre a cobrança.
+  - heading "Ocorrências" [level=2]
+  - button "Atualizar lista"
+  - text: Situação
+  - combobox "Situação":
+    - option "Pendente" [selected]
+    - option "Aprovada"
+    - option "Rejeitada"
+  - list:
+    - 'link "Ocorrência #2 · Sessão #3"':
+      - /url: "#anomalias/2"
+    - paragraph: 12 de out. de 2026, 13:36
+    - text: Pendente
+    - 'link "Conferir ocorrência #2"':
+      - /url: "#anomalias/2"
+    - 'link "Ocorrência #1 · Sessão #2"':
+      - /url: "#anomalias/1"
+    - paragraph: 12 de out. de 2026, 13:36
+    - text: Pendente
+    - 'link "Conferir ocorrência #1"':
+      - /url: "#anomalias/1"
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

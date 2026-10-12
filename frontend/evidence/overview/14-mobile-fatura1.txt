@@ -1,0 +1,3 @@
+Browser tab: 1, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#faturas/1".
+There has been no change in the accessibility tree.
+The focused UI element is 108 button (expanded) Recarga #1 R$ 4,04, Secondary Actions: Collapse

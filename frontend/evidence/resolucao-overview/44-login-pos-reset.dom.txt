@@ -1,0 +1,29 @@
+- main:
+  - region "EV ChargeOps":
+    - text: EV ChargeOps
+    - generic: GOODWE × FIAP
+    - paragraph: RECARGA NO SEU CONDOMÍNIO
+    - heading "Seu próximo trajeto começa aqui." [level=1]:
+      - text: Seu próximo trajeto
+      - text: começa aqui.
+    - paragraph: Reserve seu horário e organize a recarga com a praticidade que faz parte da sua rotina.
+    - generic: EV
+    - generic: ENERGIA PARA SEGUIR
+    - paragraph:
+      - text: GoodWe × FIAP
+      - generic: EV ChargeOps
+  - region "Acesse sua conta":
+    - paragraph: BEM-VINDO AO EV CHARGEOPS
+    - heading "Acesse sua conta" [level=2]
+    - paragraph: Entre com os dados fornecidos pelo condomínio.
+    - generic: E-mail
+    - textbox "E-mail":
+      - /placeholder: voce@exemplo.com
+    - generic: Senha
+    - textbox "Senha":
+      - /placeholder: Digite sua senha
+    - button "Mostrar senha"
+    - button "Entrar na minha conta":
+      - text: Entrar na minha conta
+    - paragraph: O acesso ao morador ou ao síndico é definido pela sua conta. Ao recarregar a página, entre novamente.
+    - paragraph: Gestão de recarga compartilhada

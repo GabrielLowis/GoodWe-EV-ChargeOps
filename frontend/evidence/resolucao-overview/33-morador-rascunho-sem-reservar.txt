@@ -1,0 +1,82 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#nova-reserva".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#nova-reserva
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO MORADOR
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Morador Demo Morador
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Nova reserva Morador
+		71 container main-content
+			72 text SUA RECARGA, ORGANIZADA
+			73 heading Nova reserva, Value: 1
+				74 text Nova reserva
+			75 text Escolha o ponto de recarga e o melhor horário para sua rotina.
+			76 container
+				77 heading Agendar recarga, Value: 2
+					78 text Agendar recarga
+				79 text Até 12 horas Todos os horários seguem o fuso de São Paulo (UTC−03:00). Horário sugerido preenchido. Confira o conector e confirme para agendar. Nada foi reservado ainda.
+				80 container Dados da reserva
+					81 text Dados da reserva
+					82 text Carregador
+					83 pop up button (collapsed, settable) Carregador, Value: HCA01 · Vaga compartilhada (simulação), ID: charger, Secondary Actions: Expand
+						84 menu
+							85 (selected) HCA01 · Vaga compartilhada (simulação)
+					86 container
+						87 text GoodWe HCA G2  ·  7,00  kW nominais ·  1 conector
+					88 text Conector
+					89 pop up button (collapsed, settable) Conector, Value: Conector 1, ID: connector, Secondary Actions: Expand
+						90 menu
+							91 (selected) Conector 1
+					92 text Data de início
+					93 date field (settable) Data de início, Value: 2026-10-13, ID: date
+						94 container
+							95 stepper
+							96 stepper
+							97 stepper
+						98 pop up button Mostrar seletor de datas Mostrar seletor de datas
+					99 text Horário de início
+					100 time field (settable) Horário de início, Value: 11:00:00, ID: start-time
+						101 container
+							102 stepper
+							103 stepper
+							104 stepper
+						105 pop up button Mostrar seletor de horário Mostrar seletor de horário
+					106 text Data de término
+					107 date field (settable) Data de término, Value: 2026-10-13, ID: end-date
+						108 container
+							109 stepper
+							110 stepper
+							111 stepper
+						112 pop up button Mostrar seletor de datas Mostrar seletor de datas
+					113 text Horário de término
+					114 time field (settable) Horário de término, Value: 12:52:43, ID: end-time
+						115 container
+							116 stepper
+							117 stepper
+							118 stepper
+						119 pop up button Mostrar seletor de horário Mostrar seletor de horário
+				120 button Confirmar reserva
+				121 text A reserva é confirmada após a verificação do horário.
+			122 container
+				123 heading Horários ocupados, Value: 2
+					124 text Horários ocupados
+				125 text 13 de out. de 2026  · Conector  1
+				126 content list
+					127 container
+						128 text Ocupado 09:00 – 10:00
+				129 button Atualizar horários
+				130 text A disponibilidade pode mudar até a confirmação. A agenda não indica o estado físico do equipamento.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

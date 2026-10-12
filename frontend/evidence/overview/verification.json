@@ -1,0 +1,20 @@
+{
+  "report_links_missing": [],
+  "credential_matches": [],
+  "valid_json_files": 12,
+  "browser_captures": 45,
+  "screenshot_format": "JPEG",
+  "horizontal_overflow": [],
+  "database_tables_unchanged": 16,
+  "protected_files_unchanged": 275,
+  "engine_differences": [],
+  "scope": "diagnostico; codigo funcional e dados preservados",
+  "screenshots_visually_inspected": [
+    "01-morador-inicio",
+    "02-morador-reservas",
+    "12-mobile-reservas",
+    "14-mobile-fatura1",
+    "34-mobile-parametros",
+    "41-mobile-financeiro-outubro"
+  ]
+}

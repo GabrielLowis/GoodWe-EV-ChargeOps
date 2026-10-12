@@ -1,0 +1,193 @@
+{
+  "at": "2026-10-12T12:44:35.971756-03:00",
+  "transaction_read_only": "on",
+  "expired_active_reservations": [
+    3
+  ],
+  "started_active_reservations": [
+    3
+  ],
+  "completed_without_session": [],
+  "completed_future_sessions": [],
+  "orphan_sessions": [],
+  "duplicate_invoice_sessions": [],
+  "link_issues": [],
+  "unbilled_sessions": [],
+  "energy_mismatch": [],
+  "no_show_dry_inspection": {
+    "would_mark_ids": [
+      3
+    ],
+    "would_block_user_ids": [],
+    "note": "Inspeção pura da condição atual; endpoint não chamado."
+  },
+  "invoice_aggregation": [
+    {
+      "invoice_id": 2,
+      "differences": {}
+    },
+    {
+      "invoice_id": 1,
+      "differences": {}
+    }
+  ],
+  "engine_recomputation": [
+    {
+      "item_id": 35,
+      "session_id": 1,
+      "invoice_id": 1,
+      "tariff_id": 1,
+      "differences": {},
+      "calculation": {
+        "engine_version": "1.0.0",
+        "session": {
+          "session_id": 1,
+          "user_id": 2,
+          "started_at": "2026-10-08T01:09:26.445378-03:00",
+          "energy_ended_at": "2026-10-08T04:09:26.445378-03:00",
+          "energy_end_source": "informed",
+          "ended_at": "2026-10-08T04:09:26.445378-03:00",
+          "end_status": "completed",
+          "failure_code": null,
+          "total_kwh": "6.200",
+          "green_kwh": "1.000",
+          "grid_kwh": "5.200",
+          "charger_rated_power_kw": "7.00",
+          "power_samples": 0
+        },
+        "rule": {
+          "code": "normal",
+          "description": "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+        },
+        "tariff": {
+          "id": 1,
+          "name": "Demonstração acadêmica",
+          "valid_from": "2025-12-31T21:00:00-03:00",
+          "valid_to": null,
+          "assembly_reference": null,
+          "prices": {
+            "intermediate": {
+              "green_price_per_kwh": "0.3000",
+              "grid_price_per_kwh": "0.9500"
+            },
+            "off_peak": {
+              "green_price_per_kwh": "0.3000",
+              "grid_price_per_kwh": "0.6500"
+            },
+            "peak": {
+              "green_price_per_kwh": "0.3000",
+              "grid_price_per_kwh": "1.4500"
+            }
+          },
+          "weekday_windows": [
+            {
+              "band": "intermediate",
+              "start": "17:00",
+              "end": "18:00"
+            },
+            {
+              "band": "peak",
+              "start": "18:00",
+              "end": "21:00"
+            },
+            {
+              "band": "intermediate",
+              "start": "21:00",
+              "end": "22:00"
+            }
+          ],
+          "weekends_holidays_off_peak": true,
+          "idle_tolerance_minutes": 15,
+          "idle_fee_per_minute": "0.2500",
+          "overhead_percent": "5.00"
+        },
+        "band_split": {
+          "method": "time_proportional",
+          "method_description": "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).",
+          "segments": [
+            {
+              "index": 1,
+              "start": "2026-10-08T01:09:26.445378-03:00",
+              "end": "2026-10-08T04:09:26.445378-03:00",
+              "minutes": "180.0",
+              "band": "off_peak",
+              "band_label": "Fora de ponta",
+              "day_type": "dia útil",
+              "green_kwh": "1.000",
+              "grid_kwh": "5.200",
+              "green_price_per_kwh": "0.3000",
+              "grid_price_per_kwh": "0.6500",
+              "green_value": "0.300000",
+              "grid_value": "3.380000"
+            }
+          ]
+        },
+        "components": {
+          "green": {
+            "label": "Energia verde (solar/bateria)",
+            "kwh": "1.000",
+            "unrounded": "0.300000",
+            "amount": "0.30",
+            "formula": "soma(kWh Green do trecho x preço Green da faixa), arredondada ao centavo"
+          },
+          "grid": {
+            "label": "Energia da rede",
+            "kwh": "5.200",
+            "unrounded": "3.380000",
+            "amount": "3.38",
+            "formula": "soma(kWh Grid do trecho x preço Grid da faixa), arredondada ao centavo"
+          },
+          "idle": {
+            "label": "Ociosidade (vaga ocupada após o fim da carga)",
+            "applies": true,
+            "energy_end_source": "informed",
+            "energy_end_source_label": "informado pela fonte de dados (SEMS/gateway)",
+            "minutes_after_energy_end": 0,
+            "tolerance_minutes": 15,
+            "billable_minutes": 0,
+            "fee_per_minute": "0.2500",
+            "amount": "0.00",
+            "formula": "max(0, minutos completos após o fim da energia - tolerância) x taxa por minuto"
+          },
+          "subtotal": {
+            "amount": "3.68",
+            "formula": "Green + Grid + Ociosidade"
+          },
+          "taxes": [
+            {
+              "rule_id": 1,
+              "tax_type": "iss",
+              "label": "ISS",
+              "rate_percent": "5.000",
+              "exclude_compensated_energy": false,
+              "excluded_from_base": "0.00",
+              "base": "3.68",
+              "amount": "0.18",
+              "legal_basis": "Parâmetro fictício de demonstração acadêmica"
+            }
+          ],
+          "tax_total": "0.18",
+          "overhead": {
+            "label": "Overhead operacional",
+            "percent": "5.00",
+            "base": "3.68",
+            "amount": "0.18",
+            "formula": "subtotal x percentual definido pela assembleia"
+          },
+          "total": "4.04"
+        },
+        "explanation": [
+          "Trecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800",
+          "Energia verde (solar/bateria): R$ 0,30",
+          "Energia da rede: R$ 3,38",
+          "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00",
+          "Subtotal: R$ 3,68",
+          "ISS 5,000% sobre R$ 3,68: R$ 0,18",
+          "Overhead operacional 5,00% sobre o subtotal: R$ 0,18",
+          "Total da sessão: R$ 4,04"
+        ],
+        "notes": []
+      }
+    }
+  ]
+}

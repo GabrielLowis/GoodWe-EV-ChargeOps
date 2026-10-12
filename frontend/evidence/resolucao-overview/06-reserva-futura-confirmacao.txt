@@ -1,0 +1,53 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#agenda".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#agenda
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Agenda do condomínio Síndico
+		71 container main-content
+			72 text HORÁRIOS COMPARTILHADOS
+			73 heading Agenda do condomínio, Value: 1
+				74 text Agenda do condomínio
+			75 text Consulte os moradores, os horários e a situação das reservas.
+			76 container
+				77 heading Agenda do condomínio, Value: 2
+					78 text Agenda do condomínio
+				79 button Atualizar lista
+				80 content list
+					81 container
+						82 text HCA01 · Conector  1 13 de out. de 2026  ·  09:00  –  10:00 Reserva # 9  · Morador Demo Agendada Cancelar este horário?
+						101 button Sim, cancelar
+						102 button Manter reserva
+					84 container
+						85 text HCA01 · Conector  1 14 de out. de 2026  ·  10:00  –  11:00 Reserva # 6  · Morador Demo Cancelada
+					86 container
+						87 text HCA01 · Conector  1 13 de out. de 2026  ·  10:00  –  11:00 Reserva # 2  · Morador Demo Cancelada
+					88 container
+						89 text HCA01 · Conector  1 13 de out. de 2026  ·  10:00  –  11:00 Reserva # 4  · Morador Demo Cancelada
+					90 container
+						91 text HCA01 · Conector  1 12 de out. de 2026  ·  11:00  –  12:52 Reserva # 8  · Morador Demo Cancelada
+					92 container
+						93 text HCA01 · Conector  1 09 de out. de 2026  ·  13:00  –  18:00 Reserva # 3  · Morador Demo Não compareceu
+					94 container
+						95 text HCA01 · Conector  1 09 de out. de 2026  ·  11:00  –  12:52 Reserva # 5  · Morador Demo Cancelada
+					96 container
+						97 text HCA01 · Conector  1 09 de out. de 2026  ·  11:00  –  12:52 Reserva # 7  · Morador Demo Cancelada
+					98 container
+						99 text HCA01 · Conector  1 08 de out. de 2026  ·  01:09  –  04:09 Reserva # 1  · Morador Demo Concluída
+				100 text Horários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#agenda

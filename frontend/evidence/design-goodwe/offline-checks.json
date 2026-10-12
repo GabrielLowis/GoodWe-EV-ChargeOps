@@ -1,0 +1,29 @@
+{
+  "proof": "Após visita online no preview temporário 4175, somente esse servidor foi encerrado; reload exibiu contingência do worker.",
+  "checks": [
+    {
+      "buttonBg": "rgb(230, 0, 18)",
+      "clientWidth": 1280,
+      "scrollWidth": 1280,
+      "theme": "#262626",
+      "title": "Sem conexão",
+      "width": 1280
+    },
+    {
+      "buttonBg": "rgb(230, 0, 18)",
+      "clientWidth": 390,
+      "scrollWidth": 390,
+      "theme": "#262626",
+      "title": "Sem conexão",
+      "width": 390
+    },
+    {
+      "buttonBg": "rgb(230, 0, 18)",
+      "clientWidth": 320,
+      "scrollWidth": 320,
+      "theme": "#262626",
+      "title": "Sem conexão",
+      "width": 320
+    }
+  ]
+}

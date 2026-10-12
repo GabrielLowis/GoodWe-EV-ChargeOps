@@ -1,0 +1,18 @@
+# Dependências da Frente 3 (banco de dados + motor de rateio).
+# Versões testadas em 23/09/2026 com Python 3.12 e PostgreSQL 16.
+# Ao integrar no repositório do grupo, mescle com o requirements do backend.
+
+SQLAlchemy==2.0.54
+alembic==1.20.0
+psycopg[binary]==3.3.6
+tzdata==2026.4          # base de fusos horários (necessária no Windows para zoneinfo)
+
+# testes e qualidade
+pytest==9.1.1
+ruff==0.16.8
+
+# notebook de evidência (notebooks/frente3_motor_de_rateio.ipynb)
+pandas==3.0.6
+matplotlib==3.11.2
+nbconvert==7.17.1
+ipykernel==7.3.0

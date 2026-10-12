@@ -1,0 +1,79 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Financeiro
+  - generic: Síndico
+- main [active]:
+  - paragraph: FATURAMENTO DO CONDOMÍNIO
+  - heading "Detalhe da fatura" [level=1]
+  - paragraph: Consulte valores faturados, gere cálculos e confira cada parcela.
+  - link "← Voltar para o financeiro":
+    - /url: "#financeiro"
+  - heading "novembro de 2026" [level=2]
+  - generic: Período futuro
+  - generic: Fechada
+  - generic: Total faturado
+  - strong: R$ 0,00
+  - generic: Green
+  - strong: 0 kWh
+  - generic: Grid
+  - strong: 0 kWh
+  - term: Energia Green · solar/bateria
+  - definition: R$ 0,00
+  - term: Energia Grid · rede elétrica
+  - definition: R$ 0,00
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Subtotal
+  - definition: R$ 0,00
+  - term: Impostos
+  - definition: R$ 0,00
+  - term: Custo operacional
+  - definition: R$ 0,00
+  - term: Total
+  - definition: R$ 0,00
+  - paragraph: 0 recarga(s) incluída(s) · 0 min de ociosidade faturada.
+  - paragraph: "Fatura fechada: o cálculo não pode ser atualizado. Esta situação não comprova pagamento."
+  - heading "Memória de cálculo" [level=2]
+  - paragraph: Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead
+  - list:
+    - listitem: "Fatura zero: nenhuma sessão faturável no período; não há cobrança mínima."
+  - paragraph: Esta fatura não contém recargas.
+  - heading "Fechamento da fatura" [level=2]
+  - paragraph: "Morador: Morador Demo · Fatura #2."
+  - paragraph: Esta fatura está fechada. Não pode ser recalculada. Fechamento não registra pagamento.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

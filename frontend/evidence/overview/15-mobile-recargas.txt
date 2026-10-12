@@ -1,0 +1,3 @@
+Browser tab: 1, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#recargas".
+There has been no change in the accessibility tree.
+The focused UI element is 71 container main-content

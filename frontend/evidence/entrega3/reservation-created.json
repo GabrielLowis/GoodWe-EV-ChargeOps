@@ -1,0 +1,9 @@
+{
+  "charger_id": 1,
+  "connector": 1,
+  "starts_at": "2026-10-14T10:00:00-03:00",
+  "ends_at": "2026-10-14T11:00:00-03:00",
+  "id": 6,
+  "user_id": 2,
+  "status": "active"
+}

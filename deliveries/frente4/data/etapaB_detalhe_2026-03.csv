@@ -1,0 +1,27 @@
+inicio,green_kwh,importada_kwh,potencia_media_kw,potencia_maxima_kw,motivo_fim
+2026-03-03 18:00:00,12.80,0.00,2.64,3.40,Charging stopped at full charge
+2026-03-04 21:21:24,4.70,0.00,1.76,3.40,Charging stopped at full charge
+2026-03-05 20:56:11,5.20,0.00,1.78,3.40,Charging stopped at full charge
+2026-03-06 19:28:30,,,,," SEM DADOS NA PLATAFORMA (painel retorna ""--"" em todos os campos; sessao de 0 Minutes, 0,00 kWh)"
+2026-03-06 21:42:49,5.70,0.00,1.72,3.50,Charging stopped at full charge
+2026-03-08 17:41:21,15.50,0.00,2.45,3.40,Charging stopped at full charge
+2026-03-09 22:34:00,4.70,0.00,1.81,3.40,Charging stopped at full charge
+2026-03-10 20:55:51,5.10,0.00,2.00,3.40,Charging stopped at full charge
+2026-03-11 20:53:23,4.70,0.00,1.76,3.40,Charging stopped at full charge
+2026-03-13 22:24:34,9.90,0.00,2.55,3.40,Charging stopped at full charge
+2026-03-14 23:13:01,7.80,0.00,2.23,3.50,Charging stopped at full charge
+2026-03-15 18:24:22,11.60,0.00,2.25,3.40,Charging stopped at full charge
+2026-03-16 22:05:04,4.30,0.00,1.63,3.40,Charging stopped at full charge
+2026-03-18 19:55:11,9.00,0.00,2.13,3.40,Charging stopped at full charge
+2026-03-19 21:10:35,4.70,0.00,1.71,3.40,Charging stopped at full charge
+2026-03-20 21:17:43,7.30,0.00,1.93,3.40,Charging stopped at full charge
+2026-03-21 17:28:28,1.50,0.00,3.29,3.40,Abnormal disconnection of charging gun from vehicle.
+2026-03-22 01:25:11,12.50,0.00,2.55,3.50,Charging stopped at full charge
+2026-03-22 19:26:59,5.30,0.00,1.59,3.40,Charging stopped at full charge
+2026-03-23 21:11:36,5.80,0.00,1.71,3.40,Charging stopped at full charge
+2026-03-24 22:01:13,5.70,0.00,1.66,3.40,Charging stopped at full charge
+2026-03-25 21:51:06,4.90,0.00,1.65,3.40,Charging stopped at full charge
+2026-03-26 21:07:15,5.10,0.00,1.71,3.40,Charging stopped at full charge
+2026-03-27 21:03:13,4.60,0.00,1.62,3.40,Charging stopped at full charge
+2026-03-30 21:57:45,8.10,0.00,2.00,3.40,Charging stopped at full charge
+2026-03-31 21:31:33,10.00,0.00,2.47,3.40,Charging stopped at full charge

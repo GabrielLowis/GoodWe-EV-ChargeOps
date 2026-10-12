@@ -1,0 +1,12 @@
+{
+  "previous_reservations_unchanged": true,
+  "one_new_reservation": true,
+  "new_reservation_id": 8,
+  "new_reservation_cancelled": true,
+  "sessions_unchanged": true,
+  "closed_invoice_unchanged": true,
+  "open_invoice_still_open": true,
+  "invoice_count_unchanged": true,
+  "open_invoice_economics_and_memory_unchanged": true,
+  "users_parameters_anomalies_reports_unchanged": true
+}

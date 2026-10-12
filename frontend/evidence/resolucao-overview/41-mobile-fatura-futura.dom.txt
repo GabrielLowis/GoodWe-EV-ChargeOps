@@ -1,0 +1,69 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Minhas faturas
+  - generic: Morador
+- main [active]:
+  - paragraph: SEU USO, COM TRANSPARÊNCIA
+  - heading "Detalhe da fatura" [level=1]
+  - paragraph: Consulte os valores faturados e entenda cada parcela.
+  - link "← Voltar para minhas faturas":
+    - /url: "#faturas"
+  - heading "novembro de 2026" [level=2]
+  - generic: Período futuro
+  - generic: Fechada
+  - generic: Total faturado
+  - strong: R$ 0,00
+  - generic: Green
+  - strong: 0 kWh
+  - generic: Grid
+  - strong: 0 kWh
+  - term: Energia Green · solar/bateria
+  - definition: R$ 0,00
+  - term: Energia Grid · rede elétrica
+  - definition: R$ 0,00
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Subtotal
+  - definition: R$ 0,00
+  - term: Impostos
+  - definition: R$ 0,00
+  - term: Custo operacional
+  - definition: R$ 0,00
+  - term: Total
+  - definition: R$ 0,00
+  - paragraph: 0 recarga(s) incluída(s) · 0 min de ociosidade faturada.
+  - paragraph: "Fatura fechada: o cálculo não pode ser atualizado. Esta situação não comprova pagamento."
+  - heading "Memória de cálculo" [level=2]
+  - paragraph: Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead
+  - list:
+    - listitem: "Fatura zero: nenhuma sessão faturável no período; não há cobrança mínima."
+  - paragraph: Esta fatura não contém recargas.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,4 @@
+INFO:     127.0.0.1:55458 - "POST /api/reservas HTTP/1.1" 201 Created
+INFO:     127.0.0.1:59309 - "POST /api/reservas HTTP/1.1" 409 Conflict
+INFO:     127.0.0.1:51396 - "POST /api/faturas/gerar HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49389 - "POST /api/reservas/8/cancelar HTTP/1.1" 200 OK

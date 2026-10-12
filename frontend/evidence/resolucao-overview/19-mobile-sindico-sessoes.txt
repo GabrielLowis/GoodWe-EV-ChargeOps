@@ -1,0 +1,42 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#sessoes".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#sessoes
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 button Sair da conta
+		13 container
+			14 text Condomínio  Sessões do condomínio Síndico
+		69 container main-content
+			70 text USO REGISTRADO
+			71 heading Sessões do condomínio, Value: 1
+				72 text Sessões do condomínio
+			73 text Encerramento e validação para cobrança são situações distintas.
+			74 container
+				75 heading Todas as sessões, Value: 2
+					76 text Todas as sessões
+				77 button Atualizar lista
+				78 content list
+					79 container
+						80 link Description: Sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+						81 text Sem morador identificado  ·  12 de out. de 2026 ,  13:26  ·  0 kWh Encerrada pelo usuário Suspensa para revisão Simulação
+						82 link Description: Ver sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+					83 container
+						84 link Description: Sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+						85 text Sem morador identificado  ·  12 de out. de 2026 ,  13:23  ·  0 kWh Encerrada pelo usuário Rejeitada Simulação
+						86 link Description: Ver sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+					87 container
+						88 link Description: Sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+						89 text Morador Demo  ·  08 de out. de 2026 ,  01:09  ·  6,2 kWh Concluída Aprovada para cobrança Simulação
+						90 link Description: Ver sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+		67 container
+			68 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 69 container main-content

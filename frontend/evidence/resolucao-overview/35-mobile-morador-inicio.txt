@@ -1,0 +1,72 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#inicio".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#inicio
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Meu condomínio Morador
+		71 container main-content
+			72 text ÁREA DO MORADOR
+			73 heading Olá, Morador., Value: 1
+				74 text Olá,  Morador .
+			75 text Organize sua próxima recarga, no seu tempo.
+			76 container
+				77 text VAMOS AGENDAR?
+				78 heading Um horário reservado para você., Value: 2
+					79 text Um horário reservado para você.
+				80 text Escolha um carregador, consulte os horários ocupados e confirme sua reserva.
+				81 button Nova reserva
+			82 container
+				83 heading Próxima reserva, Value: 2
+					84 text Próxima reserva
+				85 text 13 de out. de 2026 09:00  –  10:00 Reserva # 9  · Conector  1
+				86 link Description: Ver minhas reservas →, Value: 127.0.0.1:5173/#reservas
+			87 container
+				88 heading Fatura do mês, Value: 2
+					89 text Fatura do mês
+				90 text outubro de 2026 R$ 4,04 Aberta
+				91 link Description: Entender minha fatura →, Value: 127.0.0.1:5173/#faturas/1
+			92 container
+				93 heading Recargas recentes, Value: 2
+					94 text Recargas recentes
+				95 link Description: Ver todas →, Value: 127.0.0.1:5173/#recargas
+				96 content list
+					97 container
+						98 link Description: Recarga #1 · 08 de out. de 2026, Value: 127.0.0.1:5173/#recargas/1
+						99 text 6,2 kWh  ·  01:09 Concluída Aprovada para cobrança Simulação
+						100 link Description: Ver recarga #1, Value: 127.0.0.1:5173/#recargas/1
+			101 container
+				102 heading Minha conta, Value: 2
+					103 text Minha conta
+				104 text Morador
+				105 definition list
+					106 container Nome
+						107 text Nome
+					108 text Morador Demo
+					109 container E-mail
+						110 text E-mail
+					111 text morador@demo.local
+					112 container Unidade
+						113 text Unidade
+					114 text A-101
+			115 container
+				116 heading Acesso rápido, Value: 2
+					117 text Acesso rápido
+				118 button Minhas reservas Consulte horários e cancele uma reserva ativa.
+					119 text Minhas reservas
+					120 text Consulte horários e cancele uma reserva ativa.
+				121 link Description: Sugestão de horário Consulte uma estimativa para planejar a recarga., Value: 127.0.0.1:5173/#sugestao
+			122 text Projeto acadêmico. A integração física com o carregador ainda não está conectada.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

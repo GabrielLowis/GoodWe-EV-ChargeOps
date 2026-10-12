@@ -1,0 +1,1023 @@
+[
+  {
+    "name": "01-sindico-cenarios",
+    "at": "2026-10-12T16:38:21.973Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Visão geral",
+    "height": 900,
+    "links": [
+      {
+        "href": "#agenda",
+        "text": "Abrir agenda →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Consultar sessões →"
+      },
+      {
+        "href": "#anomalias",
+        "text": "Abrir fila de revisão →"
+      },
+      {
+        "href": "#agenda",
+        "text": "Reserva #9"
+      },
+      {
+        "href": "#agenda",
+        "text": "Ver agenda do condomínio →"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Ver sessão #2 →"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Ver sessão #3 →"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1 →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Ver todas as sessões →"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "OPERAÇÃO DO CONDOMÍNIO\n\nVisão geral\n\nOlá, Síndico Demo. Acompanhe os registros e as revisões que precisam de atenção.\n\nReservas registradas\n\n9\nInclui todos os estados da agenda.\n\nAbrir agenda →\nAtualizar\nSessões registradas\n\n3\nInclui simulações identificadas na lista.\n\nConsultar sessões →\nAtualizar\nAnomalias pendentes\n\n2\nOcorrências aguardando decisão.\n\nAbrir fila de revisão →\nAtualizar\nPróximas reservas\nAtualizar reservas\nReserva #9\n\n13 de out. de 2026, 09:00 – 10:00\n\nMorador #2 · Carregador #1 · Conector 1\n\nVer agenda do condomínio →\nSessões recentes\nAtualizar sessões\nSessão #2\n\n12 de out. de 2026, 13:26 · 0 kWh\n\nEncerrada pelo usuário\nSuspensa para revisão\nSimulação\nVer sessão #2 →\nSessão #3\n\n12 de out. de 2026, 13:23 · 0 kWh\n\nEncerrada pelo usuário\nSuspensa para revisão\nSimulação\nVer sessão #3 →\nSessão #1\n\n08 de out. de 2026, 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer sessão #1 →\nVer todas as sessões →\n\nAs contagens vêm dos registros da API. Não indicam disponibilidade física nem equipamento online.",
+    "width": 1280
+  },
+  {
+    "name": "02-fila-antes-revisao",
+    "at": "2026-10-12T16:38:22.249Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 900,
+    "links": [
+      {
+        "href": "#anomalias/2",
+        "text": "Ocorrência #2 · Sessão #3"
+      },
+      {
+        "href": "#anomalias/2",
+        "text": "Conferir ocorrência #2"
+      },
+      {
+        "href": "#anomalias/1",
+        "text": "Ocorrência #1 · Sessão #2"
+      },
+      {
+        "href": "#anomalias/1",
+        "text": "Conferir ocorrência #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nFila de anomalias\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\nOcorrências\nAtualizar lista\nSituação\nPendente\nAprovada\nRejeitada\nOcorrência #2 · Sessão #3\n\n12 de out. de 2026, 13:36\n\nPendente\nConferir ocorrência #2\nOcorrência #1 · Sessão #2\n\n12 de out. de 2026, 13:36\n\nPendente\nConferir ocorrência #1",
+    "width": 1280
+  },
+  {
+    "name": "03-rejeicao-preenchida",
+    "at": "2026-10-12T16:38:55.576Z",
+    "focus": "",
+    "hash": "#anomalias/2",
+    "heading": "Ocorrência #2",
+    "height": 900,
+    "links": [
+      {
+        "href": "#anomalias",
+        "text": "← Voltar para a fila de anomalias"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "← Abrir detalhe da sessão"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nOcorrência #2\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\n← Voltar para a fila de anomalias\nMotivos e revisão\nAtualizar ocorrência\nPendente\nSessão #3\n\nDetectada em 12 de out. de 2026, 13:36.\n\nCarro plugado sem receber energia: vaga ocupada sem recarga.\nSem reserva correspondente; síndico deve atribuir o morador.\nDetecção\nRegras de validação\nScore retornado\n1.0000\n\nO score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.\n\nRegistrar decisão\nDecisão\nAprovar para cobrança\nRejeitar para cobrança\n\nEsta sessão não tem morador identificado. Para aprovar, selecione o responsável ativo. A rejeição não atribui um morador.\n\nObservação\n\nAté 2.000 caracteres. A decisão atualiza a validação da sessão.\n\nConfirmar revisão\n← Abrir detalhe da sessão\nRecarga #3\nSimulação\nMorador\nSem morador identificado\nAtribuição\nAguardando identificação\nEnergia total\n0 kWh\nGreen · solar/bateria\n0 kWh\nGrid · rede elétrica\n0 kWh\nReserva\nSem reserva vinculada\nCarregador / conector\nHCA01 · Conector 1\nInício\n12 de out. de 2026, 13:23\nFim da energia\n12 de out. de 2026, 13:24\nEncerramento\n12 de out. de 2026, 13:24\nSituação da recarga\nEncerrada pelo usuário\nValidação para cobrança\nSuspensa para revisão\nOrigem\nSimulação\nPotência média / máxima\n0,00 kW / 0,00 kW\nVínculo de faturamento\n\nSem morador responsável identificado; aguardando identificação e revisão.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 1280
+  },
+  {
+    "name": "04-rejeicao-persistida",
+    "at": "2026-10-12T16:38:57.088Z",
+    "focus": "",
+    "hash": "#anomalias/2",
+    "heading": "Ocorrência #2",
+    "height": 900,
+    "links": [
+      {
+        "href": "#anomalias",
+        "text": "← Voltar para a fila de anomalias"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "← Abrir detalhe da sessão"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nOcorrência #2\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\n← Voltar para a fila de anomalias\nOcorrência #2 rejeitada. A revisão foi registrada.\nMotivos e revisão\nAtualizar ocorrência\nRejeitada\nSessão #3\n\nDetectada em 12 de out. de 2026, 13:36.\n\nCarro plugado sem receber energia: vaga ocupada sem recarga.\nSem reserva correspondente; síndico deve atribuir o morador.\nDetecção\nRegras de validação\nScore retornado\n1.0000\n\nO score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.\n\nRevisão registrada\nData\n12 de out. de 2026, 13:38\nResponsável\nSíndico #1\nObservação\nDemonstração acadêmica: sessão simulada sem energia e sem reserva; rejeitada para cobrança. Não representa telemetria física ou pagamento.\n← Abrir detalhe da sessão\nRecarga #3\nSimulação\nMorador\nSem morador identificado\nAtribuição\nAguardando identificação\nEnergia total\n0 kWh\nGreen · solar/bateria\n0 kWh\nGrid · rede elétrica\n0 kWh\nReserva\nSem reserva vinculada\nCarregador / conector\nHCA01 · Conector 1\nInício\n12 de out. de 2026, 13:23\nFim da energia\n12 de out. de 2026, 13:24\nEncerramento\n12 de out. de 2026, 13:24\nSituação da recarga\nEncerrada pelo usuário\nValidação para cobrança\nRejeitada\nOrigem\nSimulação\nPotência média / máxima\n0,00 kW / 0,00 kW\nVínculo de faturamento\n\nRejeitada para cobrança; não incluída em fatura.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 1280
+  },
+  {
+    "name": "05-sindico-agenda-final",
+    "at": "2026-10-12T16:46:27.729Z",
+    "focus": "main-content",
+    "hash": "#agenda",
+    "heading": "Agenda do condomínio",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "HORÁRIOS COMPARTILHADOS\n\nAgenda do condomínio\n\nConsulte os moradores, os horários e a situação das reservas.\n\nAgenda do condomínio\nAtualizar lista\nHCA01 · Conector 1\n\n13 de out. de 2026 · 09:00 – 10:00\n\nReserva #9 · Morador Demo\nAgendada\nCancelar reserva\nHCA01 · Conector 1\n\n14 de out. de 2026 · 10:00 – 11:00\n\nReserva #6 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #2 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #4 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n12 de out. de 2026 · 11:00 – 12:52\n\nReserva #8 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 13:00 – 18:00\n\nReserva #3 · Morador Demo\nNão compareceu\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #5 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #7 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n08 de out. de 2026 · 01:09 – 04:09\n\nReserva #1 · Morador Demo\nConcluída\n\nHorários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.",
+    "width": 1280
+  },
+  {
+    "name": "06-reserva-futura-confirmacao",
+    "at": "2026-10-12T16:46:29.160Z",
+    "focus": "",
+    "hash": "#agenda",
+    "heading": "Agenda do condomínio",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "HORÁRIOS COMPARTILHADOS\n\nAgenda do condomínio\n\nConsulte os moradores, os horários e a situação das reservas.\n\nAgenda do condomínio\nAtualizar lista\nHCA01 · Conector 1\n\n13 de out. de 2026 · 09:00 – 10:00\n\nReserva #9 · Morador Demo\nAgendada\nCancelar este horário?\nSim, cancelar\nManter reserva\nHCA01 · Conector 1\n\n14 de out. de 2026 · 10:00 – 11:00\n\nReserva #6 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #2 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #4 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n12 de out. de 2026 · 11:00 – 12:52\n\nReserva #8 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 13:00 – 18:00\n\nReserva #3 · Morador Demo\nNão compareceu\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #5 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #7 · Morador Demo\nCancelada\nHCA01 · Conector 1\n\n08 de out. de 2026 · 01:09 – 04:09\n\nReserva #1 · Morador Demo\nConcluída\n\nHorários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.",
+    "width": 1280
+  },
+  {
+    "name": "07-sindico-sessoes",
+    "at": "2026-10-12T16:46:30.160Z",
+    "focus": "main-content",
+    "hash": "#sessoes",
+    "heading": "Sessões do condomínio",
+    "height": 900,
+    "links": [
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Ver sessão #2"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Ver sessão #3"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "USO REGISTRADO\n\nSessões do condomínio\n\nEncerramento e validação para cobrança são situações distintas.\n\nTodas as sessões\nAtualizar lista\nSessão #2\n\nSem morador identificado · 12 de out. de 2026, 13:26 · 0 kWh\n\nEncerrada pelo usuário\nSuspensa para revisão\nSimulação\nVer sessão #2\nSessão #3\n\nSem morador identificado · 12 de out. de 2026, 13:23 · 0 kWh\n\nEncerrada pelo usuário\nRejeitada\nSimulação\nVer sessão #3\nSessão #1\n\nMorador Demo · 08 de out. de 2026, 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer sessão #1",
+    "width": 1280
+  },
+  {
+    "name": "08-sindico-vinculo-recarga",
+    "at": "2026-10-12T16:46:31.570Z",
+    "focus": "main-content",
+    "hash": "#sessoes/1",
+    "heading": "Detalhe da sessão",
+    "height": 900,
+    "links": [
+      {
+        "href": "#sessoes",
+        "text": "← Voltar para sessões do condomínio"
+      },
+      {
+        "href": "#agenda",
+        "text": "Reserva #1"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "outubro de 2026 · Fatura #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "USO REGISTRADO\n\nDetalhe da sessão\n\nEncerramento e validação para cobrança são situações distintas.\n\n← Voltar para sessões do condomínio\nRecarga #1\nSimulação\nMorador\nMorador Demo\nAtribuição\nPela reserva\nEnergia total\n6,2 kWh\nGreen · solar/bateria\n1 kWh\nGrid · rede elétrica\n5,2 kWh\nReserva\nReserva #1\nCarregador / conector\nHCA01 · Conector 1\nInício\n08 de out. de 2026, 01:09\nFim da energia\n08 de out. de 2026, 04:09\nEncerramento\n08 de out. de 2026, 04:09\nSituação da recarga\nConcluída\nValidação para cobrança\nAprovada para cobrança\nOrigem\nSimulação\nPotência média / máxima\n2,30 kW / 3,30 kW\nVínculo de faturamento\n\nIncluída na fatura de outubro de 2026 · Fatura #1.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 1280
+  },
+  {
+    "name": "09-sindico-fatura-atual",
+    "at": "2026-10-12T16:46:33.514Z",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nDetalhe da fatura\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\n← Voltar para o financeiro\noutubro de 2026\nAberta\nTotal faturado\nR$ 4,04\nGreen\n1 kWh\nGrid\n5,2 kWh\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nSem observações adicionais.\n\nRecarga #1\nR$ 4,04\n\nVer dados da recarga #1\n\nSessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.\n\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.\n\nTarifa utilizada: Demonstração acadêmica.\n\nSem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).\n\nComo o valor foi calculado\nTrecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800\nEnergia verde (solar/bateria): R$ 0,30\nEnergia da rede: R$ 3,38\nOciosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00\nSubtotal: R$ 3,68\nISS 5,000% sobre R$ 3,68: R$ 0,18\nOverhead operacional 5,00% sobre o subtotal: R$ 0,18\nTotal da sessão: R$ 4,04\n\nISS: Parâmetro fictício de demonstração acadêmica\n\nObservações da recarga\n\nSem observações adicionais.\n\nFechamento da fatura\n\nMorador: Morador Demo · Fatura #1.\n\nFechamento disponível a partir de 01 de nov. de 2026, 00:00 (São Paulo), após o término do período. A fatura permanece aberta para atualização.\n\nFechar fatura #1",
+    "width": 1280
+  },
+  {
+    "name": "10-sindico-financeiro-outubro",
+    "at": "2026-10-12T16:47:33.686Z",
+    "focus": "main-content",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nFinanceiro\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\nPeríodo de faturamento\nAtualizar consultas\nMês e ano\n\nA geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.\n\nGerar / recalcular faturas\nFaturas de outubro de 2026\nFatura #1 · Morador Demo\n\n1 recarga(s) incluída(s) · Aberta\n\nR$ 4,04\nVer fatura #1\nResumo mensal do faturamento\n\n1 fatura(s) · 0 fechada(s).\n\nTotal faturado\nR$ 4,04\nEnergia faturada\n6,2 kWh\nEnergia registrada no mês\n6,2 kWh\nEnergia Green\nR$ 0,30\nEnergia Grid\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal faturado\nR$ 4,04\nDistribuição dos valores faturados\nEnergia destinada ao condomínio\nR$ 3,68\nOciosidade\nR$ 0,00\nCusto operacional\nR$ 0,18\nImpostos destacados\nR$ 0,18\nSituação da energia registrada\nSessões faturadas\n1 sessão(ões) · 6,2 kWh\nSessão #1\nAguardando revisão\n0 sessão(ões) · 0 kWh\nRejeitadas\n0 sessão(ões) · 0 kWh\nSem morador identificado\n2 sessão(ões) · 0 kWh\nSessão #2\nSessão #3\nAprovadas sem fatura\n0 sessão(ões) · 0 kWh\nFalha do sistema · sem cobrança\n0 sessão(ões) · 0 kWh\n\nLançamentos de meses anteriores: 0 · R$ 0,00. Energia faturada pode incluir esses lançamentos.\n\nValores faturados; pagamentos e recebimentos não são registrados neste MVP.\n\nFaturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.",
+    "width": 1280
+  },
+  {
+    "name": "11-sindico-periodo-futuro",
+    "at": "2026-10-12T16:47:35.249Z",
+    "focus": "invoice-period",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro/2",
+        "text": "Fatura #2 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/2",
+        "text": "Ver fatura #2"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nFinanceiro\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\nPeríodo de faturamento\nAtualizar consultas\nMês e ano\n\nA geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.\n\nGerar / recalcular faturas\nFaturas de novembro de 2026\nFatura #2 · Morador Demo\n\nPeríodo futuro0 recarga(s) incluída(s) · Fechada\n\nR$ 0,00\nVer fatura #2\nResumo mensal do faturamento\n\n1 fatura(s) · 1 fechada(s).\n\nTotal faturado\nR$ 0,00\nEnergia faturada\n0 kWh\nEnergia registrada no mês\n0 kWh\nEnergia Green\nR$ 0,00\nEnergia Grid\nR$ 0,00\nOciosidade\nR$ 0,00\nSubtotal\nR$ 0,00\nImpostos\nR$ 0,00\nCusto operacional\nR$ 0,00\nTotal faturado\nR$ 0,00\nDistribuição dos valores faturados\nEnergia destinada ao condomínio\nR$ 0,00\nOciosidade\nR$ 0,00\nCusto operacional\nR$ 0,00\nImpostos destacados\nR$ 0,00\nSituação da energia registrada\nSessões faturadas\n0 sessão(ões) · 0 kWh\nAguardando revisão\n0 sessão(ões) · 0 kWh\nRejeitadas\n0 sessão(ões) · 0 kWh\nSem morador identificado\n0 sessão(ões) · 0 kWh\nAprovadas sem fatura\n0 sessão(ões) · 0 kWh\nFalha do sistema · sem cobrança\n0 sessão(ões) · 0 kWh\n\nLançamentos de meses anteriores: 0 · R$ 0,00. Energia faturada pode incluir esses lançamentos.\n\nValores faturados; pagamentos e recebimentos não são registrados neste MVP.\n\nFaturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.",
+    "width": 1280
+  },
+  {
+    "name": "12-fatura-futura-fechada-preservada",
+    "at": "2026-10-12T16:47:36.707Z",
+    "focus": "main-content",
+    "hash": "#financeiro/2",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nDetalhe da fatura\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\n← Voltar para o financeiro\nnovembro de 2026\nPeríodo futuro\nFechada\nTotal faturado\nR$ 0,00\nGreen\n0 kWh\nGrid\n0 kWh\nEnergia Green · solar/bateria\nR$ 0,00\nEnergia Grid · rede elétrica\nR$ 0,00\nOciosidade\nR$ 0,00\nSubtotal\nR$ 0,00\nImpostos\nR$ 0,00\nCusto operacional\nR$ 0,00\nTotal\nR$ 0,00\n\n0 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura fechada: o cálculo não pode ser atualizado. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nFatura zero: nenhuma sessão faturável no período; não há cobrança mínima.\n\nEsta fatura não contém recargas.\n\nFechamento da fatura\n\nMorador: Morador Demo · Fatura #2.\n\nEsta fatura está fechada. Não pode ser recalculada. Fechamento não registra pagamento.",
+    "width": 1280
+  },
+  {
+    "name": "13-calendario-explicado",
+    "at": "2026-10-12T16:47:38.533Z",
+    "focus": "main-content",
+    "hash": "#parametros",
+    "heading": "Cadastros e parâmetros",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "BASE DA OPERAÇÃO\n\nCadastros e parâmetros\n\nConsulte os equipamentos, unidades e regras cadastradas para o faturamento.\n\nCarregadores\nAtualizar carregadores\nHCA01 · GoodWe HCA G2\nCadastro\nAtivo\nPotência / conectores\n7,00 kW · 1 conector(es)\nLocalização\nVaga compartilhada (simulação)\nNúmero de série\nDEMO-HCA01\nTelemetria\nIndisponível · sem estado físico online\nUnidades\nAtualizar unidades\nA-101\n\nBloco A · Unidade 101\n\nTarifas\nAtualizar tarifas\nDemonstração acadêmica · Versão #1\n\nVigência: 31 de dez. de 2025, 21:00 até sem término cadastrado.\n\nFora de ponta\nGreen R$ 0,3000 / kWh\nGrid R$ 0,6500 / kWh\nIntermediária\nGreen R$ 0,3000 / kWh\nGrid R$ 0,9500 / kWh\nPonta\nGreen R$ 0,3000 / kWh\nGrid R$ 1,4500 / kWh\nOciosidade\nTolerância de 15 min · R$ 0,2500 / min\nCusto operacional\n5,00%\nFins de semana e feriados cadastrados\nFora de ponta\nReferência da assembleia\nNão informada\nJanelas de dias úteis\nIntermediária · 17:00–18:00 (São Paulo)\nPonta · 18:00–21:00 (São Paulo)\nIntermediária · 21:00–22:00 (São Paulo)\nImpostos\nAtualizar impostos\nISS · Versão #1\nJurisdição\nBR-SP-SAO_PAULO\nAlíquota\n5,000%\nVigência\n31 de dez. de 2025, 21:00 até sem término cadastrado\nEnergia compensada\nSem exclusão da base de cálculo\nBase legal / observação\nParâmetro fictício de demonstração acadêmica\n\nHorários de São Paulo. O tratamento de feriados depende das datas cadastradas no calendário. A configuração demonstrativa não representa um calendário real completo. Os parâmetros são os cadastrados na API; valores de demonstração não comprovam uma regra tributária real.",
+    "width": 1280
+  },
+  {
+    "name": "14-fila-pendente-final",
+    "at": "2026-10-12T16:47:38.884Z",
+    "focus": "main-content",
+    "hash": "#anomalias",
+    "heading": "Fila de anomalias",
+    "height": 900,
+    "links": [
+      {
+        "href": "#anomalias/1",
+        "text": "Ocorrência #1 · Sessão #2"
+      },
+      {
+        "href": "#anomalias/1",
+        "text": "Conferir ocorrência #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nFila de anomalias\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\nOcorrências\nAtualizar lista\nSituação\nPendente\nAprovada\nRejeitada\nOcorrência #1 · Sessão #2\n\n12 de out. de 2026, 13:36\n\nPendente\nConferir ocorrência #1",
+    "width": 1280
+  },
+  {
+    "name": "15-ocorrencia-pendente-final",
+    "at": "2026-10-12T16:47:40.404Z",
+    "focus": "main-content",
+    "hash": "#anomalias/1",
+    "heading": "Ocorrência #1",
+    "height": 900,
+    "links": [
+      {
+        "href": "#anomalias",
+        "text": "← Voltar para a fila de anomalias"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "← Abrir detalhe da sessão"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nOcorrência #1\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\n← Voltar para a fila de anomalias\nMotivos e revisão\nAtualizar ocorrência\nPendente\nSessão #2\n\nDetectada em 12 de out. de 2026, 13:36.\n\nCarro plugado sem receber energia: vaga ocupada sem recarga.\nSem reserva correspondente; síndico deve atribuir o morador.\nDetecção\nRegras de validação\nScore retornado\n1.0000\n\nO score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.\n\nRegistrar decisão\nDecisão\nAprovar para cobrança\nRejeitar para cobrança\n\nEsta sessão não tem morador identificado. Para aprovar, selecione o responsável ativo. A rejeição não atribui um morador.\n\nMorador responsável\nSelecione o morador\nMorador Demo · morador@demo.local\nObservação\n\nAté 2.000 caracteres. A decisão atualiza a validação da sessão.\n\nConfirmar revisão\n← Abrir detalhe da sessão\nRecarga #2\nSimulação\nMorador\nSem morador identificado\nAtribuição\nAguardando identificação\nEnergia total\n0 kWh\nGreen · solar/bateria\n0 kWh\nGrid · rede elétrica\n0 kWh\nReserva\nSem reserva vinculada\nCarregador / conector\nHCA01 · Conector 1\nInício\n12 de out. de 2026, 13:26\nFim da energia\n12 de out. de 2026, 13:27\nEncerramento\n12 de out. de 2026, 13:27\nSituação da recarga\nEncerrada pelo usuário\nValidação para cobrança\nSuspensa para revisão\nOrigem\nSimulação\nPotência média / máxima\n0,00 kW / 0,00 kW\nVínculo de faturamento\n\nSem morador responsável identificado; aguardando identificação e revisão.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 1280
+  },
+  {
+    "name": "16-mobile-pendente",
+    "at": "2026-10-12T16:48:50.026Z",
+    "focus": "main-content",
+    "hash": "#anomalias/1",
+    "heading": "Ocorrência #1",
+    "height": 844,
+    "links": [
+      {
+        "href": "#anomalias",
+        "text": "← Voltar para a fila de anomalias"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "← Abrir detalhe da sessão"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "VALIDAÇÃO DAS RECARGAS\n\nOcorrência #1\n\nConfira os motivos e os dados registrados antes de decidir sobre a cobrança.\n\n← Voltar para a fila de anomalias\nMotivos e revisão\nAtualizar ocorrência\nPendente\nSessão #2\n\nDetectada em 12 de out. de 2026, 13:36.\n\nCarro plugado sem receber energia: vaga ocupada sem recarga.\nSem reserva correspondente; síndico deve atribuir o morador.\nDetecção\nRegras de validação\nScore retornado\n1.0000\n\nO score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.\n\nRegistrar decisão\nDecisão\nAprovar para cobrança\nRejeitar para cobrança\n\nEsta sessão não tem morador identificado. Para aprovar, selecione o responsável ativo. A rejeição não atribui um morador.\n\nMorador responsável\nSelecione o morador\nMorador Demo · morador@demo.local\nObservação\n\nAté 2.000 caracteres. A decisão atualiza a validação da sessão.\n\nConfirmar revisão\n← Abrir detalhe da sessão\nRecarga #2\nSimulação\nMorador\nSem morador identificado\nAtribuição\nAguardando identificação\nEnergia total\n0 kWh\nGreen · solar/bateria\n0 kWh\nGrid · rede elétrica\n0 kWh\nReserva\nSem reserva vinculada\nCarregador / conector\nHCA01 · Conector 1\nInício\n12 de out. de 2026, 13:26\nFim da energia\n12 de out. de 2026, 13:27\nEncerramento\n12 de out. de 2026, 13:27\nSituação da recarga\nEncerrada pelo usuário\nValidação para cobrança\nSuspensa para revisão\nOrigem\nSimulação\nPotência média / máxima\n0,00 kW / 0,00 kW\nVínculo de faturamento\n\nSem morador responsável identificado; aguardando identificação e revisão.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 390
+  },
+  {
+    "name": "17-mobile-sindico-inicio",
+    "at": "2026-10-12T16:48:51.509Z",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Visão geral",
+    "height": 844,
+    "links": [
+      {
+        "href": "#agenda",
+        "text": "Abrir agenda →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Consultar sessões →"
+      },
+      {
+        "href": "#anomalias",
+        "text": "Abrir fila de revisão →"
+      },
+      {
+        "href": "#agenda",
+        "text": "Reserva #9"
+      },
+      {
+        "href": "#agenda",
+        "text": "Ver agenda do condomínio →"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Ver sessão #2 →"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Ver sessão #3 →"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1 →"
+      },
+      {
+        "href": "#sessoes",
+        "text": "Ver todas as sessões →"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "OPERAÇÃO DO CONDOMÍNIO\n\nVisão geral\n\nOlá, Síndico Demo. Acompanhe os registros e as revisões que precisam de atenção.\n\nReservas registradas\n\n9\nInclui todos os estados da agenda.\n\nAbrir agenda →\nAtualizar\nSessões registradas\n\n3\nInclui simulações identificadas na lista.\n\nConsultar sessões →\nAtualizar\nAnomalias pendentes\n\n1\nOcorrências aguardando decisão.\n\nAbrir fila de revisão →\nAtualizar\nPróximas reservas\nAtualizar reservas\nReserva #9\n\n13 de out. de 2026, 09:00 – 10:00\n\nMorador #2 · Carregador #1 · Conector 1\n\nVer agenda do condomínio →\nSessões recentes\nAtualizar sessões\nSessão #2\n\n12 de out. de 2026, 13:26 · 0 kWh\n\nEncerrada pelo usuário\nSuspensa para revisão\nSimulação\nVer sessão #2 →\nSessão #3\n\n12 de out. de 2026, 13:23 · 0 kWh\n\nEncerrada pelo usuário\nRejeitada\nSimulação\nVer sessão #3 →\nSessão #1\n\n08 de out. de 2026, 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer sessão #1 →\nVer todas as sessões →\n\nAs contagens vêm dos registros da API. Não indicam disponibilidade física nem equipamento online.",
+    "width": 390
+  },
+  {
+    "name": "18-mobile-sindico-agenda",
+    "at": "2026-10-12T18:54:39.452Z",
+    "image_file": "18-mobile-sindico-agenda.jpg",
+    "focus": "main-content",
+    "hash": "#agenda",
+    "heading": "Agenda do condomínio",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "HORÁRIOS COMPARTILHADOS\n\nAgenda do condomínio\n\nConsulte os moradores, os horários e a situação das reservas.\n\nAgenda do condomínio\nAtualizar lista\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 09:00 – 10:00\n\nReserva #9 · Morador Demo\nAgendada\nCancelar reserva\nHCA01\n· Conector 1\n\n14 de out. de 2026 · 10:00 – 11:00\n\nReserva #6 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #2 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #4 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n12 de out. de 2026 · 11:00 – 12:52\n\nReserva #8 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 13:00 – 18:00\n\nReserva #3 · Morador Demo\nNão compareceu\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #5 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #7 · Morador Demo\nCancelada\nHCA01\n· Conector 1\n\n08 de out. de 2026 · 01:09 – 04:09\n\nReserva #1 · Morador Demo\nConcluída\n\nHorários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.",
+    "width": 390
+  },
+  {
+    "name": "19-mobile-sindico-sessoes",
+    "at": "2026-10-12T18:54:40.848Z",
+    "image_file": "19-mobile-sindico-sessoes.jpg",
+    "focus": "main-content",
+    "hash": "#sessoes",
+    "heading": "Sessões do condomínio",
+    "height": 844,
+    "links": [
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Ver sessão #2"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Ver sessão #3"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver sessão #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "USO REGISTRADO\n\nSessões do condomínio\n\nEncerramento e validação para cobrança são situações distintas.\n\nTodas as sessões\nAtualizar lista\nSessão #2\n\nSem morador identificado · 12 de out. de 2026, 13:26 · 0 kWh\n\nEncerrada pelo usuário\nSuspensa para revisão\nSimulação\nVer sessão #2\nSessão #3\n\nSem morador identificado · 12 de out. de 2026, 13:23 · 0 kWh\n\nEncerrada pelo usuário\nRejeitada\nSimulação\nVer sessão #3\nSessão #1\n\nMorador Demo · 08 de out. de 2026, 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer sessão #1",
+    "width": 390
+  },
+  {
+    "name": "20-mobile-sindico-vinculo",
+    "at": "2026-10-12T18:54:42.253Z",
+    "image_file": "20-mobile-sindico-vinculo.jpg",
+    "focus": "main-content",
+    "hash": "#sessoes/1",
+    "heading": "Detalhe da sessão",
+    "height": 844,
+    "links": [
+      {
+        "href": "#sessoes",
+        "text": "← Voltar para sessões do condomínio"
+      },
+      {
+        "href": "#agenda",
+        "text": "Reserva #1"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "outubro de 2026 · Fatura #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "USO REGISTRADO\n\nDetalhe da sessão\n\nEncerramento e validação para cobrança são situações distintas.\n\n← Voltar para sessões do condomínio\nRecarga #1\nSimulação\nMorador\nMorador Demo\nAtribuição\nPela reserva\nEnergia total\n6,2 kWh\nGreen · solar/bateria\n1 kWh\nGrid · rede elétrica\n5,2 kWh\nReserva\nReserva #1\nCarregador / conector\nHCA01 · Conector 1\nInício\n08 de out. de 2026, 01:09\nFim da energia\n08 de out. de 2026, 04:09\nEncerramento\n08 de out. de 2026, 04:09\nSituação da recarga\nConcluída\nValidação para cobrança\nAprovada para cobrança\nOrigem\nSimulação\nPotência média / máxima\n2,30 kW / 3,30 kW\nVínculo de faturamento\n\nIncluída na fatura de outubro de 2026 · Fatura #1.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 390
+  },
+  {
+    "name": "21-mobile-fatura-fechamento-bloqueado",
+    "at": "2026-10-12T18:54:57.872Z",
+    "image_file": "21-mobile-fatura-fechamento-bloqueado.jpg",
+    "focus": "",
+    "hash": "#financeiro/1",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro",
+        "text": "← Voltar para o financeiro"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nDetalhe da fatura\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\n← Voltar para o financeiro\noutubro de 2026\nAberta\nTotal faturado\nR$ 4,04\nGreen\n1 kWh\nGrid\n5,2 kWh\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nSem observações adicionais.\n\nRecarga #1\nR$ 4,04\n\nVer dados da recarga #1\n\nSessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.\n\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.\n\nTarifa utilizada: Demonstração acadêmica.\n\nSem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).\n\nComo o valor foi calculado\nTrecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800\nEnergia verde (solar/bateria): R$ 0,30\nEnergia da rede: R$ 3,38\nOciosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00\nSubtotal: R$ 3,68\nISS 5,000% sobre R$ 3,68: R$ 0,18\nOverhead operacional 5,00% sobre o subtotal: R$ 0,18\nTotal da sessão: R$ 4,04\n\nISS: Parâmetro fictício de demonstração acadêmica\n\nObservações da recarga\n\nSem observações adicionais.\n\nFechamento da fatura\n\nMorador: Morador Demo · Fatura #1.\n\nFechamento disponível a partir de 01 de nov. de 2026, 00:00 (São Paulo), após o término do período. A fatura permanece aberta para atualização.\n\nFechar fatura #1",
+    "width": 390
+  },
+  {
+    "name": "22-mobile-financeiro-outubro",
+    "at": "2026-10-12T18:54:59.388Z",
+    "image_file": "22-mobile-financeiro-outubro.jpg",
+    "focus": "main-content",
+    "hash": "#financeiro",
+    "heading": "Financeiro",
+    "height": 844,
+    "links": [
+      {
+        "href": "#financeiro/1",
+        "text": "Fatura #1 · Morador Demo"
+      },
+      {
+        "href": "#financeiro/1",
+        "text": "Ver fatura #1"
+      },
+      {
+        "href": "#sessoes/1",
+        "text": "Sessão #1"
+      },
+      {
+        "href": "#sessoes/2",
+        "text": "Sessão #2"
+      },
+      {
+        "href": "#sessoes/3",
+        "text": "Sessão #3"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "FATURAMENTO DO CONDOMÍNIO\n\nFinanceiro\n\nConsulte valores faturados, gere cálculos e confira cada parcela.\n\nPeríodo de faturamento\nAtualizar consultas\nMês e ano\n\nA geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.\n\nGerar / recalcular faturas\nFaturas de outubro de 2026\nFatura #1 · Morador Demo\n\n1 recarga(s) incluída(s) · Aberta\n\nR$ 4,04\nVer fatura #1\nResumo mensal do faturamento\n\n1 fatura(s) · 0 fechada(s).\n\nTotal faturado\nR$ 4,04\nEnergia faturada\n6,2 kWh\nEnergia registrada no mês\n6,2 kWh\nEnergia Green\nR$ 0,30\nEnergia Grid\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal faturado\nR$ 4,04\nDistribuição dos valores faturados\nEnergia destinada ao condomínio\nR$ 3,68\nOciosidade\nR$ 0,00\nCusto operacional\nR$ 0,18\nImpostos destacados\nR$ 0,18\nSituação da energia registrada\nSessões faturadas\n1 sessão(ões) · 6,2 kWh\nSessão #1\nAguardando revisão\n0 sessão(ões) · 0 kWh\nRejeitadas\n0 sessão(ões) · 0 kWh\nSem morador identificado\n2 sessão(ões) · 0 kWh\nSessão #2\nSessão #3\nAprovadas sem fatura\n0 sessão(ões) · 0 kWh\nFalha do sistema · sem cobrança\n0 sessão(ões) · 0 kWh\n\nLançamentos de meses anteriores: 0 · R$ 0,00. Energia faturada pode incluir esses lançamentos.\n\nValores faturados; pagamentos e recebimentos não são registrados neste MVP.\n\nFaturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.",
+    "width": 390
+  },
+  {
+    "name": "23-mobile-calendario",
+    "at": "2026-10-12T18:55:10.724Z",
+    "image_file": "23-mobile-calendario.jpg",
+    "focus": "main-content",
+    "hash": "#parametros",
+    "heading": "Cadastros e parâmetros",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "BASE DA OPERAÇÃO\n\nCadastros e parâmetros\n\nConsulte os equipamentos, unidades e regras cadastradas para o faturamento.\n\nCarregadores\nAtualizar carregadores\nHCA01 · GoodWe HCA G2\nCadastro\nAtivo\nPotência / conectores\n7,00 kW · 1 conector(es)\nLocalização\nVaga compartilhada (simulação)\nNúmero de série\nDEMO-HCA01\nTelemetria\nIndisponível · sem estado físico online\nUnidades\nAtualizar unidades\nA-101\n\nBloco A · Unidade 101\n\nTarifas\nAtualizar tarifas\nDemonstração acadêmica · Versão #1\n\nVigência: 31 de dez. de 2025, 21:00 até sem término cadastrado.\n\nFora de ponta\nGreen R$ 0,3000 / kWh\nGrid R$ 0,6500 / kWh\nIntermediária\nGreen R$ 0,3000 / kWh\nGrid R$ 0,9500 / kWh\nPonta\nGreen R$ 0,3000 / kWh\nGrid R$ 1,4500 / kWh\nOciosidade\nTolerância de 15 min · R$ 0,2500 / min\nCusto operacional\n5,00%\nFins de semana e feriados cadastrados\nFora de ponta\nReferência da assembleia\nNão informada\nJanelas de dias úteis\nIntermediária · 17:00–18:00 (São Paulo)\nPonta · 18:00–21:00 (São Paulo)\nIntermediária · 21:00–22:00 (São Paulo)\nImpostos\nAtualizar impostos\nISS · Versão #1\nJurisdição\nBR-SP-SAO_PAULO\nAlíquota\n5,000%\nVigência\n31 de dez. de 2025, 21:00 até sem término cadastrado\nEnergia compensada\nSem exclusão da base de cálculo\nBase legal / observação\nParâmetro fictício de demonstração acadêmica\n\nHorários de São Paulo. O tratamento de feriados depende das datas cadastradas no calendário. A configuração demonstrativa não representa um calendário real completo. Os parâmetros são os cadastrados na API; valores de demonstração não comprovam uma regra tributária real.",
+    "width": 390
+  },
+  {
+    "name": "24-mobile-login",
+    "at": "2026-10-12T18:55:11.943Z",
+    "image_file": "24-mobile-login.jpg",
+    "focus": "",
+    "hash": "#parametros",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "EV ChargeOps\nGOODWE × FIAP\n\nRECARGA NO SEU CONDOMÍNIO\n\nSeu próximo trajeto\ncomeça aqui.\n\nReserve seu horário e organize a recarga com a praticidade que faz parte da sua rotina.\n\nBEM-VINDO AO EV CHARGEOPS\n\nAcesse sua conta\n\nEntre com os dados fornecidos pelo condomínio.\n\nE-mail\nSenha\nMostrar senha\nEntrar na minha conta\n\nO acesso ao morador ou ao síndico é definido pela sua conta. Ao recarregar a página, entre novamente.\n\nGestão de recarga compartilhada",
+    "width": 390
+  },
+  {
+    "name": "25-morador-inicio-final",
+    "at": "2026-10-12T18:55:13.600Z",
+    "image_file": "25-morador-inicio-final.jpg",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Olá, Morador.",
+    "height": 900,
+    "links": [
+      {
+        "href": "#reservas",
+        "text": "Ver minhas reservas →"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Entender minha fatura →"
+      },
+      {
+        "href": "#recargas",
+        "text": "Ver todas →"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1 · 08 de out. de 2026"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver detalhes →"
+      },
+      {
+        "href": "#sugestao",
+        "text": "Sugestão de horárioConsulte uma estimativa para planejar a recarga."
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "ÁREA DO MORADOR\n\nOlá, Morador.\n\nOrganize sua próxima recarga, no seu tempo.\n\nVAMOS AGENDAR?\nUm horário reservado para você.\n\nEscolha um carregador, consulte os horários ocupados e confirme sua reserva.\n\nNova reserva\nPróxima reserva\n\n13 de out. de 2026\n09:00 – 10:00\n\nReserva #9 · Conector 1\n\nVer minhas reservas →\nFatura do mês\n\noutubro de 2026\nR$ 4,04\n\nAberta\n\nEntender minha fatura →\nRecargas recentes\nVer todas →\nRecarga #1 · 08 de out. de 2026\n\n6,2 kWh · 01:09\n\nConcluída\nAprovada para cobrança\nSimulação\nVer detalhes →\nMinha conta\nMorador\nNome\nMorador Demo\nE-mail\nmorador@demo.local\nUnidade\nA-101\nAcesso rápido\nMinhas reservas\nConsulte horários e cancele uma reserva ativa.\nSugestão de horário\nConsulte uma estimativa para planejar a recarga.\n\nProjeto acadêmico. A integração física com o carregador ainda não está conectada.",
+    "width": 1280
+  },
+  {
+    "name": "26-morador-reservas-final",
+    "at": "2026-10-12T18:56:05.397Z",
+    "image_file": "26-morador-reservas-final.jpg",
+    "focus": "main-content",
+    "hash": "#reservas",
+    "heading": "Minhas reservas",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "SUA RECARGA, ORGANIZADA\n\nMinhas reservas\n\nAcompanhe seus agendamentos e libere os horários que não vai usar.\n\nSeus agendamentos\nAtualizar lista\nHCA01 · Conector 1\n\n13 de out. de 2026 · 09:00 – 10:00\n\nReserva #9\nAgendada\nCancelar reserva\nHCA01 · Conector 1\n\n14 de out. de 2026 · 10:00 – 11:00\n\nReserva #6\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #2\nCancelada\nHCA01 · Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #4\nCancelada\nHCA01 · Conector 1\n\n12 de out. de 2026 · 11:00 – 12:52\n\nReserva #8\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 13:00 – 18:00\n\nReserva #3\nNão compareceu\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #5\nCancelada\nHCA01 · Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #7\nCancelada\nHCA01 · Conector 1\n\n08 de out. de 2026 · 01:09 – 04:09\n\nReserva #1\nConcluída\n\nHorários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.",
+    "width": 1280
+  },
+  {
+    "name": "27-morador-recargas",
+    "at": "2026-10-12T18:56:05.784Z",
+    "image_file": "27-morador-recargas.jpg",
+    "focus": "main-content",
+    "hash": "#recargas",
+    "heading": "Minhas recargas",
+    "height": 900,
+    "links": [
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver recarga #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "SEU HISTÓRICO DE RECARGA\n\nMinhas recargas\n\nConfira a energia registrada e a situação de cada recarga.\n\nHistórico\nAtualizar lista\nRecarga #1\n\n08 de out. de 2026 · 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer recarga #1",
+    "width": 1280
+  },
+  {
+    "name": "28-morador-vinculo-recarga",
+    "at": "2026-10-12T18:56:07.165Z",
+    "image_file": "28-morador-vinculo-recarga.jpg",
+    "focus": "main-content",
+    "hash": "#recargas/1",
+    "heading": "Detalhe da recarga",
+    "height": 900,
+    "links": [
+      {
+        "href": "#recargas",
+        "text": "← Voltar para minhas recargas"
+      },
+      {
+        "href": "#reservas",
+        "text": "Reserva #1"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026 · Fatura #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "SEU HISTÓRICO DE RECARGA\n\nDetalhe da recarga\n\nConfira a energia registrada e a situação de cada recarga.\n\n← Voltar para minhas recargas\nRecarga #1\nSimulação\nEnergia total\n6,2 kWh\nGreen · solar/bateria\n1 kWh\nGrid · rede elétrica\n5,2 kWh\nReserva\nReserva #1\nCarregador / conector\nHCA01 · Conector 1\nInício\n08 de out. de 2026, 01:09\nFim da energia\n08 de out. de 2026, 04:09\nEncerramento\n08 de out. de 2026, 04:09\nSituação da recarga\nConcluída\nValidação para cobrança\nAprovada para cobrança\nOrigem\nSimulação\nPotência média / máxima\n2,30 kW / 3,30 kW\nVínculo de faturamento\n\nIncluída na fatura de outubro de 2026 · Fatura #1.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 1280
+  },
+  {
+    "name": "29-morador-fatura-atual",
+    "at": "2026-10-12T18:56:25.242Z",
+    "image_file": "29-morador-fatura-atual.jpg",
+    "focus": "",
+    "hash": "#faturas/1",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nDetalhe da fatura\n\nConsulte os valores faturados e entenda cada parcela.\n\n← Voltar para minhas faturas\noutubro de 2026\nAberta\nTotal faturado\nR$ 4,04\nGreen\n1 kWh\nGrid\n5,2 kWh\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nSem observações adicionais.\n\nRecarga #1\nR$ 4,04\n\nVer dados da recarga #1\n\nSessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.\n\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.\n\nTarifa utilizada: Demonstração acadêmica.\n\nSem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).\n\nComo o valor foi calculado\nTrecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800\nEnergia verde (solar/bateria): R$ 0,30\nEnergia da rede: R$ 3,38\nOciosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00\nSubtotal: R$ 3,68\nISS 5,000% sobre R$ 3,68: R$ 0,18\nOverhead operacional 5,00% sobre o subtotal: R$ 0,18\nTotal da sessão: R$ 4,04\n\nISS: Parâmetro fictício de demonstração acadêmica\n\nObservações da recarga\n\nSem observações adicionais.",
+    "width": 1280
+  },
+  {
+    "name": "30-morador-faturas-futuras",
+    "at": "2026-10-12T18:56:25.800Z",
+    "image_file": "30-morador-faturas-futuras.jpg",
+    "focus": "main-content",
+    "hash": "#faturas",
+    "heading": "Minhas faturas",
+    "height": 900,
+    "links": [
+      {
+        "href": "#faturas/2",
+        "text": "novembro de 2026"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Ver fatura #2"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Ver fatura #1"
+      }
+    ],
+    "scrollWidth": 1280,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nMinhas faturas\n\nConsulte os valores faturados e entenda cada parcela.\n\nFaturas mensais\nAtualizar lista\nnovembro de 2026Período futuro\n\n0 recargas incluídas · Fechada\n\nR$ 0,00\nVer fatura #2\noutubro de 2026\n\n1 recarga incluída · Aberta\n\nR$ 4,04\nVer fatura #1\n\nAberta ou fechada indica a situação do cálculo. Pagamentos não são registrados neste sistema.",
+    "width": 1280
+  },
+  {
+    "name": "31-morador-fatura-futura-preservada",
+    "at": "2026-10-12T18:56:27.164Z",
+    "image_file": "31-morador-fatura-futura-preservada.jpg",
+    "focus": "main-content",
+    "hash": "#faturas/2",
+    "heading": "Detalhe da fatura",
+    "height": 900,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      }
+    ],
+    "scrollWidth": 1265,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nDetalhe da fatura\n\nConsulte os valores faturados e entenda cada parcela.\n\n← Voltar para minhas faturas\nnovembro de 2026\nPeríodo futuro\nFechada\nTotal faturado\nR$ 0,00\nGreen\n0 kWh\nGrid\n0 kWh\nEnergia Green · solar/bateria\nR$ 0,00\nEnergia Grid · rede elétrica\nR$ 0,00\nOciosidade\nR$ 0,00\nSubtotal\nR$ 0,00\nImpostos\nR$ 0,00\nCusto operacional\nR$ 0,00\nTotal\nR$ 0,00\n\n0 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura fechada: o cálculo não pode ser atualizado. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nFatura zero: nenhuma sessão faturável no período; não há cobrança mínima.\n\nEsta fatura não contém recargas.",
+    "width": 1280
+  },
+  {
+    "name": "32-morador-sugestao",
+    "at": "2026-10-12T18:56:39.773Z",
+    "image_file": "32-morador-sugestao.jpg",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Sugestão de horário",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "PLANEJE SUA PRÓXIMA RECARGA\n\nSugestão de horário\n\nCompare uma janela sugerida com a estimativa de recarregar agora.\n\nDados da recarga\nParâmetros da sugestão\nCarregador\nHCA01 · Vaga compartilhada (simulação)\nEnergia desejada (kWh)\nPotência estimada (kW)\n\nAté 7 kW neste carregador. A janela estimada deve caber em 12 horas.\n\nConsultar sugestão\nHorário sugerido\nEstimativa · geração solar hipotética\n\n13 de out. de 2026\n11:00 – 12:52\nHorários de São Paulo\n\nCusto estimado na sugestão\nR$ 2,10\nCusto estimado agora\nR$ 3,53\nEconomia estimada\nR$ 1,43\nPremissas da estimativa\nGeração solar hipotética por hora; não usa previsão meteorológica nem regressão.\nTarifas e impostos cadastrados; potência constante; sem ociosidade prevista.\nDisponibilidade consultada agora; somente criar a reserva garante a janela.\nUsar este horário\n\nVocê ainda precisa escolher/conferir o conector e confirmar a reserva. A disponibilidade pode mudar.",
+    "width": 1280
+  },
+  {
+    "name": "33-morador-rascunho-sem-reservar",
+    "at": "2026-10-12T18:57:11.387Z",
+    "image_file": "33-morador-rascunho-sem-reservar.jpg",
+    "focus": "main-content",
+    "hash": "#nova-reserva",
+    "heading": "Nova reserva",
+    "height": 900,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "SUA RECARGA, ORGANIZADA\n\nNova reserva\n\nEscolha o ponto de recarga e o melhor horário para sua rotina.\n\nAgendar recarga\nAté 12 horas\n\nTodos os horários seguem o fuso de São Paulo (UTC−03:00).\n\nHorário sugerido preenchido. Confira o conector e confirme para agendar. Nada foi reservado ainda.\n\nDados da reserva\nCarregador\nHCA01 · Vaga compartilhada (simulação)\n\nGoodWe HCA G2 · 7,00 kW nominais · 1 conector\n\nConector\nConector 1\nData de início\nHorário de início\nData de término\nHorário de término\nConfirmar reserva\n\nA reserva é confirmada após a verificação do horário.\n\nHorários ocupados\n\n13 de out. de 2026 · Conector 1\n\nOcupado\n09:00 – 10:00\nAtualizar horários\n\nA disponibilidade pode mudar até a confirmação. A agenda não indica o estado físico do equipamento.",
+    "width": 1280
+  },
+  {
+    "name": "34-mobile-morador-reserva",
+    "at": "2026-10-12T18:57:12.624Z",
+    "image_file": "34-mobile-morador-reserva.jpg",
+    "focus": "main-content",
+    "hash": "#nova-reserva",
+    "heading": "Nova reserva",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "SUA RECARGA, ORGANIZADA\n\nNova reserva\n\nEscolha o ponto de recarga e o melhor horário para sua rotina.\n\nAgendar recarga\nAté 12 horas\n\nTodos os horários seguem o fuso de São Paulo (UTC−03:00).\n\nHorário sugerido preenchido. Confira o conector e confirme para agendar. Nada foi reservado ainda.\n\nDados da reserva\nCarregador\nHCA01 · Vaga compartilhada (simulação)\n\nGoodWe HCA G2 · 7,00 kW nominais · 1 conector\n\nConector\nConector 1\nData de início\nHorário de início\nData de término\nHorário de término\nConfirmar reserva\n\nA reserva é confirmada após a verificação do horário.\n\nHorários ocupados\n\n13 de out. de 2026 · Conector 1\n\nOcupado\n09:00 – 10:00\nAtualizar horários\n\nA disponibilidade pode mudar até a confirmação. A agenda não indica o estado físico do equipamento.",
+    "width": 390
+  },
+  {
+    "name": "35-mobile-morador-inicio",
+    "at": "2026-10-12T18:57:13.963Z",
+    "image_file": "35-mobile-morador-inicio.jpg",
+    "focus": "main-content",
+    "hash": "#inicio",
+    "heading": "Olá, Morador.",
+    "height": 844,
+    "links": [
+      {
+        "href": "#reservas",
+        "text": "Ver minhas reservas →"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Entender minha fatura →"
+      },
+      {
+        "href": "#recargas",
+        "text": "Ver todas →"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1 · 08 de out. de 2026"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver detalhes →"
+      },
+      {
+        "href": "#sugestao",
+        "text": "Sugestão de horárioConsulte uma estimativa para planejar a recarga."
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "ÁREA DO MORADOR\n\nOlá, Morador.\n\nOrganize sua próxima recarga, no seu tempo.\n\nVAMOS AGENDAR?\nUm horário reservado para você.\n\nEscolha um carregador, consulte os horários ocupados e confirme sua reserva.\n\nNova reserva\nPróxima reserva\n\n13 de out. de 2026\n09:00 – 10:00\n\nReserva #9 · Conector 1\n\nVer minhas reservas →\nFatura do mês\n\noutubro de 2026\nR$ 4,04\n\nAberta\n\nEntender minha fatura →\nRecargas recentes\nVer todas →\nRecarga #1 · 08 de out. de 2026\n\n6,2 kWh · 01:09\n\nConcluída\nAprovada para cobrança\nSimulação\nVer detalhes →\nMinha conta\nMorador\nNome\nMorador Demo\nE-mail\nmorador@demo.local\nUnidade\nA-101\nAcesso rápido\nMinhas reservas\nConsulte horários e cancele uma reserva ativa.\nSugestão de horário\nConsulte uma estimativa para planejar a recarga.\n\nProjeto acadêmico. A integração física com o carregador ainda não está conectada.",
+    "width": 390
+  },
+  {
+    "name": "36-mobile-morador-reservas",
+    "at": "2026-10-12T18:57:15.304Z",
+    "image_file": "36-mobile-morador-reservas.jpg",
+    "focus": "main-content",
+    "hash": "#reservas",
+    "heading": "Minhas reservas",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "SUA RECARGA, ORGANIZADA\n\nMinhas reservas\n\nAcompanhe seus agendamentos e libere os horários que não vai usar.\n\nSeus agendamentos\nAtualizar lista\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 09:00 – 10:00\n\nReserva #9\nAgendada\nCancelar reserva\nHCA01\n· Conector 1\n\n14 de out. de 2026 · 10:00 – 11:00\n\nReserva #6\nCancelada\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #2\nCancelada\nHCA01\n· Conector 1\n\n13 de out. de 2026 · 10:00 – 11:00\n\nReserva #4\nCancelada\nHCA01\n· Conector 1\n\n12 de out. de 2026 · 11:00 – 12:52\n\nReserva #8\nCancelada\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 13:00 – 18:00\n\nReserva #3\nNão compareceu\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #5\nCancelada\nHCA01\n· Conector 1\n\n09 de out. de 2026 · 11:00 – 12:52\n\nReserva #7\nCancelada\nHCA01\n· Conector 1\n\n08 de out. de 2026 · 01:09 – 04:09\n\nReserva #1\nConcluída\n\nHorários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.",
+    "width": 390
+  },
+  {
+    "name": "37-mobile-morador-recargas",
+    "at": "2026-10-12T18:57:32.860Z",
+    "image_file": "37-mobile-morador-recargas.jpg",
+    "focus": "main-content",
+    "hash": "#recargas",
+    "heading": "Minhas recargas",
+    "height": 844,
+    "links": [
+      {
+        "href": "#recargas/1",
+        "text": "Recarga #1"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver recarga #1"
+      }
+    ],
+    "scrollWidth": 390,
+    "text": "SEU HISTÓRICO DE RECARGA\n\nMinhas recargas\n\nConfira a energia registrada e a situação de cada recarga.\n\nHistórico\nAtualizar lista\nRecarga #1\n\n08 de out. de 2026 · 01:09 · 6,2 kWh\n\nConcluída\nAprovada para cobrança\nSimulação\nVer recarga #1",
+    "width": 390
+  },
+  {
+    "name": "38-mobile-morador-vinculo",
+    "at": "2026-10-12T18:57:34.184Z",
+    "image_file": "38-mobile-morador-vinculo.jpg",
+    "focus": "main-content",
+    "hash": "#recargas/1",
+    "heading": "Detalhe da recarga",
+    "height": 844,
+    "links": [
+      {
+        "href": "#recargas",
+        "text": "← Voltar para minhas recargas"
+      },
+      {
+        "href": "#reservas",
+        "text": "Reserva #1"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026 · Fatura #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "SEU HISTÓRICO DE RECARGA\n\nDetalhe da recarga\n\nConfira a energia registrada e a situação de cada recarga.\n\n← Voltar para minhas recargas\nRecarga #1\nSimulação\nEnergia total\n6,2 kWh\nGreen · solar/bateria\n1 kWh\nGrid · rede elétrica\n5,2 kWh\nReserva\nReserva #1\nCarregador / conector\nHCA01 · Conector 1\nInício\n08 de out. de 2026, 01:09\nFim da energia\n08 de out. de 2026, 04:09\nEncerramento\n08 de out. de 2026, 04:09\nSituação da recarga\nConcluída\nValidação para cobrança\nAprovada para cobrança\nOrigem\nSimulação\nPotência média / máxima\n2,30 kW / 3,30 kW\nVínculo de faturamento\n\nIncluída na fatura de outubro de 2026 · Fatura #1.\n\nInclusão em fatura indica faturamento; o sistema não registra pagamentos.\n\nUma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.",
+    "width": 390
+  },
+  {
+    "name": "39-mobile-morador-fatura-atual",
+    "at": "2026-10-12T18:57:35.648Z",
+    "image_file": "39-mobile-morador-fatura-atual.jpg",
+    "focus": "",
+    "hash": "#faturas/1",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      },
+      {
+        "href": "#recargas/1",
+        "text": "Ver dados da recarga #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nDetalhe da fatura\n\nConsulte os valores faturados e entenda cada parcela.\n\n← Voltar para minhas faturas\noutubro de 2026\nAberta\nTotal faturado\nR$ 4,04\nGreen\n1 kWh\nGrid\n5,2 kWh\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nSem observações adicionais.\n\nRecarga #1\nR$ 4,04\n\nVer dados da recarga #1\n\nSessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.\n\nEnergia Green · solar/bateria\nR$ 0,30\nEnergia Grid · rede elétrica\nR$ 3,38\nOciosidade\nR$ 0,00\nSubtotal\nR$ 3,68\nImpostos\nR$ 0,18\nCusto operacional\nR$ 0,18\nTotal\nR$ 4,04\n\n1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.\n\nTarifa utilizada: Demonstração acadêmica.\n\nSem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).\n\nComo o valor foi calculado\nTrecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800\nEnergia verde (solar/bateria): R$ 0,30\nEnergia da rede: R$ 3,38\nOciosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00\nSubtotal: R$ 3,68\nISS 5,000% sobre R$ 3,68: R$ 0,18\nOverhead operacional 5,00% sobre o subtotal: R$ 0,18\nTotal da sessão: R$ 4,04\n\nISS: Parâmetro fictício de demonstração acadêmica\n\nObservações da recarga\n\nSem observações adicionais.",
+    "width": 390
+  },
+  {
+    "name": "40-mobile-morador-lista-faturas",
+    "at": "2026-10-12T18:57:36.922Z",
+    "image_file": "40-mobile-morador-lista-faturas.jpg",
+    "focus": "main-content",
+    "hash": "#faturas",
+    "heading": "Minhas faturas",
+    "height": 844,
+    "links": [
+      {
+        "href": "#faturas/2",
+        "text": "novembro de 2026"
+      },
+      {
+        "href": "#faturas/2",
+        "text": "Ver fatura #2"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "outubro de 2026"
+      },
+      {
+        "href": "#faturas/1",
+        "text": "Ver fatura #1"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nMinhas faturas\n\nConsulte os valores faturados e entenda cada parcela.\n\nFaturas mensais\nAtualizar lista\nnovembro de 2026Período futuro\n\n0 recargas incluídas · Fechada\n\nR$ 0,00\nVer fatura #2\noutubro de 2026\n\n1 recarga incluída · Aberta\n\nR$ 4,04\nVer fatura #1\n\nAberta ou fechada indica a situação do cálculo. Pagamentos não são registrados neste sistema.",
+    "width": 390
+  },
+  {
+    "name": "41-mobile-fatura-futura",
+    "at": "2026-10-12T18:58:16.137Z",
+    "image_file": "41-mobile-fatura-futura.jpg",
+    "focus": "main-content",
+    "hash": "#faturas/2",
+    "heading": "Detalhe da fatura",
+    "height": 844,
+    "links": [
+      {
+        "href": "#faturas",
+        "text": "← Voltar para minhas faturas"
+      }
+    ],
+    "scrollWidth": 375,
+    "text": "SEU USO, COM TRANSPARÊNCIA\n\nDetalhe da fatura\n\nConsulte os valores faturados e entenda cada parcela.\n\n← Voltar para minhas faturas\nnovembro de 2026\nPeríodo futuro\nFechada\nTotal faturado\nR$ 0,00\nGreen\n0 kWh\nGrid\n0 kWh\nEnergia Green · solar/bateria\nR$ 0,00\nEnergia Grid · rede elétrica\nR$ 0,00\nOciosidade\nR$ 0,00\nSubtotal\nR$ 0,00\nImpostos\nR$ 0,00\nCusto operacional\nR$ 0,00\nTotal\nR$ 0,00\n\n0 recarga(s) incluída(s) · 0 min de ociosidade faturada.\n\nFatura fechada: o cálculo não pode ser atualizado. Esta situação não comprova pagamento.\n\nMemória de cálculo\n\nTotal = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead\n\nFatura zero: nenhuma sessão faturável no período; não há cobrança mínima.\n\nEsta fatura não contém recargas.",
+    "width": 390
+  },
+  {
+    "name": "42-mobile-sugestao",
+    "at": "2026-10-12T18:58:17.670Z",
+    "image_file": "42-mobile-sugestao.jpg",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Sugestão de horário",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "PLANEJE SUA PRÓXIMA RECARGA\n\nSugestão de horário\n\nCompare uma janela sugerida com a estimativa de recarregar agora.\n\nDados da recarga\nParâmetros da sugestão\nCarregador\nHCA01 · Vaga compartilhada (simulação)\nEnergia desejada (kWh)\nPotência estimada (kW)\n\nAté 7 kW neste carregador. A janela estimada deve caber em 12 horas.\n\nConsultar sugestão\nHorário sugerido\nEstimativa · geração solar hipotética\n\n13 de out. de 2026\n11:00 – 12:52\nHorários de São Paulo\n\nCusto estimado na sugestão\nR$ 2,10\nCusto estimado agora\nR$ 3,53\nEconomia estimada\nR$ 1,43\nPremissas da estimativa\nGeração solar hipotética por hora; não usa previsão meteorológica nem regressão.\nTarifas e impostos cadastrados; potência constante; sem ociosidade prevista.\nDisponibilidade consultada agora; somente criar a reserva garante a janela.\nUsar este horário\n\nVocê ainda precisa escolher/conferir o conector e confirmar a reserva. A disponibilidade pode mudar.",
+    "width": 390
+  },
+  {
+    "name": "43-reload-preserva-login-em-memoria",
+    "at": "2026-10-12T18:58:19.769Z",
+    "image_file": "43-reload-preserva-login-em-memoria.jpg",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 844,
+    "links": [],
+    "scrollWidth": 375,
+    "text": "EV ChargeOps\nGOODWE × FIAP\n\nRECARGA NO SEU CONDOMÍNIO\n\nSeu próximo trajeto\ncomeça aqui.\n\nReserve seu horário e organize a recarga com a praticidade que faz parte da sua rotina.\n\nBEM-VINDO AO EV CHARGEOPS\n\nAcesse sua conta\n\nEntre com os dados fornecidos pelo condomínio.\n\nE-mail\nSenha\nMostrar senha\nEntrar na minha conta\n\nO acesso ao morador ou ao síndico é definido pela sua conta. Ao recarregar a página, entre novamente.\n\nGestão de recarga compartilhada",
+    "width": 390
+  },
+  {
+    "name": "44-login-pos-reset",
+    "at": "2026-10-12T19:03:24.490Z",
+    "image_file": "44-login-pos-reset.jpg",
+    "focus": "",
+    "hash": "#sugestao",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "height": 720,
+    "links": [],
+    "scrollWidth": 1265,
+    "text": "EV ChargeOps\nGOODWE × FIAP\n\nRECARGA NO SEU CONDOMÍNIO\n\nSeu próximo trajeto\ncomeça aqui.\n\nReserve seu horário e organize a recarga com a praticidade que faz parte da sua rotina.\n\nEV\nENERGIA PARA SEGUIR\n\nGoodWe × FIAP\nEV ChargeOps\n\nBEM-VINDO AO EV CHARGEOPS\n\nAcesse sua conta\n\nEntre com os dados fornecidos pelo condomínio.\n\nE-mail\nSenha\nMostrar senha\nEntrar na minha conta\n\nO acesso ao morador ou ao síndico é definido pela sua conta. Ao recarregar a página, entre novamente.\n\nGestão de recarga compartilhada",
+    "width": 1280
+  }
+]

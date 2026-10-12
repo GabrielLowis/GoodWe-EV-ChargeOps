@@ -1,0 +1,77 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do morador
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: M
+  - strong: Morador Demo
+  - generic: Morador
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Sugestão de horário
+  - generic: Morador
+- main:
+  - paragraph: PLANEJE SUA PRÓXIMA RECARGA
+  - heading "Sugestão de horário" [level=1]
+  - paragraph: Compare uma janela sugerida com a estimativa de recarregar agora.
+  - heading "Dados da recarga" [level=2]
+  - group "Parâmetros da sugestão":
+    - generic: Parâmetros da sugestão
+    - generic: Carregador
+    - combobox "Carregador":
+      - option "HCA01 · Vaga compartilhada (simulação)" [selected]
+    - generic: Energia desejada (kWh)
+    - spinbutton "Energia desejada (kWh)": "6.2"
+    - generic: Potência estimada (kW)
+    - spinbutton "Potência estimada (kW)": "3.3"
+    - paragraph: Até 7 kW neste carregador. A janela estimada deve caber em 12 horas.
+  - button "Consultar sugestão":
+    - text: Consultar sugestão
+  - heading "Horário sugerido" [level=2]
+  - text: Estimativa · geração solar hipotética
+  - paragraph:
+    - text: 13 de out. de 2026
+    - strong: 11:00 – 12:52
+    - generic: Horários de São Paulo
+  - term: Custo estimado na sugestão
+  - definition: R$ 2,10
+  - term: Custo estimado agora
+  - definition: R$ 3,53
+  - term: Economia estimada
+  - definition: R$ 1,43
+  - heading "Premissas da estimativa" [level=3]
+  - list:
+    - listitem: Geração solar hipotética por hora; não usa previsão meteorológica nem regressão.
+    - listitem: Tarifas e impostos cadastrados; potência constante; sem ociosidade prevista.
+    - listitem: Disponibilidade consultada agora; somente criar a reserva garante a janela.
+  - button "Usar este horário":
+    - text: Usar este horário
+  - paragraph: Você ainda precisa escolher/conferir o conector e confirmar a reserva. A disponibilidade pode mudar.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,103 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Fila de anomalias
+  - generic: Síndico
+- main:
+  - paragraph: VALIDAÇÃO DAS RECARGAS
+  - 'heading "Ocorrência #2" [level=1]'
+  - paragraph: Confira os motivos e os dados registrados antes de decidir sobre a cobrança.
+  - link "← Voltar para a fila de anomalias":
+    - /url: "#anomalias"
+  - status: "Ocorrência #2 rejeitada. A revisão foi registrada."
+  - heading "Motivos e revisão" [level=2]
+  - button "Atualizar ocorrência"
+  - generic: Rejeitada
+  - generic: "Sessão #3"
+  - paragraph: Detectada em 12 de out. de 2026, 13:36.
+  - list:
+    - listitem: "Carro plugado sem receber energia: vaga ocupada sem recarga."
+    - listitem: Sem reserva correspondente; síndico deve atribuir o morador.
+  - term: Detecção
+  - definition: Regras de validação
+  - term: Score retornado
+  - definition: "1.0000"
+  - paragraph: O score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.
+  - heading "Revisão registrada" [level=3]
+  - term: Data
+  - definition: 12 de out. de 2026, 13:38
+  - term: Responsável
+  - definition: "Síndico #1"
+  - term: Observação
+  - definition: "Demonstração acadêmica: sessão simulada sem energia e sem reserva; rejeitada para cobrança. Não representa telemetria física ou pagamento."
+  - link "← Abrir detalhe da sessão":
+    - /url: "#sessoes/3"
+  - 'heading "Recarga #3" [level=2]'
+  - generic: Simulação
+  - term: Morador
+  - definition: Sem morador identificado
+  - term: Atribuição
+  - definition: Aguardando identificação
+  - generic: Energia total
+  - strong: 0 kWh
+  - generic: Green · solar/bateria
+  - strong: 0 kWh
+  - generic: Grid · rede elétrica
+  - strong: 0 kWh
+  - term: Reserva
+  - definition: Sem reserva vinculada
+  - term: Carregador / conector
+  - definition: HCA01 · Conector 1
+  - term: Início
+  - definition: 12 de out. de 2026, 13:23
+  - term: Fim da energia
+  - definition: 12 de out. de 2026, 13:24
+  - term: Encerramento
+  - definition: 12 de out. de 2026, 13:24
+  - term: Situação da recarga
+  - definition: Encerrada pelo usuário
+  - term: Validação para cobrança
+  - definition: Rejeitada
+  - term: Origem
+  - definition: Simulação
+  - term: Potência média / máxima
+  - definition: 0,00 kW / 0,00 kW
+  - heading "Vínculo de faturamento" [level=3]
+  - paragraph: Rejeitada para cobrança; não incluída em fatura.
+  - paragraph: Inclusão em fatura indica faturamento; o sistema não registra pagamentos.
+  - paragraph: Uma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,179 @@
+{
+  "date": "2026-10-12",
+  "timezone": "America/Sao_Paulo",
+  "scope": "Pesquisa, análise e plano; frontend não alterado",
+  "method": [
+    "Fontes oficiais GoodWe via web e navegador",
+    "Estilos computados e regras CSS do site brasileiro",
+    "Inspeção de SVG oficial",
+    "Leitura de código frontend e instruções do projeto",
+    "Observação do login local; sem novo percurso autenticado"
+  ],
+  "sources": [
+    {
+      "url": "https://br.goodwe.com/",
+      "role": "Composição do cabeçalho, navegação, textos, fonte e CTA"
+    },
+    {
+      "url": "https://br.goodwe.com/products?tp=8",
+      "role": "Fotografia/composição neutra com produtos"
+    },
+    {
+      "url": "https://br.goodwe.com/carregadores-hca-g2-goodwe",
+      "role": "Produto, título, composição e imagens HCA G2"
+    },
+    {
+      "url": "https://br.goodwe.com/Public/Pt/css/main.css",
+      "role": "Fontes e cores CSS"
+    },
+    {
+      "url": "https://br.goodwe.com/Public/Uploads/uploadfile/images/20220325/logo3.svg",
+      "role": "Logo horizontal vetorial vermelho; cópia preservada em referencias"
+    },
+    {
+      "url": "https://www.goodwe.com/news-exhibition/news/4297.html",
+      "role": "Renovação de identidade em 2022"
+    },
+    {
+      "url": "https://emea.goodwe.com/publicity-material",
+      "role": "Central de divulgação; web index lista seção GoodWe Logo, DOM inicial mostrou brochuras"
+    },
+    {
+      "url": "https://github.com/google/fonts/tree/main/ofl/montserrat",
+      "role": "Distribuição de fonte para futura implementação"
+    },
+    {
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "role": "Referência de contraste"
+    },
+    {
+      "url": "https://br.goodwe.com/Public/Uploads/uploadfile7/images/20250325/et50(7).png",
+      "role": "Candidato de produto estático; não incorporado"
+    },
+    {
+      "url": "https://br.goodwe.com/Public/Uploads/uploadfile7/images/20250307/EVChargerG2-2.png",
+      "role": "Candidato de composição; não incorporado"
+    }
+  ],
+  "observed": {
+    "logo": {
+      "fill": "#E60012",
+      "viewBox": "0 0 767.4 114",
+      "aspectRatio": 6.731578947368421,
+      "file": "referencias/goodwe-logo-site.svg"
+    },
+    "fontFaces": [
+      "MontserratRegular",
+      "MontserratLight",
+      "MontserratBold"
+    ],
+    "cssFontSources": [
+      "../font/MontserratRegular.woff2",
+      "../font/MontserratLight.woff2",
+      "../font/MontserratBold.woff2"
+    ],
+    "computed": {
+      "body": {
+        "font": "MontserratRegular + fallbacks",
+        "color": "#333333",
+        "size": "14px"
+      },
+      "navigation": {
+        "color": "#13212E",
+        "size": "16px"
+      },
+      "sectionTitle": {
+        "font": "MontserratBold",
+        "size": "38px",
+        "color": "#333333"
+      },
+      "description": {
+        "font": "MontserratLight",
+        "color": "#666666"
+      },
+      "ctaParent": {
+        "background": "linear-gradient(to left, rgb(230, 0, 18), rgb(255, 119, 89))"
+      }
+    }
+  },
+  "contrast": {
+    "method": "relative luminance sRGB; (Lmax+0.05)/(Lmin+0.05); displayed ratios rounded for reporting",
+    "pairs": [
+      {
+        "fg": "#FFFFFF",
+        "bg": "#E60012",
+        "ratio": 4.8018
+      },
+      {
+        "fg": "#FFFFFF",
+        "bg": "#FF7759",
+        "ratio": 2.6136
+      },
+      {
+        "fg": "#333333",
+        "bg": "#FFFFFF",
+        "ratio": 12.6347
+      },
+      {
+        "fg": "#666666",
+        "bg": "#F6F6F6",
+        "ratio": 5.313
+      },
+      {
+        "fg": "#E60012",
+        "bg": "#FFF1F2",
+        "ratio": 4.3711
+      },
+      {
+        "fg": "#13212E",
+        "bg": "#FF7759",
+        "ratio": 6.2544
+      },
+      {
+        "fg": "#B8000E",
+        "bg": "#FFFFFF",
+        "ratio": 6.8979
+      },
+      {
+        "fg": "#FFFFFF",
+        "bg": "#262626",
+        "ratio": 15.1335
+      },
+      {
+        "fg": "#166534",
+        "bg": "#F0FDF4",
+        "ratio": 6.8117
+      },
+      {
+        "fg": "#92400E",
+        "bg": "#FFFBEB",
+        "ratio": 6.837
+      },
+      {
+        "fg": "#991B1B",
+        "bg": "#FEF2F2",
+        "ratio": 7.5966
+      },
+      {
+        "fg": "#1E40AF",
+        "bg": "#EFF6FF",
+        "ratio": 8.0148
+      },
+      {
+        "fg": "#737373",
+        "bg": "#FFFFFF",
+        "ratio": 4.7417
+      }
+    ]
+  },
+  "limitations": [
+    "Manual normativo completo/kit específico do hackathon não obtido",
+    "Tokens de adaptação são proposta, não norma oficial",
+    "Família da interface não determina tipografia desenhada do logo",
+    "Produto estático disponível; mídia inicial HCA G2 não reproduziu",
+    "Login local observado; demais telas avaliadas por código/documentação",
+    "Nenhum novo build, teste funcional, login ou mutação de domínio realizado",
+    "Fotografias e fontes não incorporadas ao aplicativo",
+    "Screenshots foram observados durante a pesquisa; não arquivados como evidência nesta entrega"
+  ]
+}

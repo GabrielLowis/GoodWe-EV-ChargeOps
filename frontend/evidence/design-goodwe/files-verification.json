@@ -1,0 +1,18 @@
+{
+  "checked": 270,
+  "changed": [
+    "frontend/public\\offline.html",
+    "frontend/public\\manifest.webmanifest",
+    "frontend/public\\icon.svg",
+    "frontend/public\\icon-maskable-512.png",
+    "frontend/public\\icon-512.png",
+    "frontend/public\\icon-192.png",
+    "frontend/src\\App.tsx",
+    "frontend/src\\styles.css",
+    "frontend/src\\components\\ui.tsx",
+    "frontend/src\\pages\\HomePage.tsx",
+    "frontend/src\\pages\\LoginPage.tsx",
+    "frontend/index.html"
+  ],
+  "protectedChanged": []
+}

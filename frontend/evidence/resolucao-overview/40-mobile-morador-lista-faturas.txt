@@ -1,0 +1,39 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#faturas".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#faturas
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Minhas faturas Morador
+		71 container main-content
+			72 text SEU USO, COM TRANSPARÊNCIA
+			73 heading Minhas faturas, Value: 1
+				74 text Minhas faturas
+			75 text Consulte os valores faturados e entenda cada parcela.
+			76 container
+				77 heading Faturas mensais, Value: 2
+					78 text Faturas mensais
+				79 button Atualizar lista
+				80 content list
+					81 container
+						82 link Description: novembro de 2026, Value: 127.0.0.1:5173/#faturas/2
+						83 text Período futuro 0 recargas incluídas  ·  Fechada R$ 0,00
+						84 link Description: Ver fatura #2, Value: 127.0.0.1:5173/#faturas/2
+					85 container
+						86 link Description: outubro de 2026, Value: 127.0.0.1:5173/#faturas/1
+						87 text 1 recarga incluída  ·  Aberta R$ 4,04
+						88 link Description: Ver fatura #1, Value: 127.0.0.1:5173/#faturas/1
+				89 text Aberta ou fechada indica a situação do cálculo. Pagamentos não são registrados neste sistema.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

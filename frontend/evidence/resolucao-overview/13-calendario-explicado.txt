@@ -1,0 +1,139 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#parametros".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#parametros
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Cadastros e parâmetros Síndico
+		71 container main-content
+			72 text BASE DA OPERAÇÃO
+			73 heading Cadastros e parâmetros, Value: 1
+				74 text Cadastros e parâmetros
+			75 text Consulte os equipamentos, unidades e regras cadastradas para o faturamento.
+			76 container
+				77 heading Carregadores, Value: 2
+					78 text Carregadores
+				79 button Atualizar carregadores
+					80 text Atualizar 
+					81 text carregadores
+				82 heading HCA01 · GoodWe HCA G2, Value: 3
+					83 text HCA01  ·  GoodWe HCA G2
+				84 definition list
+					85 container Cadastro
+						86 text Cadastro
+					87 text Ativo
+					88 container Potência / conectores
+						89 text Potência / conectores
+					90 container
+						91 text 7,00  kW ·  1  conector(es)
+					92 container Localização
+						93 text Localização
+					94 text Vaga compartilhada (simulação)
+					95 container Número de série
+						96 text Número de série
+					97 text DEMO-HCA01
+					98 container Telemetria
+						99 text Telemetria
+					100 text Indisponível · sem estado físico online
+			101 container
+				102 heading Unidades, Value: 2
+					103 text Unidades
+				104 button Atualizar unidades
+					105 text Atualizar 
+					106 text unidades
+				107 content list
+					108 container
+						109 text A-101 Bloco  A  · Unidade  101
+			110 container
+				111 heading Tarifas, Value: 2
+					112 text Tarifas
+				113 button Atualizar tarifas
+					114 text Atualizar 
+					115 text tarifas
+				116 heading Demonstração acadêmica · Versão #1, Value: 3
+					117 text Demonstração acadêmica  · Versão # 1
+				118 container
+					119 text Vigência:  31 de dez. de 2025, 21:00 até sem término cadastrado .
+				120 definition list
+					121 container Fora de ponta
+						122 text Fora de ponta
+					123 container
+						124 text Green  R$ 0,3000  / kWh
+						125 text Grid  R$ 0,6500  / kWh
+					126 container Intermediária
+						127 text Intermediária
+					128 container
+						129 text Green  R$ 0,3000  / kWh
+						130 text Grid  R$ 0,9500  / kWh
+					131 container Ponta
+						132 text Ponta
+					133 container
+						134 text Green  R$ 0,3000  / kWh
+						135 text Grid  R$ 1,4500  / kWh
+					136 container Ociosidade
+						137 text Ociosidade
+					138 container
+						139 text Tolerância de  15  min ·  R$ 0,2500  / min
+					140 container Custo operacional
+						141 text Custo operacional
+					142 container
+						143 text 5,00 %
+					144 container Fins de semana e feriados cadastrados
+						145 text Fins de semana e feriados cadastrados
+					146 text Fora de ponta
+					147 container Referência da assembleia
+						148 text Referência da assembleia
+					149 text Não informada
+				150 heading Janelas de dias úteis, Value: 4
+					151 text Janelas de dias úteis
+				152 content list
+					153 container
+						154 AXListMarker • 
+						155 text Intermediária  ·  17:00 – 18:00  (São Paulo)
+					156 container
+						157 AXListMarker • 
+						158 text Ponta  ·  18:00 – 21:00  (São Paulo)
+					159 container
+						160 AXListMarker • 
+						161 text Intermediária  ·  21:00 – 22:00  (São Paulo)
+			162 container
+				163 heading Impostos, Value: 2
+					164 text Impostos
+				165 button Atualizar impostos
+					166 text Atualizar 
+					167 text impostos
+				168 heading ISS · Versão #1, Value: 3
+					169 text ISS  · Versão # 1
+				170 definition list
+					171 container Jurisdição
+						172 text Jurisdição
+					173 text BR-SP-SAO_PAULO
+					174 container Alíquota
+						175 text Alíquota
+					176 container
+						177 text 5,000 %
+					178 container Vigência
+						179 text Vigência
+					180 text 31 de dez. de 2025, 21:00 até sem término cadastrado
+					181 container Energia compensada
+						182 text Energia compensada
+					183 text Sem exclusão da base de cálculo
+					184 container Base legal / observação
+						185 text Base legal / observação
+					186 text Parâmetro fictício de demonstração acadêmica
+			187 text Horários de São Paulo. O tratamento de feriados depende das datas cadastradas no calendário. A configuração demonstrativa não representa um calendário real completo. Os parâmetros são os cadastrados na API; valores de demonstração não comprovam uma regra tributária real.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

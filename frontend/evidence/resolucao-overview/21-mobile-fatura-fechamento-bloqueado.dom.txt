@@ -1,0 +1,107 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Financeiro
+  - generic: Síndico
+- main:
+  - paragraph: FATURAMENTO DO CONDOMÍNIO
+  - heading "Detalhe da fatura" [level=1]
+  - paragraph: Consulte valores faturados, gere cálculos e confira cada parcela.
+  - link "← Voltar para o financeiro":
+    - /url: "#financeiro"
+  - heading "outubro de 2026" [level=2]
+  - generic: Aberta
+  - generic: Total faturado
+  - strong: R$ 4,04
+  - generic: Green
+  - strong: 1 kWh
+  - generic: Grid
+  - strong: 5,2 kWh
+  - term: Energia Green · solar/bateria
+  - definition: R$ 0,30
+  - term: Energia Grid · rede elétrica
+  - definition: R$ 3,38
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Subtotal
+  - definition: R$ 3,68
+  - term: Impostos
+  - definition: R$ 0,18
+  - term: Custo operacional
+  - definition: R$ 0,18
+  - term: Total
+  - definition: R$ 4,04
+  - paragraph: 1 recarga(s) incluída(s) · 0 min de ociosidade faturada.
+  - paragraph: "Fatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento."
+  - heading "Memória de cálculo" [level=2]
+  - paragraph: Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead
+  - paragraph: Sem observações adicionais.
+  - 'generic "Recarga #1 R$ 4,04" [active]':
+    - generic: "Recarga #1"
+    - strong: R$ 4,04
+  - paragraph:
+    - 'link "Ver dados da recarga #1"':
+      - /url: "#sessoes/1"
+  - paragraph: "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+  - term: Energia Green · solar/bateria
+  - definition: R$ 0,30
+  - term: Energia Grid · rede elétrica
+  - definition: R$ 3,38
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Subtotal
+  - definition: R$ 3,68
+  - term: Impostos
+  - definition: R$ 0,18
+  - term: Custo operacional
+  - definition: R$ 0,18
+  - term: Total
+  - definition: R$ 4,04
+  - paragraph: 1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.
+  - paragraph: "Tarifa utilizada: Demonstração acadêmica."
+  - paragraph: "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante)."
+  - heading "Como o valor foi calculado" [level=3]
+  - list:
+    - listitem: "Trecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800"
+    - listitem: "Energia verde (solar/bateria): R$ 0,30"
+    - listitem: "Energia da rede: R$ 3,38"
+    - listitem: "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00"
+    - listitem: "Subtotal: R$ 3,68"
+    - listitem: "ISS 5,000% sobre R$ 3,68: R$ 0,18"
+    - listitem: "Overhead operacional 5,00% sobre o subtotal: R$ 0,18"
+    - listitem: "Total da sessão: R$ 4,04"
+  - paragraph: "ISS: Parâmetro fictício de demonstração acadêmica"
+  - heading "Observações da recarga" [level=3]
+  - paragraph: Sem observações adicionais.
+  - heading "Fechamento da fatura" [level=2]
+  - paragraph: "Morador: Morador Demo · Fatura #1."
+  - paragraph: Fechamento disponível a partir de 01 de nov. de 2026, 00:00 (São Paulo), após o término do período. A fatura permanece aberta para atualização.
+  - 'button "Fechar fatura #1" [disabled]'
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

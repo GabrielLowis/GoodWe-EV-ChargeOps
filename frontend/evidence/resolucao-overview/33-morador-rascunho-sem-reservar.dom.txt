@@ -1,0 +1,76 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do morador
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: M
+  - strong: Morador Demo
+  - generic: Morador
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Nova reserva
+  - generic: Morador
+- main [active]:
+  - paragraph: SUA RECARGA, ORGANIZADA
+  - heading "Nova reserva" [level=1]
+  - paragraph: Escolha o ponto de recarga e o melhor horário para sua rotina.
+  - heading "Agendar recarga" [level=2]
+  - generic: Até 12 horas
+  - paragraph: Todos os horários seguem o fuso de São Paulo (UTC−03:00).
+  - paragraph: Horário sugerido preenchido. Confira o conector e confirme para agendar. Nada foi reservado ainda.
+  - group "Dados da reserva":
+    - generic: Dados da reserva
+    - generic: Carregador
+    - combobox "Carregador":
+      - option "HCA01 · Vaga compartilhada (simulação)" [selected]
+    - paragraph: GoodWe HCA G2 · 7,00 kW nominais · 1 conector
+    - generic: Conector
+    - combobox "Conector":
+      - option "Conector 1" [selected]
+    - generic: Data de início
+    - textbox "Data de início": 2026-10-13
+    - generic: Horário de início
+    - textbox "Horário de início": 11:00:00
+    - generic: Data de término
+    - textbox "Data de término": 2026-10-13
+    - generic: Horário de término
+    - textbox "Horário de término": 12:52:43
+  - button "Confirmar reserva":
+    - text: Confirmar reserva
+  - paragraph: A reserva é confirmada após a verificação do horário.
+  - complementary:
+    - heading "Horários ocupados" [level=2]
+    - paragraph: 13 de out. de 2026 · Conector 1
+    - list:
+      - generic: Ocupado
+      - strong: 09:00 – 10:00
+    - button "Atualizar horários"
+    - paragraph: A disponibilidade pode mudar até a confirmação. A agenda não indica o estado físico do equipamento.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

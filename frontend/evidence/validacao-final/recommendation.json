@@ -1,0 +1,13 @@
+{
+  "recommended_start": "2026-10-12T14:00:00Z",
+  "recommended_end": "2026-10-12T15:52:43.636364Z",
+  "predicted_cost": "2.10",
+  "cost_if_now": "4.43",
+  "savings": "2.33",
+  "model": "baseline-deterministico",
+  "assumptions": [
+    "Geração solar hipotética por hora; não usa previsão meteorológica nem regressão.",
+    "Tarifas e impostos cadastrados; potência constante; sem ociosidade prevista.",
+    "Disponibilidade consultada agora; somente criar a reserva garante a janela."
+  ]
+}

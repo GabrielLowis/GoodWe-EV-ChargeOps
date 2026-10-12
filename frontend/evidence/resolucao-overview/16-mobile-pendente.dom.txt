@@ -1,0 +1,103 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Fila de anomalias
+  - generic: Síndico
+- main [active]:
+  - paragraph: VALIDAÇÃO DAS RECARGAS
+  - 'heading "Ocorrência #1" [level=1]'
+  - paragraph: Confira os motivos e os dados registrados antes de decidir sobre a cobrança.
+  - link "← Voltar para a fila de anomalias":
+    - /url: "#anomalias"
+  - heading "Motivos e revisão" [level=2]
+  - button "Atualizar ocorrência"
+  - generic: Pendente
+  - generic: "Sessão #2"
+  - paragraph: Detectada em 12 de out. de 2026, 13:36.
+  - list:
+    - listitem: "Carro plugado sem receber energia: vaga ocupada sem recarga."
+    - listitem: Sem reserva correspondente; síndico deve atribuir o morador.
+  - term: Detecção
+  - definition: Regras de validação
+  - term: Score retornado
+  - definition: "1.0000"
+  - paragraph: O score do detector não representa uma probabilidade calibrada. A ocorrência exige conferência dos dados.
+  - heading "Registrar decisão" [level=3]
+  - text: Decisão
+  - combobox "Decisão":
+    - option "Aprovar para cobrança" [selected]
+    - option "Rejeitar para cobrança"
+  - paragraph: Esta sessão não tem morador identificado. Para aprovar, selecione o responsável ativo. A rejeição não atribui um morador.
+  - text: Morador responsável
+  - combobox "Morador responsável":
+    - option "Selecione o morador" [selected]
+    - option "Morador Demo · morador@demo.local"
+  - text: Observação
+  - textbox "Observação":
+    - /placeholder: Registre o que foi conferido e o motivo da decisão.
+  - paragraph: Até 2.000 caracteres. A decisão atualiza a validação da sessão.
+  - button "Confirmar revisão" [disabled]
+  - link "← Abrir detalhe da sessão":
+    - /url: "#sessoes/2"
+  - 'heading "Recarga #2" [level=2]'
+  - generic: Simulação
+  - term: Morador
+  - definition: Sem morador identificado
+  - term: Atribuição
+  - definition: Aguardando identificação
+  - generic: Energia total
+  - strong: 0 kWh
+  - generic: Green · solar/bateria
+  - strong: 0 kWh
+  - generic: Grid · rede elétrica
+  - strong: 0 kWh
+  - term: Reserva
+  - definition: Sem reserva vinculada
+  - term: Carregador / conector
+  - definition: HCA01 · Conector 1
+  - term: Início
+  - definition: 12 de out. de 2026, 13:26
+  - term: Fim da energia
+  - definition: 12 de out. de 2026, 13:27
+  - term: Encerramento
+  - definition: 12 de out. de 2026, 13:27
+  - term: Situação da recarga
+  - definition: Encerrada pelo usuário
+  - term: Validação para cobrança
+  - definition: Suspensa para revisão
+  - term: Origem
+  - definition: Simulação
+  - term: Potência média / máxima
+  - definition: 0,00 kW / 0,00 kW
+  - heading "Vínculo de faturamento" [level=3]
+  - paragraph: Sem morador responsável identificado; aguardando identificação e revisão.
+  - paragraph: Inclusão em fatura indica faturamento; o sistema não registra pagamentos.
+  - paragraph: Uma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

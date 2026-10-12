@@ -1,0 +1,898 @@
+[
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\__init__.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\tests\\__init__.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\tests\\rateio\\__init__.py"
+  },
+  {
+    "hash": "80F105BA492CB56251A052F8BA5940CBF5D5567DE0E7D60B53BC4E04BE634534",
+    "path": "backend\\tests\\rateio\\test_idle.py"
+  },
+  {
+    "hash": "6C06693E7C4085C8C64EC2C1A9476928195F6E4EEFD2E3B28ADF717BDA7294AB",
+    "path": "backend\\tests\\rateio\\test_holidays.py"
+  },
+  {
+    "hash": "92C4C1D403CA16EE7F2055565C505E3ABAAF3A443F7C843C959D90B0A80A9027",
+    "path": "backend\\tests\\rateio\\test_engine.py"
+  },
+  {
+    "hash": "606ED3BC6A5499ECE0EB78E71CB204D4E3BC76E77B2CBE2995C30BBEFC6A8461",
+    "path": "backend\\tests\\rateio\\test_bands.py"
+  },
+  {
+    "hash": "192477BEA26009DF5836F3588B3326F47FE872ECDDBBF9B5329999C0F2C4E309",
+    "path": "backend\\tests\\rateio\\test_allocation.py"
+  },
+  {
+    "hash": "90F757EE2EB89FC35FBA504C26C3AA4B526AC5F9CA969BB102907D776DB877BE",
+    "path": "backend\\tests\\helpers.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\tests\\db\\__init__.py"
+  },
+  {
+    "hash": "E9DB0BE190C02B819E053B8AFE57D375961C93A1429A314871442C185E9EC688",
+    "path": "backend\\tests\\db\\test_migrations.py"
+  },
+  {
+    "hash": "9E055FDE19CD9F7699A44053CBD0639A9BE103D897C73E5819E48E6CCB12DF56",
+    "path": "backend\\tests\\db\\test_integrity.py"
+  },
+  {
+    "hash": "911E1FFE6465965A17D5A2E81124518FB5B1C671BE5C6395B46008D904E2BC7D",
+    "path": "backend\\tests\\db\\test_faturamento.py"
+  },
+  {
+    "hash": "B8EBCE6E1CE3F2C67993893C38BB3389BC7640A2AA202C1CF13E0749261A43A0",
+    "path": "backend\\tests\\db\\factories.py"
+  },
+  {
+    "hash": "FBD97996AD8232D4F0065165C1C2D05803B5E376BE2592DD3DB487952535E71D",
+    "path": "backend\\tests\\db\\conftest.py"
+  },
+  {
+    "hash": "E86E3C813B963D4E2005111849641FCE997FCA7EDD588B98A57605B9459F4105",
+    "path": "backend\\tests\\conftest.py"
+  },
+  {
+    "hash": "47A3B973A7B28ADF2E9EDF2C9C641E64CF5B802791D76A4EC25D6702B121C054",
+    "path": "backend\\faturamento\\mappers.py"
+  },
+  {
+    "hash": "B72C16D3DA8406C5439BC86229448074D49BA6007B5DF7D07086188BACADF132",
+    "path": "backend\\main.py"
+  },
+  {
+    "hash": "CCA35B990DD6CE46DABE90D50BEB43992D5B6A37626CFCA0466EFF0E9E03A8BE",
+    "path": "backend\\bootstrap.py"
+  },
+  {
+    "hash": "619FE33A949D5A4BC5A787F7F5012A56A00CBD65A94DC91E3965393000EABF22",
+    "path": "backend\\config.py"
+  },
+  {
+    "hash": "0B549604BF650A58CD4A80FEC0D19EE575D0364A062D33AEA2623DCE78650182",
+    "path": "backend\\faturamento\\repository.py"
+  },
+  {
+    "hash": "F6318B49A1784B0221BA144C54E763E120BF6816D0278C9F8270CA4F0C51AA7E",
+    "path": "backend\\faturamento\\report.py"
+  },
+  {
+    "hash": "9E578549BBAB4B10C24A493CB63C316307A3682FDD3D16A3B8717BB04BE6255F",
+    "path": "backend\\faturamento\\periods.py"
+  },
+  {
+    "hash": "44524DCE91D5DA7F4FB776841D30E80D39A62A01A0C29494EEE63CDFADC31029",
+    "path": "backend\\faturamento\\service.py"
+  },
+  {
+    "hash": "36A2F6B2478F06AFFF8AA18CE1176F0421EA91D9D604F98283B94857B8D347E9",
+    "path": "backend\\faturamento\\__init__.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\seeds\\__init__.py"
+  },
+  {
+    "hash": "C772BA33B10EE688B65812E576AB44B4DCDCAC7CFBFCBE96D540691306424017",
+    "path": "backend\\seeds\\holidays.py"
+  },
+  {
+    "hash": "A6CF4512E05166F148C35EA0FD68E21DA6E40C80D58EF75032CB8B953E8E0313",
+    "path": "backend\\seeds\\demo.py"
+  },
+  {
+    "hash": "D6592B2EDF597F7B958375DBF9A4E43BC2BEAC08742D834EE7404A8D3463E5C4",
+    "path": "backend\\api\\__init__.py"
+  },
+  {
+    "hash": "CB42129F763C137B0A2DFE34F1420829628C0368CBB8CB6B55C8A4E8F2676C5D",
+    "path": "backend\\rateio\\__init__.py"
+  },
+  {
+    "hash": "AAA63B10BC1F0E34F63EA4F550865BA42921AEA939D8AB2007C53F0888B08EEB",
+    "path": "backend\\api\\security.py"
+  },
+  {
+    "hash": "20C776C12E331B37A97A48455D25C6AB45F8BD1E7A01031E4F3AC8DFDA91EEAA",
+    "path": "backend\\api\\schemas.py"
+  },
+  {
+    "hash": "1DC37703216E4593BECB8F21258D83F505FED0833387482E8C8884799AA0C308",
+    "path": "backend\\api\\routes.py"
+  },
+  {
+    "hash": "6437925D96BA8723B0DC06DD0399A1F3F46B95C494FA9C39C3716A0508779483",
+    "path": "backend\\api\\recommendation.py"
+  },
+  {
+    "hash": "F48651BEFAB28A4F2BD82BD16587DFC3BF1F5BCEBDF5FA093B9DEA7DEF7119A8",
+    "path": "backend\\api\\pipeline.py"
+  },
+  {
+    "hash": "BC64E702ECED7CBE9E0800D9F97FE4D2938A311FCA7C9067C0620E670CA40D1A",
+    "path": "backend\\api\\detection.py"
+  },
+  {
+    "hash": "CF43130BCC4DFF1083038EE7EA4E7CC926D9F5AF4CFE562ECCFE2D7B1474F7CE",
+    "path": "backend\\api\\database.py"
+  },
+  {
+    "hash": "F09017BDCD702AB2D777B9B4E700512F272CC8303835B26475D910993CA0DB4B",
+    "path": "backend\\rateio\\money.py"
+  },
+  {
+    "hash": "B9ACF8BCA5BD7A5D478F1D5B4E8CF978FEF294D712CBD3B2607AEAAB5229276E",
+    "path": "backend\\rateio\\engine.py"
+  },
+  {
+    "hash": "8F682600A60609A0425971915A7BDCAE517A0756A4A3F42EF950E13C58F43A46",
+    "path": "backend\\rateio\\models.py"
+  },
+  {
+    "hash": "5DC394CF6B730214BF7BA9C25B001DD51D0DC03F366A14E4CC52A77BC0927E8B",
+    "path": "backend\\rateio\\idle.py"
+  },
+  {
+    "hash": "15BBFDF7E2242F113078C285EB1359C3AC52659E290AF36C7814480B61EC5A34",
+    "path": "backend\\rateio\\bands.py"
+  },
+  {
+    "hash": "34DD6C5E8C56F3EC057CF55DB5ADB1B2EE8925B7D0167F137B4E15220F971E18",
+    "path": "backend\\rateio\\allocation.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "backend\\db\\__init__.py"
+  },
+  {
+    "hash": "29EF51C1C5B775DDBC5B19355D55598D4E718D914AC930C69035F0921FB9154A",
+    "path": "backend\\db\\models.py"
+  },
+  {
+    "hash": "DA932F6A727845F4DD76867E9C8D881AD4C0D026C966697DF7F958C600CEBE5B",
+    "path": "backend\\db\\enums.py"
+  },
+  {
+    "hash": "685B2197A24B064B733C2627AE3F3ADAD5AF30155062D5A703BFD1B5A3D96EF2",
+    "path": "backend\\db\\base.py"
+  },
+  {
+    "hash": "33B77CB5F67D55EE4D55758A242D53DB11831BE088E82049BDA2F557C539E756",
+    "path": "backend\\migrations\\versions\\0001_schema_inicial.py"
+  },
+  {
+    "hash": "969A2DE2C4EDBC9AF1BB6F64C3CA4D59BEED4AB00FB1FDE44B52E9E154EBC147",
+    "path": "backend\\migrations\\script.py.mako"
+  },
+  {
+    "hash": "3CC8C4FE0B8AE261B7EC3D00D3262060ACCF9003BED4466712BA7B2F87053C91",
+    "path": "backend\\migrations\\env.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "condocharge_ai\\__init__.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "condocharge_ai\\training\\__init__.py"
+  },
+  {
+    "hash": "BA558C06A0294009077444769A9F7C00A757869CD6DCC2AEE5D50BA45571DE89",
+    "path": "condocharge_ai\\training\\train.py"
+  },
+  {
+    "hash": "E2FBF76F14C74EFC5BF61573889DAB63ACCE4078BD523CE36FD974C6028F6A52",
+    "path": "condocharge_ai\\training\\dataset.py"
+  },
+  {
+    "hash": "800E4F26D888A32D231129865E9FB284028B16007FB26A9CC7B963290AB3372F",
+    "path": "condocharge_ai\\training\\dados_reais.py"
+  },
+  {
+    "hash": "48501E600B511E92C6A2C74495F7716E5E337047F4C450DE6DDA84E7688EC98D",
+    "path": "condocharge_ai\\training\\avaliar.py"
+  },
+  {
+    "hash": "7CE7CBBC1DF3BA96A08A74AC6BF9BCF70E0C94C7973449B118A9161707C92486",
+    "path": "condocharge_ai\\schemas.py"
+  },
+  {
+    "hash": "215A8CB831FAE5B2C25C0861D6F4FBB90AF88FED240291605A3A81BA631FC96A",
+    "path": "condocharge_ai\\rules.py"
+  },
+  {
+    "hash": "3159B993A70CFDDCC94A68A5E2DC0C4B679BEF73E0857CC0CDF14A2809A29B13",
+    "path": "condocharge_ai\\ml_model.py"
+  },
+  {
+    "hash": "B41E89BEFA727E19C109558A634D7C770347AD38F43AAE99DEE07336DCFE9892",
+    "path": "condocharge_ai\\anomaly.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "condocharge_ai\\artifacts\\.gitkeep"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "scripts\\__init__.py"
+  },
+  {
+    "hash": "8ED14266CF462C898A417D5366A27D0234769ECB069EF56C5C46DFA5F0C7D11D",
+    "path": "scripts\\stop-local.ps1"
+  },
+  {
+    "hash": "2DB0B6B0A549B1583E14A093DE5A47FF93F87ED50F8C4948A6BFA50A512C3B41",
+    "path": "scripts\\start-local.ps1"
+  },
+  {
+    "hash": "90161B5C6E6DB64B421D7262FBB9BAD866CC733EFE5878EFD8E31D0DB35B1D68",
+    "path": "scripts\\simulate.py"
+  },
+  {
+    "hash": "79F66D286F9C25E81C293AFBF3A0F987D32E9369DB1234FDD231A23081043619",
+    "path": "scripts\\local_postgres.ps1"
+  },
+  {
+    "hash": "FCCDC942C25348510A43589E428911B79B7CE55743CBED009EF48041004A6974",
+    "path": "scripts\\export_openapi.py"
+  },
+  {
+    "hash": "0227987096B43C682D32CD67D1632ED8146C6918C8476E34C80E250C0BD17D71",
+    "path": "scripts\\create_local_databases.py"
+  },
+  {
+    "hash": "5B60CE6890D202CBA25B8BF74BC423FE36781A09D7EDA2E45599D37AC7F2085C",
+    "path": "scripts\\configure.py"
+  },
+  {
+    "hash": "B5CCA425149D05BD22396A6EC570F297B0EF409733EE5E701CE176934F7CD113",
+    "path": "infra\\postgres-init\\01-tests.sql"
+  },
+  {
+    "hash": "397FB9B1F3AEEAA11D067BF2B23C9982E4AB6E644C53E94EF62CDB751145199A",
+    "path": "deliveries\\frente3\\scripts\\demo_frente3.py"
+  },
+  {
+    "hash": "C8529FD32A8194ACED9E7DE46EEF66B73AEAD03CC59DDEBFC8FAF9359E8A1E20",
+    "path": "deliveries\\frente3\\ruff.toml"
+  },
+  {
+    "hash": "468880A70955F0439E6C17C10B00538FA9A05CD4772629D16A8E12AF7DA7A8A7",
+    "path": "deliveries\\frente3\\requirements-frente3.txt"
+  },
+  {
+    "hash": "273183E573748656EC40F0C4CCB33E728FFE7547E74C8FF356C8D113D59B4924",
+    "path": "deliveries\\frente3\\README_FRENTE3.md"
+  },
+  {
+    "hash": "1DC879EDB84C8CC99B9411A8182A1793372BA2D8D5DBFB6D0EEE91901D74DD28",
+    "path": "deliveries\\frente3\\notebooks\\frente3_motor_de_rateio.ipynb"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente2\\tests\\__init__.py"
+  },
+  {
+    "hash": "044BDB7B951AD23D37045A9969D555BF6B2B10401AF9BEB56E5686EC48EA6302",
+    "path": "deliveries\\frente2\\tests\\test_reservas_e_atribuicao.py"
+  },
+  {
+    "hash": "169A253D93EC9850BCA2EF05B297CE8D6D4009697C2CF99D7B1CB9E58BB86CBE",
+    "path": "deliveries\\frente2\\tests\\test_rateio.py"
+  },
+  {
+    "hash": "FA51B520607C974B675B38B8EF90958463A626B0261FF446342811809A0B86CA",
+    "path": "deliveries\\frente2\\tests\\test_fatura_e_permissoes.py"
+  },
+  {
+    "hash": "49F6D75B0249C60312F449BE7C2CAF12C11C298D18D57AC65F56FDBB9356BB92",
+    "path": "deliveries\\frente2\\tests\\test_anomalias.py"
+  },
+  {
+    "hash": "95013C24CDBB7B7437A46D02CCD44895F745C7BD1769C8775006DACC8425A9AE",
+    "path": "deliveries\\frente2\\tests\\conftest.py"
+  },
+  {
+    "hash": "D83D9C0F8B99021ADF807BC205770E346CA9521D9D42A1C79EBF4556EED9A1CE",
+    "path": "deliveries\\frente3\\infra\\postgres-init\\01-banco-de-testes.sql"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente2\\services\\__init__.py"
+  },
+  {
+    "hash": "ACEE1806145F7F4F056053E73712E8B30A6BDEC5CDD1E53A92F6F3BE92072C64",
+    "path": "deliveries\\frente2\\services\\reservations.py"
+  },
+  {
+    "hash": "A0F557D74B182F0593693431CD807DDDE5854CE5FC5DBE24D00935D7FF125FC9",
+    "path": "deliveries\\frente2\\services\\rateio.py"
+  },
+  {
+    "hash": "28DD825C876B064E25985A64226C2157F33AAA3EBF78F52BC2527F2699B2FCB5",
+    "path": "deliveries\\frente2\\services\\pipeline.py"
+  },
+  {
+    "hash": "E318A889988EFAE72F97DC5D7119E47BC6EAF1D4E57E2875B1A88383767BC1E2",
+    "path": "deliveries\\frente2\\services\\billing.py"
+  },
+  {
+    "hash": "126C46CBED1ED524FBB138121EE096A274A657C7D7DF7C63C06BCC200073286B",
+    "path": "deliveries\\frente2\\services\\audit.py"
+  },
+  {
+    "hash": "514C56CB0F235F354F55ABD6E74FC0C58C6A3C6655C4F03EBBBF01DB9092A048",
+    "path": "deliveries\\frente2\\seed.py"
+  },
+  {
+    "hash": "8DC9E2342A138F8DAADA012F8F5C4066EEF066F1A1552FD047CF795D25918462",
+    "path": "deliveries\\frente2\\security.py"
+  },
+  {
+    "hash": "AE1F2A1E3F2C5096CE7A24BA4241E9180E2776757C41185A2CC81831B8243C65",
+    "path": "deliveries\\frente2\\schemas.py"
+  },
+  {
+    "hash": "A7DD838D81B8AE36FE78A61375B014B20D8BD5451BCD22D26321503FC4F71CF1",
+    "path": "deliveries\\frente4\\USO_DE_IA.md"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente2\\routers\\__init__.py"
+  },
+  {
+    "hash": "B1F1845F8C1DD206FC0381E8825FCED25A9D8746E06257D237586D223C4CC7A8",
+    "path": "deliveries\\frente2\\routers\\sessions.py"
+  },
+  {
+    "hash": "A3AB208C4CDEAA4879C0E52EB64FEF7075D1076E6D119D4A7377E66F5DF4A4FB",
+    "path": "deliveries\\frente2\\routers\\reservations.py"
+  },
+  {
+    "hash": "805EFA84FABC6243D08DA0907313A31AB304420361FDD4A60D88D5F56B353827",
+    "path": "deliveries\\frente2\\routers\\recommendation.py"
+  },
+  {
+    "hash": "A22F4C6E8FBCB57FCAF968FB454B2EB9474D91346569033715FC87F856CB20BB",
+    "path": "deliveries\\frente2\\routers\\billing.py"
+  },
+  {
+    "hash": "612696EDA3E9CDE7FCC52C6C41AFFDC02170B66244F967F0A42541F39741A3D1",
+    "path": "deliveries\\frente2\\routers\\auth.py"
+  },
+  {
+    "hash": "0DB792A8328764739E0AFA9B6C1E5A89ADF3B89533B7DB6C1CC1EACF4D1035F9",
+    "path": "deliveries\\frente2\\routers\\anomalies.py"
+  },
+  {
+    "hash": "3982D961DA944F9F1312DAB5C8CC9DFE0E1C972DE7D72013BAA4B605785857BE",
+    "path": "deliveries\\frente2\\requirements.txt"
+  },
+  {
+    "hash": "B16B3DF265A28D077FDF21B1062D0ADECFD4446F2BB935B4FDCECD95747837DD",
+    "path": "deliveries\\frente2\\README.md"
+  },
+  {
+    "hash": "35CF842199BAB4C6A607FA73BB34818CB3C6066A081A97FA46FDFD2D5E031A5C",
+    "path": "deliveries\\frente2\\pytest.ini"
+  },
+  {
+    "hash": "2FC46B91BF455341C7575D9E3FF73D8447A2B29C5A9C8AB44793B10E5E6D682B",
+    "path": "deliveries\\frente2\\models.py"
+  },
+  {
+    "hash": "E7EDD7D24726534B78178536A1D3A095B172CEC7C6CC7E124E3DA23D2E7740A0",
+    "path": "deliveries\\frente2\\main.py"
+  },
+  {
+    "hash": "17290D977B4DECA7A2FDD5A2EED214D0023F7400D272EDEA2C735DBE619AEC72",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\relatorio_arrecadacao_2026-09.json"
+  },
+  {
+    "hash": "0A73823B579284F5A0954290204DBB2ACFA1CD43C998226AC110A8343BF26BAA",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\pytest_output.txt"
+  },
+  {
+    "hash": "A7126EC0D558D19E98FAFD7A4F4EFEAC648641AB7730B49E7529AA5F641530DD",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\grafico_sessao_atravessando_faixas.png"
+  },
+  {
+    "hash": "9D427A2C778975BB22DED2B28D13259C95248F8EBF3B5CB3130C68B3813D0871",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\grafico_ociosidade.png"
+  },
+  {
+    "hash": "4F52D157AF00ECD85EF35C41D283B004256280D7BBD3D5018ACA1CC2D2087A50",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\grafico_metodos_de_precificacao.png"
+  },
+  {
+    "hash": "EA3DA26158EAA8A16852034DA41C1A6393BFBCFBC184055DEB57370CE1F2F8F2",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\fatura_ana_2026-09.json"
+  },
+  {
+    "hash": "624ACF894B35F02990847F0688A1F00CAF616244D6906941E1D471959FC4C076",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\der_modelo_de_dados.png"
+  },
+  {
+    "hash": "6FC2C7C357C0D63CD143C9213E9D59FC53F254B4FD7682E29E2A15EA6AAD1F6D",
+    "path": "deliveries\\frente3\\evidencias\\frente3\\demo_output.txt"
+  },
+  {
+    "hash": "ABE65B8FD5DC8AE965252EE4DF9DB90F0BAF126A488652561E8F9D23558A33AC",
+    "path": "deliveries\\frente2\\docs\\guia-do-codigo.md"
+  },
+  {
+    "hash": "E9E4EE3D763D93001FE648CB4B1CE6169E7D26E49ECEEA62A9213BB4B757BCFF",
+    "path": "deliveries\\frente2\\docs\\exemplo-fatura.json"
+  },
+  {
+    "hash": "164E249ADFD68FF2F0534FBDD490AB815A472BC57DA174BF86A4CBA66BC5130D",
+    "path": "deliveries\\frente2\\docs\\evidencia-testes.txt"
+  },
+  {
+    "hash": "0F665A7387C0447F3A4810FEAF162AB4CE5B646B200C5D25685A93957A2467E8",
+    "path": "deliveries\\frente2\\database.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\tests\\__init__.py"
+  },
+  {
+    "hash": "9E6CEE1EC0EC609DCE816812102C73A7D0A6189B42D755D7D28FCB340BC06625",
+    "path": "deliveries\\frente4\\tests\\test_schemas.py"
+  },
+  {
+    "hash": "440A159F4863C9F5BDEF9613DEF3828523DDDDF52CE08E9D6579148A1A678D32",
+    "path": "deliveries\\frente4\\tests\\test_rules.py"
+  },
+  {
+    "hash": "9AF2E5BFC57B7D336F31A6BB9CF125EBB804A4AEA556F304E94A3E3911D6E9CE",
+    "path": "deliveries\\frente4\\tests\\test_ml_model.py"
+  },
+  {
+    "hash": "C0E9D0754D1ACFAEA06B556CEDFBAF3EF272C1EDFEBEDD06A9F018265F735748",
+    "path": "deliveries\\frente4\\tests\\test_dataset.py"
+  },
+  {
+    "hash": "EEC331A040AD0200401B6911CCE59082E13B598D4779EAF35AE740721C9AE8A4",
+    "path": "deliveries\\frente4\\tests\\test_anomaly.py"
+  },
+  {
+    "hash": "3C5A1BC9D5455FF4B1686FFD5F363F346C55CBDD920A1FFD568C9A3873DF489B",
+    "path": "deliveries\\frente4\\requirements.txt"
+  },
+  {
+    "hash": "4508D2A4FFD77F158CA3F20283CE2E960594AAAC60381F7C224AA19AD5B61252",
+    "path": "deliveries\\frente4\\README.md"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente2\\ai\\__init__.py"
+  },
+  {
+    "hash": "6C07E7AC58140A98A3DBAC10B07C06A5E6156DF03A122FF46947E84800CEBBA4",
+    "path": "deliveries\\frente2\\ai\\rules.py"
+  },
+  {
+    "hash": "3FE064ADF3D0318AEA5268765310B501980BFE60C5674A25C2607877D1A62EE2",
+    "path": "deliveries\\frente2\\ai\\recommendation.py"
+  },
+  {
+    "hash": "8C10748799148289691B8345917C01AD1C378AB1AA57C3B6EFD557C930D1EA1D",
+    "path": "deliveries\\frente2\\ai\\anomaly.py"
+  },
+  {
+    "hash": "58836BD048200FCC929AF9233841696A55439265B118F63D2D8B6DE1EED583BA",
+    "path": "deliveries\\frente2\\.gitignore"
+  },
+  {
+    "hash": "F3A268ED42604DF18B9B1185FFAA01AEEDA1B4510ECFE35F03A1C09C32885F08",
+    "path": "deliveries\\frente2\\.env.example"
+  },
+  {
+    "hash": "0E28EAF8F60CC200C2267354941D1743EC6894FF57FEDA1A002E3F008B460AA0",
+    "path": "deliveries\\frente3\\alembic.ini"
+  },
+  {
+    "hash": "00E76476DB4E1EAADBE099CCA6D6EC33AEBB30869747D1447ECC5673EE9C6143",
+    "path": "deliveries\\frente3\\docs\\frente3\\motor-de-rateio.md"
+  },
+  {
+    "hash": "98356A5B0047102FBF8296D47B78297DCA2ED0343800F0C586DC541A7C3BD871",
+    "path": "deliveries\\frente3\\docs\\frente3\\modelo-de-dados.md"
+  },
+  {
+    "hash": "1D05E8FF260BFB64A0DC7F1A1D4BACA0FE4C8FBCC1A013E09D0A39D43A94AD60",
+    "path": "deliveries\\frente3\\docs\\frente3\\issues.md"
+  },
+  {
+    "hash": "7E364A0802A1C49F3868EA1675A6087F22C266FE521653E1415AEEAD9E47EF03",
+    "path": "deliveries\\frente3\\docs\\frente3\\guia-de-estudo.md"
+  },
+  {
+    "hash": "A547AF8B1E24AD1A351C18B7C813850A113892264D283E759E436B3BC80E599F",
+    "path": "deliveries\\frente3\\docker-compose.frente3.yml"
+  },
+  {
+    "hash": "4E90E6881C5602B90AF02DD597DE1048D8146A3CF6301FAF067A716AAC37992A",
+    "path": "deliveries\\frente3\\.env.example"
+  },
+  {
+    "hash": "6FD71CCF0550299202692BD67D90003C517349E553CAE201251D6682E46B6FD4",
+    "path": "deliveries\\frente4\\.gitignore"
+  },
+  {
+    "hash": "0B36939B23346BD881FEFEDA46F2261487169EB3B4C8FEE5DC1D8E65A8D4A42E",
+    "path": "deliveries\\frente4\\LICENSE"
+  },
+  {
+    "hash": "2B867CB7ED7D1D7AF0E4AA81D1792B0F91BFA98200FDDCB733C5BD88AC2FC852",
+    "path": "deliveries\\frente4\\DECISOES.md"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\notebooks\\.gitkeep"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\__init__.py"
+  },
+  {
+    "hash": "8314B348577E588F66B80D4653697C580E3070BA8FF9914592F55E24D73ED851",
+    "path": "deliveries\\frente3\\.github\\workflows\\testes-frente3.yml"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\condocharge_ai\\__init__.py"
+  },
+  {
+    "hash": "EF3D2FBC44D2E1ED9770D9E9BBC242BD7D72185AA644A51E0006CAA6729759C5",
+    "path": "deliveries\\frente4\\data\\etapa_a_sessoes_fase_morador.csv"
+  },
+  {
+    "hash": "F1F6343820A40645B43114BA34D203D826AA7C554CCE368CE0B9790F459C54E6",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-10.csv"
+  },
+  {
+    "hash": "50DE0B8B7BCC57B0ABC8F3C1095D83AEE795A9836AF3EBBC516C3736C9F9BA1A",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-09.csv"
+  },
+  {
+    "hash": "F606C87258D34C76B4A45E5E5B2EE4B03755E89FFA53E7FBDAF5E7970E149793",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-08.csv"
+  },
+  {
+    "hash": "6EC8D8096CA020763AAD83E2AD2D121B20F5F66F23984F8677B925CE79D00018",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-07.csv"
+  },
+  {
+    "hash": "BEC950FC890E4DE1251AE5C1C8659AA147811A0C3E9238594721CD57EEC19DC2",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-06.csv"
+  },
+  {
+    "hash": "FBCF009499ABCA561DC15BCA57B4E9DB11618A558C6E8075E609C0B599DA4C96",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-05.csv"
+  },
+  {
+    "hash": "D953DCE1FCEEF8F36A6E33BB882D1CFB7D1277C727938FB95F64D8EF39098F1C",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-04.csv"
+  },
+  {
+    "hash": "B763F03458F19EF9B22B0792330C1311D16BDBDFE73BECAC128B3A2CA318DD5C",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-03.csv"
+  },
+  {
+    "hash": "2BFBA32F00BFCA828709706391EFE1568BD6CFE6880FF16AEB0EA729CF1D361E",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-02.csv"
+  },
+  {
+    "hash": "916662D850ACA3D0325B9EF13B20642DC1C1CA9836EA7441C759D2AD64C615E3",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2026-01.csv"
+  },
+  {
+    "hash": "E29B3D9AFFC542B0D7FC5D61F69EE778458FB9ED6B78B3FF7C96499713BD4AE4",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2025-12.csv"
+  },
+  {
+    "hash": "59D036D1E41CC4A26549D6AD918A335D7180FF51028A6B2BD6F6CF45E15B48DE",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2025-11.csv"
+  },
+  {
+    "hash": "A6642F13DF54C8558705D904F92DF5F3F0E1CD78AE29F61943997AE45A1D9E18",
+    "path": "deliveries\\frente4\\data\\etapaB_detalhe_2025-10.csv"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\data\\.gitkeep"
+  },
+  {
+    "hash": "770627F85E2E615AD00D142688010ECFC029A5D43A7134EF3B6F4BB44EEF157B",
+    "path": "deliveries\\frente3\\backend\\config.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\condocharge_ai\\training\\__init__.py"
+  },
+  {
+    "hash": "BA558C06A0294009077444769A9F7C00A757869CD6DCC2AEE5D50BA45571DE89",
+    "path": "deliveries\\frente4\\condocharge_ai\\training\\train.py"
+  },
+  {
+    "hash": "E2FBF76F14C74EFC5BF61573889DAB63ACCE4078BD523CE36FD974C6028F6A52",
+    "path": "deliveries\\frente4\\condocharge_ai\\training\\dataset.py"
+  },
+  {
+    "hash": "800E4F26D888A32D231129865E9FB284028B16007FB26A9CC7B963290AB3372F",
+    "path": "deliveries\\frente4\\condocharge_ai\\training\\dados_reais.py"
+  },
+  {
+    "hash": "48501E600B511E92C6A2C74495F7716E5E337047F4C450DE6DDA84E7688EC98D",
+    "path": "deliveries\\frente4\\condocharge_ai\\training\\avaliar.py"
+  },
+  {
+    "hash": "7CE7CBBC1DF3BA96A08A74AC6BF9BCF70E0C94C7973449B118A9161707C92486",
+    "path": "deliveries\\frente4\\condocharge_ai\\schemas.py"
+  },
+  {
+    "hash": "215A8CB831FAE5B2C25C0861D6F4FBB90AF88FED240291605A3A81BA631FC96A",
+    "path": "deliveries\\frente4\\condocharge_ai\\rules.py"
+  },
+  {
+    "hash": "3159B993A70CFDDCC94A68A5E2DC0C4B679BEF73E0857CC0CDF14A2809A29B13",
+    "path": "deliveries\\frente4\\condocharge_ai\\ml_model.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\tests\\__init__.py"
+  },
+  {
+    "hash": "36A2F6B2478F06AFFF8AA18CE1176F0421EA91D9D604F98283B94857B8D347E9",
+    "path": "deliveries\\frente3\\backend\\faturamento\\__init__.py"
+  },
+  {
+    "hash": "DE574191763B3384220C5DCE4B6DF84635B90118914933CC470509FBAF1B7D8A",
+    "path": "deliveries\\frente3\\backend\\faturamento\\service.py"
+  },
+  {
+    "hash": "0B549604BF650A58CD4A80FEC0D19EE575D0364A062D33AEA2623DCE78650182",
+    "path": "deliveries\\frente3\\backend\\faturamento\\repository.py"
+  },
+  {
+    "hash": "F6318B49A1784B0221BA144C54E763E120BF6816D0278C9F8270CA4F0C51AA7E",
+    "path": "deliveries\\frente3\\backend\\faturamento\\report.py"
+  },
+  {
+    "hash": "9E578549BBAB4B10C24A493CB63C316307A3682FDD3D16A3B8717BB04BE6255F",
+    "path": "deliveries\\frente3\\backend\\faturamento\\periods.py"
+  },
+  {
+    "hash": "47A3B973A7B28ADF2E9EDF2C9C641E64CF5B802791D76A4EC25D6702B121C054",
+    "path": "deliveries\\frente3\\backend\\faturamento\\mappers.py"
+  },
+  {
+    "hash": "25C20400B830BDF9696F15B8086BD9AF133BF1858CD41B4B1CB10C8925949D6C",
+    "path": "deliveries\\frente4\\condocharge_ai\\artifacts\\modelo_v1.joblib"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente4\\condocharge_ai\\artifacts\\.gitkeep"
+  },
+  {
+    "hash": "B41E89BEFA727E19C109558A634D7C770347AD38F43AAE99DEE07336DCFE9892",
+    "path": "deliveries\\frente4\\condocharge_ai\\anomaly.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\__init__.py"
+  },
+  {
+    "hash": "80F105BA492CB56251A052F8BA5940CBF5D5567DE0E7D60B53BC4E04BE634534",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\test_idle.py"
+  },
+  {
+    "hash": "6C06693E7C4085C8C64EC2C1A9476928195F6E4EEFD2E3B28ADF717BDA7294AB",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\test_holidays.py"
+  },
+  {
+    "hash": "92C4C1D403CA16EE7F2055565C505E3ABAAF3A443F7C843C959D90B0A80A9027",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\test_engine.py"
+  },
+  {
+    "hash": "606ED3BC6A5499ECE0EB78E71CB204D4E3BC76E77B2CBE2995C30BBEFC6A8461",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\test_bands.py"
+  },
+  {
+    "hash": "192477BEA26009DF5836F3588B3326F47FE872ECDDBBF9B5329999C0F2C4E309",
+    "path": "deliveries\\frente3\\backend\\tests\\rateio\\test_allocation.py"
+  },
+  {
+    "hash": "90F757EE2EB89FC35FBA504C26C3AA4B526AC5F9CA969BB102907D776DB877BE",
+    "path": "deliveries\\frente3\\backend\\tests\\helpers.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\db\\__init__.py"
+  },
+  {
+    "hash": "29EF51C1C5B775DDBC5B19355D55598D4E718D914AC930C69035F0921FB9154A",
+    "path": "deliveries\\frente3\\backend\\db\\models.py"
+  },
+  {
+    "hash": "DA932F6A727845F4DD76867E9C8D881AD4C0D026C966697DF7F958C600CEBE5B",
+    "path": "deliveries\\frente3\\backend\\db\\enums.py"
+  },
+  {
+    "hash": "A37194A08CD76CE595FFE0FD37F123DB8F5FC40EB59A8F2A68697AE9516837FA",
+    "path": "deliveries\\frente3\\backend\\db\\base.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\seeds\\__init__.py"
+  },
+  {
+    "hash": "C772BA33B10EE688B65812E576AB44B4DCDCAC7CFBFCBE96D540691306424017",
+    "path": "deliveries\\frente3\\backend\\seeds\\holidays.py"
+  },
+  {
+    "hash": "A6CF4512E05166F148C35EA0FD68E21DA6E40C80D58EF75032CB8B953E8E0313",
+    "path": "deliveries\\frente3\\backend\\seeds\\demo.py"
+  },
+  {
+    "hash": "67E30FCD1C9A7633360B538319A5DACA7FC52FD584524AE7380D12F673D577F7",
+    "path": "deliveries\\frente3\\backend\\tests\\conftest.py"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\__init__.py"
+  },
+  {
+    "hash": "E9DB0BE190C02B819E053B8AFE57D375961C93A1429A314871442C185E9EC688",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\test_migrations.py"
+  },
+  {
+    "hash": "9E055FDE19CD9F7699A44053CBD0639A9BE103D897C73E5819E48E6CCB12DF56",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\test_integrity.py"
+  },
+  {
+    "hash": "911E1FFE6465965A17D5A2E81124518FB5B1C671BE5C6395B46008D904E2BC7D",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\test_faturamento.py"
+  },
+  {
+    "hash": "B8EBCE6E1CE3F2C67993893C38BB3389BC7640A2AA202C1CF13E0749261A43A0",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\factories.py"
+  },
+  {
+    "hash": "FBD97996AD8232D4F0065165C1C2D05803B5E376BE2592DD3DB487952535E71D",
+    "path": "deliveries\\frente3\\backend\\tests\\db\\conftest.py"
+  },
+  {
+    "hash": "CB42129F763C137B0A2DFE34F1420829628C0368CBB8CB6B55C8A4E8F2676C5D",
+    "path": "deliveries\\frente3\\backend\\rateio\\__init__.py"
+  },
+  {
+    "hash": "F09017BDCD702AB2D777B9B4E700512F272CC8303835B26475D910993CA0DB4B",
+    "path": "deliveries\\frente3\\backend\\rateio\\money.py"
+  },
+  {
+    "hash": "8F682600A60609A0425971915A7BDCAE517A0756A4A3F42EF950E13C58F43A46",
+    "path": "deliveries\\frente3\\backend\\rateio\\models.py"
+  },
+  {
+    "hash": "5DC394CF6B730214BF7BA9C25B001DD51D0DC03F366A14E4CC52A77BC0927E8B",
+    "path": "deliveries\\frente3\\backend\\rateio\\idle.py"
+  },
+  {
+    "hash": "AC3D9113EF2FD358A968C03699F68D65CBE7822B267E890C1A1399795EA5A553",
+    "path": "deliveries\\frente3\\backend\\rateio\\engine.py"
+  },
+  {
+    "hash": "15BBFDF7E2242F113078C285EB1359C3AC52659E290AF36C7814480B61EC5A34",
+    "path": "deliveries\\frente3\\backend\\rateio\\bands.py"
+  },
+  {
+    "hash": "34DD6C5E8C56F3EC057CF55DB5ADB1B2EE8925B7D0167F137B4E15220F971E18",
+    "path": "deliveries\\frente3\\backend\\rateio\\allocation.py"
+  },
+  {
+    "hash": "3CC8C4FE0B8AE261B7EC3D00D3262060ACCF9003BED4466712BA7B2F87053C91",
+    "path": "deliveries\\frente3\\backend\\migrations\\env.py"
+  },
+  {
+    "hash": "969A2DE2C4EDBC9AF1BB6F64C3CA4D59BEED4AB00FB1FDE44B52E9E154EBC147",
+    "path": "deliveries\\frente3\\backend\\migrations\\script.py.mako"
+  },
+  {
+    "hash": "33B77CB5F67D55EE4D55758A242D53DB11831BE088E82049BDA2F557C539E756",
+    "path": "deliveries\\frente3\\backend\\migrations\\versions\\0001_schema_inicial.py"
+  },
+  {
+    "hash": "EF3D2FBC44D2E1ED9770D9E9BBC242BD7D72185AA644A51E0006CAA6729759C5",
+    "path": "data\\etapa_a_sessoes_fase_morador.csv"
+  },
+  {
+    "hash": "F1F6343820A40645B43114BA34D203D826AA7C554CCE368CE0B9790F459C54E6",
+    "path": "data\\etapaB_detalhe_2026-10.csv"
+  },
+  {
+    "hash": "50DE0B8B7BCC57B0ABC8F3C1095D83AEE795A9836AF3EBBC516C3736C9F9BA1A",
+    "path": "data\\etapaB_detalhe_2026-09.csv"
+  },
+  {
+    "hash": "F606C87258D34C76B4A45E5E5B2EE4B03755E89FFA53E7FBDAF5E7970E149793",
+    "path": "data\\etapaB_detalhe_2026-08.csv"
+  },
+  {
+    "hash": "6EC8D8096CA020763AAD83E2AD2D121B20F5F66F23984F8677B925CE79D00018",
+    "path": "data\\etapaB_detalhe_2026-07.csv"
+  },
+  {
+    "hash": "BEC950FC890E4DE1251AE5C1C8659AA147811A0C3E9238594721CD57EEC19DC2",
+    "path": "data\\etapaB_detalhe_2026-06.csv"
+  },
+  {
+    "hash": "FBCF009499ABCA561DC15BCA57B4E9DB11618A558C6E8075E609C0B599DA4C96",
+    "path": "data\\etapaB_detalhe_2026-05.csv"
+  },
+  {
+    "hash": "D953DCE1FCEEF8F36A6E33BB882D1CFB7D1277C727938FB95F64D8EF39098F1C",
+    "path": "data\\etapaB_detalhe_2026-04.csv"
+  },
+  {
+    "hash": "B763F03458F19EF9B22B0792330C1311D16BDBDFE73BECAC128B3A2CA318DD5C",
+    "path": "data\\etapaB_detalhe_2026-03.csv"
+  },
+  {
+    "hash": "2BFBA32F00BFCA828709706391EFE1568BD6CFE6880FF16AEB0EA729CF1D361E",
+    "path": "data\\etapaB_detalhe_2026-02.csv"
+  },
+  {
+    "hash": "916662D850ACA3D0325B9EF13B20642DC1C1CA9836EA7441C759D2AD64C615E3",
+    "path": "data\\etapaB_detalhe_2026-01.csv"
+  },
+  {
+    "hash": "E29B3D9AFFC542B0D7FC5D61F69EE778458FB9ED6B78B3FF7C96499713BD4AE4",
+    "path": "data\\etapaB_detalhe_2025-12.csv"
+  },
+  {
+    "hash": "59D036D1E41CC4A26549D6AD918A335D7180FF51028A6B2BD6F6CF45E15B48DE",
+    "path": "data\\etapaB_detalhe_2025-11.csv"
+  },
+  {
+    "hash": "A6642F13DF54C8558705D904F92DF5F3F0E1CD78AE29F61943997AE45A1D9E18",
+    "path": "data\\etapaB_detalhe_2025-10.csv"
+  },
+  {
+    "hash": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+    "path": "data\\.gitkeep"
+  }
+]

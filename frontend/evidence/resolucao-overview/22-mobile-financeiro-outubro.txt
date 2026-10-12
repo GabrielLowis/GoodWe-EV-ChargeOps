@@ -1,0 +1,118 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#financeiro".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#financeiro
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 button Sair da conta
+		13 container
+			14 text Condomínio  Financeiro Síndico
+		69 container main-content
+			70 text FATURAMENTO DO CONDOMÍNIO
+			71 heading Financeiro, Value: 1
+				72 text Financeiro
+			73 text Consulte valores faturados, gere cálculos e confira cada parcela.
+			74 container
+				75 heading Período de faturamento, Value: 2
+					76 text Período de faturamento
+				77 button Atualizar consultas
+				78 text Mês e ano
+				79 date field (settable) Mês e ano, Value: 2026-10, ID: invoice-period
+					80 container
+						81 stepper
+						82 stepper
+					83 pop up button Mostrar seletor de mês Mostrar seletor de mês
+				84 text A geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.
+				85 button Gerar / recalcular faturas
+			86 container
+				87 heading Faturas de outubro de 2026, Value: 2
+					88 text Faturas de  outubro de 2026
+				89 content list
+					90 container
+						91 link Description: Fatura #1 · Morador Demo, Value: 127.0.0.1:5173/#financeiro/1
+						92 text 1  recarga(s) incluída(s) ·  Aberta R$ 4,04
+						93 link Description: Ver fatura #1, Value: 127.0.0.1:5173/#financeiro/1
+			94 container
+				95 heading Resumo mensal do faturamento, Value: 2
+					96 text Resumo mensal do faturamento
+				97 text 1  fatura(s) ·  0  fechada(s). Total faturado R$ 4,04 Energia faturada 6,2 kWh Energia registrada no mês 6,2 kWh
+				98 definition list
+					99 container Energia Green
+						100 text Energia Green
+					101 text R$ 0,30
+					102 container Energia Grid
+						103 text Energia Grid
+					104 text R$ 3,38
+					105 container Ociosidade
+						106 text Ociosidade
+					107 text R$ 0,00
+					108 container Subtotal
+						109 text Subtotal
+					110 text R$ 3,68
+					111 container Impostos
+						112 text Impostos
+					113 text R$ 0,18
+					114 container Custo operacional
+						115 text Custo operacional
+					116 text R$ 0,18
+					117 container Total faturado
+						118 text Total faturado
+					119 text R$ 4,04
+				120 heading Distribuição dos valores faturados, Value: 3
+					121 text Distribuição dos valores faturados
+				122 definition list
+					123 container Energia destinada ao condomínio
+						124 text Energia destinada ao condomínio
+					125 text R$ 3,68
+					126 container Ociosidade
+						127 text Ociosidade
+					128 text R$ 0,00
+					129 container Custo operacional
+						130 text Custo operacional
+					131 text R$ 0,18
+					132 container Impostos destacados
+						133 text Impostos destacados
+					134 text R$ 0,18
+				135 heading Situação da energia registrada, Value: 3
+					136 text Situação da energia registrada
+				137 definition list
+					138 container Sessões faturadas
+						139 text Sessões faturadas
+					140 container
+						141 text 1  sessão(ões) ·  6,2 kWh
+						142 link Description: Sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+					143 container Aguardando revisão
+						144 text Aguardando revisão
+					145 container
+						146 text 0  sessão(ões) ·  0 kWh
+					147 container Rejeitadas
+						148 text Rejeitadas
+					149 container
+						150 text 0  sessão(ões) ·  0 kWh
+					151 container Sem morador identificado
+						152 text Sem morador identificado
+					153 container
+						154 text 2  sessão(ões) ·  0 kWh
+						155 link Description: Sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+						156 link Description: Sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+					157 container Aprovadas sem fatura
+						158 text Aprovadas sem fatura
+					159 container
+						160 text 0  sessão(ões) ·  0 kWh
+					161 container Falha do sistema · sem cobrança
+						162 text Falha do sistema · sem cobrança
+					163 container
+						164 text 0  sessão(ões) ·  0 kWh
+				165 text Lançamentos de meses anteriores:  0  ·  R$ 0,00 . Energia faturada pode incluir esses lançamentos. Valores faturados; pagamentos e recebimentos não são registrados neste MVP.
+			166 text Faturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.
+		67 container
+			68 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 69 container main-content

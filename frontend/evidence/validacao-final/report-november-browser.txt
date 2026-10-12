@@ -1,0 +1,72 @@
+FATURAMENTO DO CONDOMÍNIO
+
+Financeiro
+
+Consulte valores faturados, gere cálculos e confira cada parcela.
+
+Período de faturamento
+Atualizar consultas
+Mês e ano
+
+A geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.
+
+Gerar / recalcular faturas
+Faturas de novembro de 2026
+Fatura #2 · Morador Demo
+
+0 recarga(s) incluída(s) · Fechada
+
+R$ 0,00
+Ver fatura #2
+Resumo mensal do faturamento
+
+1 fatura(s) · 1 fechada(s).
+
+Total faturado
+R$ 0,00
+Energia faturada
+0 kWh
+Energia registrada no mês
+0 kWh
+Energia Green
+R$ 0,00
+Energia Grid
+R$ 0,00
+Ociosidade
+R$ 0,00
+Subtotal
+R$ 0,00
+Impostos
+R$ 0,00
+Custo operacional
+R$ 0,00
+Total faturado
+R$ 0,00
+Distribuição dos valores faturados
+Energia destinada ao condomínio
+R$ 0,00
+Ociosidade
+R$ 0,00
+Custo operacional
+R$ 0,00
+Impostos destacados
+R$ 0,00
+Situação da energia registrada
+Sessões faturadas
+0 sessão(ões) · 0 kWh
+Aguardando revisão
+0 sessão(ões) · 0 kWh
+Rejeitadas
+0 sessão(ões) · 0 kWh
+Sem morador identificado
+0 sessão(ões) · 0 kWh
+Aprovadas sem fatura
+0 sessão(ões) · 0 kWh
+Falha do sistema · sem cobrança
+0 sessão(ões) · 0 kWh
+
+Lançamentos de meses anteriores: 0 · R$ 0,00. Energia faturada pode incluir esses lançamentos.
+
+Valores faturados; pagamentos e recebimentos não são registrados neste MVP.
+
+Faturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.

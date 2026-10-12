@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-09T02:31:49.939526+00:00",
+  "reservation_created_id": 6,
+  "reservation_cancelled_by_manager": true,
+  "all_previous_reservations_preserved": true,
+  "sessions_unchanged": true,
+  "invoices_unchanged": true,
+  "anomalies_available": 0,
+  "real_anomaly_review": "not_validated_no_records",
+  "frontend_tests": 12,
+  "build": "passed"
+}

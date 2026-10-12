@@ -1,0 +1,8 @@
+{
+  "existing_records_preserved": true,
+  "reservation_id": 5,
+  "reservation_status": "cancelled",
+  "exact_recommendation_interval_preserved": true,
+  "session_total_kwh": "6.200",
+  "invoice_total": "4.04"
+}

@@ -1,0 +1,68 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#financeiro/2".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#financeiro/2
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Financeiro Síndico
+		71 container main-content
+			72 text FATURAMENTO DO CONDOMÍNIO
+			73 heading Detalhe da fatura, Value: 1
+				74 text Detalhe da fatura
+			75 text Consulte valores faturados, gere cálculos e confira cada parcela.
+			76 link Description: ← Voltar para o financeiro, Value: 127.0.0.1:5173/#financeiro
+			77 container
+				78 heading novembro de 2026, Value: 2
+					79 text novembro de 2026
+				80 text Período futuro Fechada Total faturado R$ 0,00 Green 0 kWh Grid 0 kWh
+				81 definition list
+					82 container Energia Green · solar/bateria
+						83 text Energia Green · solar/bateria
+					84 text R$ 0,00
+					85 container Energia Grid · rede elétrica
+						86 text Energia Grid · rede elétrica
+					87 text R$ 0,00
+					88 container Ociosidade
+						89 text Ociosidade
+					90 text R$ 0,00
+					91 container Subtotal
+						92 text Subtotal
+					93 text R$ 0,00
+					94 container Impostos
+						95 text Impostos
+					96 text R$ 0,00
+					97 container Custo operacional
+						98 text Custo operacional
+					99 text R$ 0,00
+					100 container Total
+						101 text Total
+					102 text R$ 0,00
+				103 text 0  recarga(s) incluída(s) ·  0  min de ociosidade faturada. Fatura fechada: o cálculo não pode ser atualizado.  Esta situação não comprova pagamento.
+			104 container
+				105 heading Memória de cálculo, Value: 2
+					106 text Memória de cálculo
+				107 text Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead
+				108 content list
+					109 container
+						110 AXListMarker • 
+						111 text Fatura zero: nenhuma sessão faturável no período; não há cobrança mínima.
+				112 text Esta fatura não contém recargas.
+			113 container
+				114 heading Fechamento da fatura, Value: 2
+					115 text Fechamento da fatura
+				116 text Morador:  Morador Demo  · Fatura # 2 . Esta fatura está fechada. Não pode ser recalculada. Fechamento não registra pagamento.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

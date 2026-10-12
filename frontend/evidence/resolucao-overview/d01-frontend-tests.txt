@@ -1,0 +1,13 @@
+
+> ev-chargeops-frontend@0.1.0 test
+> vitest run --run src/pages/ReservationsPage.test.tsx src/hooks/useTimeBoundaries.test.ts
+
+
+ RUN  v5.0.3 C:/Users/Gabriel Luis/Documents/ChatGPT/GoodWe/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  8 passed (8)
+   Start at  13:24:13
+   Duration  433ms (transform 51%, import 30%, tests 15%, worker 4%)
+

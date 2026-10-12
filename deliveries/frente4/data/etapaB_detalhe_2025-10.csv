@@ -1,0 +1,14 @@
+inicio,green_kwh,importada_kwh,potencia_media_kw,potencia_maxima_kw,motivo_fim
+2025-10-15 20:57:23,52.00,0.00,1.76,3.40,Charging stopped at full charge
+2025-10-16 21:24:44,4.80,0.00,1.67,3.50,Charging stopped at full charge
+2025-10-20 21:14:42,109.00,0.00,2.54,3.50,Charging stopped at full charge
+2025-10-21 20:35:43,54.00,0.00,2.03,3.40,Charging stopped at full charge
+2025-10-22 20:37:16,54.00,0.00,2.12,3.40,Charging stopped at full charge
+2025-10-23 23:28:00,77.00,0.00,2.30,3.50,Charging stopped at full charge
+2025-10-24 21:14:05,4.60,0.00,1.70,3.50,Charging stopped at full charge
+2025-10-26 17:19:14,54.00,0.00,2.66,3.40,Abnormal disconnection of charging gun from vehicle.
+2025-10-27 20:48:58,103.00,0.00,2.54,3.50,Charging stopped at full charge
+2025-10-28 22:36:53,49.00,0.00,1.82,3.40,Charging stopped at full charge
+2025-10-29 20:57:33,96.00,0.00,2.52,3.50,Charging stopped at full charge
+2025-10-30 21:22:34,84.00,0.00,2.44,3.50,Charging stopped at full charge
+2025-10-31 19:59:54,5.40,0.00,2.07,3.50,Charging stopped at full charge

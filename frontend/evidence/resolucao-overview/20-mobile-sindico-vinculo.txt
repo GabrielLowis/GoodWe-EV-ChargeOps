@@ -1,0 +1,75 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#sessoes/1".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#sessoes/1
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 button Sair da conta
+		13 container
+			14 text Condomínio  Sessões do condomínio Síndico
+		69 container main-content
+			70 text USO REGISTRADO
+			71 heading Detalhe da sessão, Value: 1
+				72 text Detalhe da sessão
+			73 text Encerramento e validação para cobrança são situações distintas.
+			74 link Description: ← Voltar para sessões do condomínio, Value: 127.0.0.1:5173/#sessoes
+			75 container
+				76 heading Recarga #1, Value: 2
+					77 text Recarga # 1
+				78 text Simulação
+				79 definition list
+					80 container Morador
+						81 text Morador
+					82 text Morador Demo
+					83 container Atribuição
+						84 text Atribuição
+					85 text Pela reserva
+				86 text Energia total 6,2 kWh Green · solar/bateria 1 kWh Grid · rede elétrica 5,2 kWh
+				87 definition list
+					88 container Reserva
+						89 text Reserva
+					90 link Description: Reserva #1, Value: 127.0.0.1:5173/#agenda
+					91 container Carregador / conector
+						92 text Carregador / conector
+					93 text HCA01 · Conector 1
+					94 container Início
+						95 text Início
+					96 text 08 de out. de 2026, 01:09
+					97 container Fim da energia
+						98 text Fim da energia
+					99 text 08 de out. de 2026, 04:09
+					100 container Encerramento
+						101 text Encerramento
+					102 text 08 de out. de 2026, 04:09
+					103 container Situação da recarga
+						104 text Situação da recarga
+					105 text Concluída
+					106 container Validação para cobrança
+						107 text Validação para cobrança
+					108 text Aprovada para cobrança
+					109 container Origem
+						110 text Origem
+					111 text Simulação
+					112 container Potência média / máxima
+						113 text Potência média / máxima
+					114 container
+						115 text 2,30 kW  /  3,30 kW
+				116 heading Vínculo de faturamento, Value: 3
+					117 text Vínculo de faturamento
+				118 container
+					119 text Incluída na fatura de 
+					120 link Description: outubro de 2026 · Fatura #1, Value: 127.0.0.1:5173/#financeiro/1
+					121 text .
+				122 text Inclusão em fatura indica faturamento; o sistema não registra pagamentos.
+				123 text Uma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento.  Esta recarga foi simulada; não comprova uso de equipamento físico.
+		67 container
+			68 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 69 container main-content

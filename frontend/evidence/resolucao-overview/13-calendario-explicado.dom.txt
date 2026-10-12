@@ -1,0 +1,108 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Cadastros e parâmetros
+  - generic: Síndico
+- main [active]:
+  - paragraph: BASE DA OPERAÇÃO
+  - heading "Cadastros e parâmetros" [level=1]
+  - paragraph: Consulte os equipamentos, unidades e regras cadastradas para o faturamento.
+  - heading "Carregadores" [level=2]
+  - button "Atualizar carregadores"
+  - article:
+    - heading "HCA01 · GoodWe HCA G2" [level=3]
+    - term: Cadastro
+    - definition: Ativo
+    - term: Potência / conectores
+    - definition: 7,00 kW · 1 conector(es)
+    - term: Localização
+    - definition: Vaga compartilhada (simulação)
+    - term: Número de série
+    - definition: DEMO-HCA01
+    - term: Telemetria
+    - definition: Indisponível · sem estado físico online
+  - heading "Unidades" [level=2]
+  - button "Atualizar unidades"
+  - list:
+    - strong: A-101
+    - paragraph: Bloco A · Unidade 101
+  - heading "Tarifas" [level=2]
+  - button "Atualizar tarifas"
+  - article:
+    - 'heading "Demonstração acadêmica · Versão #1" [level=3]'
+    - paragraph: "Vigência: 31 de dez. de 2025, 21:00 até sem término cadastrado."
+    - term: Fora de ponta
+    - definition:
+      - text: Green R$ 0,3000 / kWh
+      - text: Grid R$ 0,6500 / kWh
+    - term: Intermediária
+    - definition:
+      - text: Green R$ 0,3000 / kWh
+      - text: Grid R$ 0,9500 / kWh
+    - term: Ponta
+    - definition:
+      - text: Green R$ 0,3000 / kWh
+      - text: Grid R$ 1,4500 / kWh
+    - term: Ociosidade
+    - definition: Tolerância de 15 min · R$ 0,2500 / min
+    - term: Custo operacional
+    - definition: 5,00%
+    - term: Fins de semana e feriados cadastrados
+    - definition: Fora de ponta
+    - term: Referência da assembleia
+    - definition: Não informada
+    - heading "Janelas de dias úteis" [level=4]
+    - list:
+      - listitem: Intermediária · 17:00–18:00 (São Paulo)
+      - listitem: Ponta · 18:00–21:00 (São Paulo)
+      - listitem: Intermediária · 21:00–22:00 (São Paulo)
+  - heading "Impostos" [level=2]
+  - button "Atualizar impostos"
+  - article:
+    - 'heading "ISS · Versão #1" [level=3]'
+    - term: Jurisdição
+    - definition: BR-SP-SAO_PAULO
+    - term: Alíquota
+    - definition: 5,000%
+    - term: Vigência
+    - definition: 31 de dez. de 2025, 21:00 até sem término cadastrado
+    - term: Energia compensada
+    - definition: Sem exclusão da base de cálculo
+    - term: Base legal / observação
+    - definition: Parâmetro fictício de demonstração acadêmica
+  - paragraph: Horários de São Paulo. O tratamento de feriados depende das datas cadastradas no calendário. A configuração demonstrativa não representa um calendário real completo. Os parâmetros são os cadastrados na API; valores de demonstração não comprovam uma regra tributária real.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

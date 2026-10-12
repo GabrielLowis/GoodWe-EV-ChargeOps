@@ -1,0 +1,6 @@
+
+> ev-chargeops-frontend@0.1.0 api:generate
+> openapi-typescript ../docs/openapi.json -o src/api/schema.d.ts
+
+✨ openapi-typescript 7.13.0
+🚀 ../docs/openapi.json → src/api/schema.d.ts [126.6ms]

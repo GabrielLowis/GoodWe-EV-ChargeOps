@@ -1,0 +1,27 @@
+Browser tab: 1, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#financeiro/1".
+1 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#financeiro/1
+	2 container
+		3 container EV ChargeOps
+			4 text EV ChargeOps
+			5 text GOODWE × FIAP
+			6 text RECARGA NO SEU CONDOMÍNIO
+			7 heading Seu próximo trajeto começa aqui., Value: 1
+				8 text Seu próximo trajeto
+				9 text começa aqui.
+			10 text Reserve seu horário e organize a recarga com a praticidade que faz parte da sua rotina.
+		11 container Acesse sua conta
+			12 text BEM-VINDO AO EV CHARGEOPS
+			13 heading Acesse sua conta, Value: 2, ID: login-title
+				14 text Acesse sua conta
+			15 text Entre com os dados fornecidos pelo condomínio.
+			16 container
+				17 text E-mail
+				18 text field (settable) E-mail
+				19 text Senha
+				20 text field (settable) Senha
+				21 checkbox Mostrar senha, Value: 0
+				22 button Entrar na minha conta
+			23 text O acesso ao morador ou ao síndico é definido pela sua conta. Ao recarregar a página, entre novamente.
+			24 text Gestão de recarga compartilhada
+
+The focused UI element is 1 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#financeiro/1

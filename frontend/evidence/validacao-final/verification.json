@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-11",
+  "checklist": {
+    "execution_presentation": "complete",
+    "anomaly_check": "complete - scenarios unavailable; persisted review not validated",
+    "small_frontend_finish": "complete",
+    "manager_dashboard": "complete",
+    "regression_evidence": "complete"
+  },
+  "tests": {
+    "command": "npm --prefix frontend test",
+    "passed": 26,
+    "files": 8,
+    "result": "passed outside sandbox; sandbox attempt ENOENT"
+  },
+  "build": {
+    "command": "npm --prefix frontend run build",
+    "exit_code": 0,
+    "modules": 34
+  },
+  "http_urls": [
+    {
+      "url": "http://127.0.0.1:5173",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/docs",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:8000/api/saude",
+      "status": 200
+    }
+  ],
+  "preservation": {
+    "previous_reservations_unchanged": true,
+    "one_new_reservation": true,
+    "new_reservation_id": 8,
+    "new_reservation_cancelled": true,
+    "sessions_unchanged": true,
+    "closed_invoice_unchanged": true,
+    "open_invoice_still_open": true,
+    "invoice_count_unchanged": true,
+    "open_invoice_economics_and_memory_unchanged": true,
+    "users_parameters_anomalies_reports_unchanged": true
+  },
+  "anomalies": {
+    "pending_review": 0,
+    "approved": 0,
+    "rejected": 0,
+    "approve": "not validated - scenario unavailable",
+    "reject": "not validated - scenario unavailable",
+    "orphan_assignment": "not validated - scenario unavailable"
+  },
+  "browser_layout_checks": 34,
+  "horizontal_overflow_observed": false,
+  "keyboard": {
+    "password_toggle_without_submit": true,
+    "tab_order_email_password_toggle_submit": true,
+    "visible_focus": true,
+    "menu_links_reservation_cancellation_generation_and_details": true,
+    "both_profiles_reload_to_login": true
+  },
+  "pwa": {
+    "preview": "http://127.0.0.1:4173",
+    "both_profiles_login": true,
+    "offline_contingency": "Sem conexão displayed after stopping only preview",
+    "recovery": "Tentar novamente returned to login",
+    "physical_installation": "not validated - no device or installation flow available"
+  },
+  "protected_files": {
+    "checked": 224,
+    "changed": []
+  },
+  "credential_scan": {
+    "text_files_checked": 23,
+    "leaks": []
+  },
+  "domain_actions": [
+    "POST /api/reservas -> 201 (#8)",
+    "POST /api/reservas -> 409",
+    "POST /api/faturas/gerar -> 200 (October 2026)",
+    "POST /api/reservas/8/cancelar -> 200"
+  ],
+  "historical_evidence_only": [
+    "invoice closure from entrega4 on 08-09/10/2026"
+  ],
+  "not_proven": [
+    "persisted anomaly review",
+    "physical PWA installation",
+    "live partial-query failure; controlled tests only",
+    "physical telemetry",
+    "payments"
+  ],
+  "screenshots": [
+    "01-fila-pendente.png",
+    "02-fila-aprovada.png",
+    "03-fila-rejeitada.png",
+    "04-login-mobile.png",
+    "05-dashboard-mobile.png",
+    "06-sessao-mobile.png",
+    "07-agenda-mobile.png",
+    "08-financeiro-mobile.png",
+    "09-fatura-consumo-mobile.png",
+    "10-parametros-mobile.png",
+    "11-fila-mobile.png",
+    "12-inicio-morador-mobile.png",
+    "13-sugestao-mobile.png",
+    "14-reserva-formulario-mobile.png",
+    "15-reserva-criada.png",
+    "16-conflito-reserva.png",
+    "17-dashboard-reserva-ativa.png",
+    "18-dashboard-reserva-ativa-mobile.png",
+    "19-recalculo-outubro.png",
+    "20-fatura-zero-fechada.png",
+    "21-fatura-zero-fechada-mobile.png",
+    "22-reserva-cancelada-mobile.png",
+    "23-fatura-morador.png",
+    "24-dashboard-final.png",
+    "25-preview-morador.png",
+    "26-preview-dashboard.png",
+    "27-contingencia-preview.png",
+    "28-preview-restaurado-login.png"
+  ]
+}

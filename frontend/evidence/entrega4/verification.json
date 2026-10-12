@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-09T03:05:49.939126+00:00",
+  "health": {
+    "status": "ok",
+    "database": "ok",
+    "schema_version": "0001_schema_inicial",
+    "ai_model": "v1.0.0"
+  },
+  "frontend_tests": 22,
+  "build": "passed",
+  "all_previous_reservations_preserved": true,
+  "new_reservation": {
+    "id": 7,
+    "status": "cancelled",
+    "exact_suggested_interval_preserved": true
+  },
+  "previous_sessions_unchanged": true,
+  "parameters_and_users_unchanged": true,
+  "october_invoice": {
+    "id": 1,
+    "status": "open",
+    "total": "4.04",
+    "calculation_preserved": true
+  },
+  "november_invoice": {
+    "id": 2,
+    "status": "closed",
+    "total": "0.00",
+    "sessions_count": 0,
+    "preserved_after_group_generation": true
+  },
+  "protected_source_files_unchanged": 210,
+  "offline_real_browser": "preview_stopped_then_reload_showed_contingency; restarted_and_retry_returned_to_login",
+  "pwa_icons": {
+    "/icon-192.png": [
+      192,
+      192
+    ],
+    "/icon-512.png": [
+      512,
+      512
+    ],
+    "/icon-maskable-512.png": [
+      512,
+      512
+    ]
+  },
+  "installation_on_device": "not_validated",
+  "anomaly_review_real_api": "not_validated_no_records"
+}

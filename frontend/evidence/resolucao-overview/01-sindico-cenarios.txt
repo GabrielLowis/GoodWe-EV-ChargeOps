@@ -1,0 +1,74 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#inicio".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#inicio
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Visão geral Síndico
+		17 container main-content
+			18 text OPERAÇÃO DO CONDOMÍNIO
+			19 heading Visão geral, Value: 1
+				20 text Visão geral
+			21 container
+				22 text Olá,  Síndico Demo . Acompanhe os registros e as revisões que precisam de atenção.
+			23 container
+				24 heading Reservas registradas, Value: 2
+					25 text Reservas registradas
+				26 text 9 Inclui todos os estados da agenda.
+				27 link Description: Abrir agenda →, Value: 127.0.0.1:5173/#agenda
+				28 button Atualizar reservas registradas
+			29 container
+				30 heading Sessões registradas, Value: 2
+					31 text Sessões registradas
+				32 text 3 Inclui simulações identificadas na lista.
+				33 link Description: Consultar sessões →, Value: 127.0.0.1:5173/#sessoes
+				34 button Atualizar sessões registradas
+			35 container
+				36 heading Anomalias pendentes, Value: 2
+					37 text Anomalias pendentes
+				71 text 2 Ocorrências aguardando decisão.
+				39 link Description: Abrir fila de revisão →, Value: 127.0.0.1:5173/#anomalias
+				40 button Atualizar anomalias pendentes
+			41 container Próximas reservas
+				42 heading Próximas reservas, Value: 2, ID: upcoming-title
+					43 text Próximas reservas
+				44 button Atualizar reservas
+				45 content list
+					46 container
+						47 link Description: Reserva #9, Value: 127.0.0.1:5173/#agenda
+						48 text 13 de out. de 2026 ,  09:00  –  10:00 Morador # 2  · Carregador # 1  · Conector  1
+				49 link Description: Ver agenda do condomínio →, Value: 127.0.0.1:5173/#agenda
+			50 container Sessões recentes
+				51 heading Sessões recentes, Value: 2, ID: recent-title
+					52 text Sessões recentes
+				53 button Atualizar sessões
+				54 content list
+					55 container
+						56 link Description: Sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+						57 text 12 de out. de 2026 ,  13:26  ·  0 kWh Encerrada pelo usuário Suspensa para revisão Simulação
+						58 link Description: Ver sessão #2 →, Value: 127.0.0.1:5173/#sessoes/2
+					59 container
+						60 link Description: Sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+						61 text 12 de out. de 2026 ,  13:23  ·  0 kWh Encerrada pelo usuário Suspensa para revisão Simulação
+						62 link Description: Ver sessão #3 →, Value: 127.0.0.1:5173/#sessoes/3
+					63 container
+						64 link Description: Sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+						65 text 08 de out. de 2026 ,  01:09  ·  6,2 kWh Concluída Aprovada para cobrança Simulação
+						66 link Description: Ver sessão #1 →, Value: 127.0.0.1:5173/#sessoes/1
+				67 link Description: Ver todas as sessões →, Value: 127.0.0.1:5173/#sessoes
+			68 text As contagens vêm dos registros da API. Não indicam disponibilidade física nem equipamento online.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 17 container main-content

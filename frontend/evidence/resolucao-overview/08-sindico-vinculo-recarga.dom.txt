@@ -1,0 +1,86 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Sessões do condomínio
+  - generic: Síndico
+- main [active]:
+  - paragraph: USO REGISTRADO
+  - heading "Detalhe da sessão" [level=1]
+  - paragraph: Encerramento e validação para cobrança são situações distintas.
+  - link "← Voltar para sessões do condomínio":
+    - /url: "#sessoes"
+  - 'heading "Recarga #1" [level=2]'
+  - generic: Simulação
+  - term: Morador
+  - definition: Morador Demo
+  - term: Atribuição
+  - definition: Pela reserva
+  - generic: Energia total
+  - strong: 6,2 kWh
+  - generic: Green · solar/bateria
+  - strong: 1 kWh
+  - generic: Grid · rede elétrica
+  - strong: 5,2 kWh
+  - term: Reserva
+  - definition:
+    - 'link "Reserva #1"':
+      - /url: "#agenda"
+  - term: Carregador / conector
+  - definition: HCA01 · Conector 1
+  - term: Início
+  - definition: 08 de out. de 2026, 01:09
+  - term: Fim da energia
+  - definition: 08 de out. de 2026, 04:09
+  - term: Encerramento
+  - definition: 08 de out. de 2026, 04:09
+  - term: Situação da recarga
+  - definition: Concluída
+  - term: Validação para cobrança
+  - definition: Aprovada para cobrança
+  - term: Origem
+  - definition: Simulação
+  - term: Potência média / máxima
+  - definition: 2,30 kW / 3,30 kW
+  - heading "Vínculo de faturamento" [level=3]
+  - paragraph:
+    - text: Incluída na fatura de
+    - 'link "outubro de 2026 · Fatura #1"':
+      - /url: "#financeiro/1"
+    - text: .
+  - paragraph: Inclusão em fatura indica faturamento; o sistema não registra pagamentos.
+  - paragraph: Uma recarga concluída pode aguardar validação. Aprovação para cobrança não indica pagamento. Esta recarga foi simulada; não comprova uso de equipamento físico.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,1109 @@
+{
+  "at": "2026-10-12T16:03:40.826196-03:00",
+  "transaction_read_only": "on",
+  "counts": {
+    "chargers": 1,
+    "condo_units": 1,
+    "holidays": 1,
+    "tariffs": 1,
+    "tax_rules": 1,
+    "tariff_bands": 3,
+    "users": 2,
+    "audit_events": 28,
+    "invoices": 2,
+    "reservations": 9,
+    "rfid_cards": 0,
+    "tariff_windows": 3,
+    "charging_sessions": 3,
+    "anomalies": 2,
+    "invoice_items": 1,
+    "session_power_samples": 0
+  },
+  "table_sha256": {
+    "chargers": "351b3d586198b5825e76a66696779e84c06f34b1faaf8cf9eba605e9a66a3629",
+    "condo_units": "bc58e9c60c9d6c4c1b75ec44160e2910790a7a8760385da1e9c60deeec072722",
+    "holidays": "9bae94e351195b30480e8a0c4072eb79dfcc296fce7484b7f426c695e60a7d63",
+    "tariffs": "b3c85a2b4eb861c269df847652bbe0562d4d0d32b73635c2c8d0d2e44456e631",
+    "tax_rules": "7dc3fc1226d8c37cac49c9dea898a259b7791c901137c3f983ca9e0a73cb7ce3",
+    "tariff_bands": "11cf9d0016a440d1b30618a98e3d700e251a7f32f9674f0c74b977e1674bee8f",
+    "users": "a455939e5bd31e11bdc326d06aec4a48cb7c7f73a5b21d7a38fd2f16d021c47e",
+    "audit_events": "40d9879eba202d25af12379f131f6e948d66943d61ade5fbf3c86591f122dca7",
+    "invoices": "d556c9fcce7923f58add248bf75f02007713bd368808d18994d7266a707cba3b",
+    "reservations": "4df4fc81c3db8bf1b8971ce2081012680f1065864d7db513d200c3aaad890239",
+    "rfid_cards": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "tariff_windows": "b6ffb646040c3e6117e565ed1e1b13787c24d68e17a79203f69bb0777dc77b52",
+    "charging_sessions": "6eb76d5cc730e4e1a7af005103ad694e422ae4f3a75564485baee30ae6be80b0",
+    "anomalies": "90959b897e47e4005bd347f98d846547ebcceb137f431ac52f8cbef678604352",
+    "invoice_items": "55095b1c3f39ed90cdbb856935e2b11e2ef97c5f8d39d12056dad0235ddf1abe",
+    "session_power_samples": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "tables": {
+    "chargers": [
+      {
+        "id": 1,
+        "code": "HCA01",
+        "serial_number": "DEMO-HCA01",
+        "model": "GoodWe HCA G2",
+        "rated_power_kw": "7.00",
+        "connectors": 1,
+        "location": "Vaga compartilhada (simulação)",
+        "active": true,
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      }
+    ],
+    "condo_units": [
+      {
+        "id": 1,
+        "block": "A",
+        "number": "101",
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      }
+    ],
+    "holidays": [
+      {
+        "holiday_date": "2026-10-12",
+        "description": "Feriado de demonstração acadêmica"
+      }
+    ],
+    "tariffs": [
+      {
+        "id": 1,
+        "name": "Demonstração acadêmica",
+        "valid_from": "2025-12-31T21:00:00-03:00",
+        "valid_to": null,
+        "idle_tolerance_minutes": 15,
+        "idle_fee_per_minute": "0.2500",
+        "overhead_percent": "5.00",
+        "weekends_holidays_off_peak": true,
+        "assembly_reference": null,
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      }
+    ],
+    "tax_rules": [
+      {
+        "id": 1,
+        "tax_type": "iss",
+        "jurisdiction": "BR-SP-SAO_PAULO",
+        "rate_percent": "5.000",
+        "exclude_compensated_energy": false,
+        "legal_basis": "Parâmetro fictício de demonstração acadêmica",
+        "valid_from": "2025-12-31T21:00:00-03:00",
+        "valid_to": null,
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      }
+    ],
+    "tariff_bands": [
+      {
+        "tariff_id": 1,
+        "band": "intermediate",
+        "green_price_per_kwh": "0.3000",
+        "grid_price_per_kwh": "0.9500"
+      },
+      {
+        "tariff_id": 1,
+        "band": "off_peak",
+        "green_price_per_kwh": "0.3000",
+        "grid_price_per_kwh": "0.6500"
+      },
+      {
+        "tariff_id": 1,
+        "band": "peak",
+        "green_price_per_kwh": "0.3000",
+        "grid_price_per_kwh": "1.4500"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "Síndico Demo",
+        "email": "sindico@demo.local",
+        "role": "manager",
+        "unit_id": null,
+        "active": true,
+        "reservation_blocked_until": null,
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      },
+      {
+        "id": 2,
+        "name": "Morador Demo",
+        "email": "morador@demo.local",
+        "role": "resident",
+        "unit_id": 1,
+        "active": true,
+        "reservation_blocked_until": null,
+        "created_at": "2026-10-08T00:02:50.250502-03:00"
+      }
+    ],
+    "audit_events": [
+      {
+        "id": 1,
+        "occurred_at": "2026-10-08T00:09:26.458487-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "1",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 2,
+        "occurred_at": "2026-10-08T00:09:26.472160-03:00",
+        "actor_user_id": null,
+        "entity_type": "charging_session",
+        "entity_id": "1",
+        "action": "session_ingested",
+        "before_data": null,
+        "after_data": {
+          "payload": {
+            "source": "simulator",
+            "status": "completed",
+            "ended_at": "2026-10-08T07:09:26.445378Z",
+            "grid_kwh": "5.200",
+            "connector": 1,
+            "green_kwh": "1.000",
+            "total_kwh": "6.200",
+            "charger_id": "HCA01",
+            "session_id": "demo-6532d705e17449518df42d3f259a637c",
+            "started_at": "2026-10-08T04:09:26.445378Z",
+            "failure_code": null,
+            "max_power_kw": "3.30",
+            "power_samples": [],
+            "energy_ended_at": "2026-10-08T07:09:26.445378Z",
+            "average_power_kw": "2.30"
+          },
+          "detection": {
+            "layer": "passed",
+            "score": 0.672,
+            "reasons": [],
+            "is_anomaly": false,
+            "model_version": "v1.0.0",
+            "reasons_human": []
+          }
+        },
+        "reason": null
+      },
+      {
+        "id": 3,
+        "occurred_at": "2026-10-08T00:09:28.014734-03:00",
+        "actor_user_id": 1,
+        "entity_type": "invoice",
+        "entity_id": "1",
+        "action": "invoice_generated",
+        "before_data": null,
+        "after_data": {
+          "total": "4.04",
+          "period": "2026-10",
+          "user_id": 2,
+          "sessions": 1
+        },
+        "reason": null
+      },
+      {
+        "id": 4,
+        "occurred_at": "2026-10-08T22:15:39.600585-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "2",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 5,
+        "occurred_at": "2026-10-08T22:16:06.752992-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "2",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 6,
+        "occurred_at": "2026-10-08T22:53:15.561289-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "3",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 7,
+        "occurred_at": "2026-10-08T22:55:44.989261-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "4",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 8,
+        "occurred_at": "2026-10-08T22:56:20.911422-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "4",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 9,
+        "occurred_at": "2026-10-08T23:10:15.107977-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "5",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 10,
+        "occurred_at": "2026-10-08T23:11:53.240604-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "5",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 11,
+        "occurred_at": "2026-10-08T23:26:41.350381-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "6",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 12,
+        "occurred_at": "2026-10-08T23:26:58.873733-03:00",
+        "actor_user_id": 1,
+        "entity_type": "reservation",
+        "entity_id": "6",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 13,
+        "occurred_at": "2026-10-08T23:50:06.202135-03:00",
+        "actor_user_id": 1,
+        "entity_type": "invoice",
+        "entity_id": "1",
+        "action": "invoice_generated",
+        "before_data": null,
+        "after_data": {
+          "total": "4.04",
+          "period": "2026-10",
+          "user_id": 2,
+          "sessions": 1
+        },
+        "reason": null
+      },
+      {
+        "id": 14,
+        "occurred_at": "2026-10-08T23:51:19.339738-03:00",
+        "actor_user_id": 1,
+        "entity_type": "invoice",
+        "entity_id": "2",
+        "action": "invoice_generated",
+        "before_data": null,
+        "after_data": {
+          "total": "0.00",
+          "period": "2026-11",
+          "user_id": 2,
+          "sessions": 0
+        },
+        "reason": null
+      },
+      {
+        "id": 15,
+        "occurred_at": "2026-10-08T23:51:36.190941-03:00",
+        "actor_user_id": 1,
+        "entity_type": "invoice",
+        "entity_id": "2",
+        "action": "invoice_closed",
+        "before_data": null,
+        "after_data": {
+          "total": "0.00"
+        },
+        "reason": null
+      },
+      {
+        "id": 46,
+        "occurred_at": "2026-10-08T23:58:40.063108-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "7",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 47,
+        "occurred_at": "2026-10-08T23:59:23.812438-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "7",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 48,
+        "occurred_at": "2026-10-11T18:13:59.227755-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "8",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 49,
+        "occurred_at": "2026-10-11T18:16:04.767017-03:00",
+        "actor_user_id": 1,
+        "entity_type": "invoice",
+        "entity_id": "1",
+        "action": "invoice_generated",
+        "before_data": null,
+        "after_data": {
+          "total": "4.04",
+          "period": "2026-10",
+          "user_id": 2,
+          "sessions": 1
+        },
+        "reason": null
+      },
+      {
+        "id": 50,
+        "occurred_at": "2026-10-11T18:16:36.635495-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "8",
+        "action": "reservation_cancelled",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 51,
+        "occurred_at": "2026-10-12T13:32:47.079998-03:00",
+        "actor_user_id": 1,
+        "entity_type": "reservation",
+        "entity_id": "3",
+        "action": "no_show",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 52,
+        "occurred_at": "2026-10-12T13:36:38.056868-03:00",
+        "actor_user_id": 2,
+        "entity_type": "reservation",
+        "entity_id": "9",
+        "action": "reservation_created",
+        "before_data": null,
+        "after_data": null,
+        "reason": null
+      },
+      {
+        "id": 53,
+        "occurred_at": "2026-10-12T13:36:38.145512-03:00",
+        "actor_user_id": null,
+        "entity_type": "anomaly",
+        "entity_id": "1",
+        "action": "anomaly_detected",
+        "before_data": null,
+        "after_data": {
+          "score": 1.0,
+          "status": "pending_review",
+          "detector": "rules",
+          "session_id": 2
+        },
+        "reason": "Sessão suspensa automaticamente para revisão humana"
+      },
+      {
+        "id": 54,
+        "occurred_at": "2026-10-12T13:36:38.145512-03:00",
+        "actor_user_id": null,
+        "entity_type": "charging_session",
+        "entity_id": "2",
+        "action": "session_ingested",
+        "before_data": null,
+        "after_data": {
+          "payload": {
+            "source": "simulator",
+            "status": "user_stopped",
+            "ended_at": "2026-10-12T16:27:38Z",
+            "grid_kwh": "0.000",
+            "connector": 1,
+            "green_kwh": "0.000",
+            "total_kwh": "0.000",
+            "charger_id": "HCA01",
+            "session_id": "goal-overview-pendente-v1",
+            "started_at": "2026-10-12T16:26:38Z",
+            "failure_code": null,
+            "max_power_kw": "0.00",
+            "power_samples": [],
+            "energy_ended_at": "2026-10-12T16:27:38Z",
+            "average_power_kw": "0.00"
+          },
+          "detection": {
+            "layer": "rules",
+            "score": 1.0,
+            "reasons": [
+              "NO_ENERGY_DELIVERED",
+              "ORPHAN_SESSION"
+            ],
+            "is_anomaly": true,
+            "model_version": null,
+            "reasons_human": [
+              "Carro plugado sem receber energia: vaga ocupada sem recarga.",
+              "Sem reserva correspondente; síndico deve atribuir o morador."
+            ]
+          }
+        },
+        "reason": null
+      },
+      {
+        "id": 55,
+        "occurred_at": "2026-10-12T13:36:38.183632-03:00",
+        "actor_user_id": null,
+        "entity_type": "anomaly",
+        "entity_id": "2",
+        "action": "anomaly_detected",
+        "before_data": null,
+        "after_data": {
+          "score": 1.0,
+          "status": "pending_review",
+          "detector": "rules",
+          "session_id": 3
+        },
+        "reason": "Sessão suspensa automaticamente para revisão humana"
+      },
+      {
+        "id": 56,
+        "occurred_at": "2026-10-12T13:36:38.183632-03:00",
+        "actor_user_id": null,
+        "entity_type": "charging_session",
+        "entity_id": "3",
+        "action": "session_ingested",
+        "before_data": null,
+        "after_data": {
+          "payload": {
+            "source": "simulator",
+            "status": "user_stopped",
+            "ended_at": "2026-10-12T16:24:38Z",
+            "grid_kwh": "0.000",
+            "connector": 1,
+            "green_kwh": "0.000",
+            "total_kwh": "0.000",
+            "charger_id": "HCA01",
+            "session_id": "goal-overview-rejeitada-v1",
+            "started_at": "2026-10-12T16:23:38Z",
+            "failure_code": null,
+            "max_power_kw": "0.00",
+            "power_samples": [],
+            "energy_ended_at": "2026-10-12T16:24:38Z",
+            "average_power_kw": "0.00"
+          },
+          "detection": {
+            "layer": "rules",
+            "score": 1.0,
+            "reasons": [
+              "NO_ENERGY_DELIVERED",
+              "ORPHAN_SESSION"
+            ],
+            "is_anomaly": true,
+            "model_version": null,
+            "reasons_human": [
+              "Carro plugado sem receber energia: vaga ocupada sem recarga.",
+              "Sem reserva correspondente; síndico deve atribuir o morador."
+            ]
+          }
+        },
+        "reason": null
+      },
+      {
+        "id": 57,
+        "occurred_at": "2026-10-12T13:38:55.617803-03:00",
+        "actor_user_id": 1,
+        "entity_type": "anomaly",
+        "entity_id": "2",
+        "action": "anomaly_review",
+        "before_data": {
+          "status": "pending_review",
+          "session_id": 3
+        },
+        "after_data": {
+          "status": "rejected",
+          "session_id": 3,
+          "reviewed_at": "2026-10-12T13:38:55.626107-03:00"
+        },
+        "reason": "Demonstração acadêmica: sessão simulada sem energia e sem reserva; rejeitada para cobrança. Não representa telemetria física ou pagamento."
+      },
+      {
+        "id": 58,
+        "occurred_at": "2026-10-12T13:42:03.179835-03:00",
+        "actor_user_id": 1,
+        "entity_type": "holiday",
+        "entity_id": "2026-10-12",
+        "action": "demo_holiday_added",
+        "before_data": null,
+        "after_data": {
+          "description": "Feriado de demonstração acadêmica",
+          "holiday_date": "2026-10-12"
+        },
+        "reason": "Cenário acadêmico autorizado; calendário demonstrativo, não completo"
+      }
+    ],
+    "invoices": [
+      {
+        "id": 1,
+        "user_id": 2,
+        "period": "2026-10-01",
+        "status": "open",
+        "sessions_count": 1,
+        "green_kwh": "1.000",
+        "grid_kwh": "5.200",
+        "idle_minutes": 0,
+        "green_amount": "0.30",
+        "grid_amount": "3.38",
+        "idle_amount": "0.00",
+        "subtotal": "3.68",
+        "tax_amount": "0.18",
+        "overhead_amount": "0.18",
+        "total": "4.04",
+        "calculation": {
+          "user": {
+            "id": 2,
+            "name": "Morador Demo",
+            "unit": "A-101"
+          },
+          "lines": [
+            {
+              "total": "4.04",
+              "tariff_id": 1,
+              "session_id": 1,
+              "started_at": "2026-10-08T01:09:26.445378-03:00",
+              "charge_rule": "normal",
+              "is_late_entry": false
+            }
+          ],
+          "notes": [],
+          "period": "2026-10",
+          "totals": {
+            "total": "4.04",
+            "grid_kwh": "5.200",
+            "subtotal": "3.68",
+            "green_kwh": "1.000",
+            "tax_amount": "0.18",
+            "grid_amount": "3.38",
+            "idle_amount": "0.00",
+            "green_amount": "0.30",
+            "idle_minutes": 0,
+            "sessions_count": 1,
+            "overhead_amount": "0.18"
+          },
+          "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+          "period_end": "2026-11-01T00:00:00-03:00",
+          "not_included": [],
+          "period_start": "2026-10-01T00:00:00-03:00",
+          "engine_version": "1.0.0"
+        },
+        "engine_version": "1.0.0",
+        "generated_at": "2026-10-11T18:16:04.819248-03:00",
+        "closed_at": null
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "period": "2026-11-01",
+        "status": "closed",
+        "sessions_count": 0,
+        "green_kwh": "0.000",
+        "grid_kwh": "0.000",
+        "idle_minutes": 0,
+        "green_amount": "0.00",
+        "grid_amount": "0.00",
+        "idle_amount": "0.00",
+        "subtotal": "0.00",
+        "tax_amount": "0.00",
+        "overhead_amount": "0.00",
+        "total": "0.00",
+        "calculation": {
+          "user": {
+            "id": 2,
+            "name": "Morador Demo",
+            "unit": "A-101"
+          },
+          "lines": [],
+          "notes": [
+            "Fatura zero: nenhuma sessão faturável no período; não há cobrança mínima."
+          ],
+          "period": "2026-11",
+          "totals": {
+            "total": "0.00",
+            "grid_kwh": "0.000",
+            "subtotal": "0.00",
+            "green_kwh": "0.000",
+            "tax_amount": "0.00",
+            "grid_amount": "0.00",
+            "idle_amount": "0.00",
+            "green_amount": "0.00",
+            "idle_minutes": 0,
+            "sessions_count": 0,
+            "overhead_amount": "0.00"
+          },
+          "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+          "period_end": "2026-12-01T00:00:00-03:00",
+          "not_included": [],
+          "period_start": "2026-11-01T00:00:00-03:00",
+          "engine_version": "1.0.0"
+        },
+        "engine_version": "1.0.0",
+        "generated_at": "2026-10-08T23:51:19.373398-03:00",
+        "closed_at": "2026-10-08T23:51:36.196947-03:00"
+      }
+    ],
+    "reservations": [
+      {
+        "id": 1,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-08T01:09:26.445378-03:00",
+        "ends_at": "2026-10-08T04:09:26.445378-03:00",
+        "status": "completed",
+        "created_at": "2026-10-08T00:09:26.458487-03:00",
+        "cancelled_at": null
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-13T10:00:00-03:00",
+        "ends_at": "2026-10-13T11:00:00-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-08T22:15:39.600585-03:00",
+        "cancelled_at": "2026-10-08T22:16:06.755197-03:00"
+      },
+      {
+        "id": 3,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-09T13:00:00-03:00",
+        "ends_at": "2026-10-09T18:00:00-03:00",
+        "status": "no_show",
+        "created_at": "2026-10-08T22:53:15.561289-03:00",
+        "cancelled_at": null
+      },
+      {
+        "id": 4,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-13T10:00:00-03:00",
+        "ends_at": "2026-10-13T11:00:00-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-08T22:55:44.989261-03:00",
+        "cancelled_at": "2026-10-08T22:56:20.912786-03:00"
+      },
+      {
+        "id": 5,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-09T11:00:00-03:00",
+        "ends_at": "2026-10-09T12:52:43.636364-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-08T23:10:15.107977-03:00",
+        "cancelled_at": "2026-10-08T23:11:53.247042-03:00"
+      },
+      {
+        "id": 6,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-14T10:00:00-03:00",
+        "ends_at": "2026-10-14T11:00:00-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-08T23:26:41.350381-03:00",
+        "cancelled_at": "2026-10-08T23:26:58.876319-03:00"
+      },
+      {
+        "id": 7,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-09T11:00:00-03:00",
+        "ends_at": "2026-10-09T12:52:43.636364-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-08T23:58:40.063108-03:00",
+        "cancelled_at": "2026-10-08T23:59:23.815553-03:00"
+      },
+      {
+        "id": 8,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-12T11:00:00-03:00",
+        "ends_at": "2026-10-12T12:52:43.636364-03:00",
+        "status": "cancelled",
+        "created_at": "2026-10-11T18:13:59.227755-03:00",
+        "cancelled_at": "2026-10-11T18:16:36.638280-03:00"
+      },
+      {
+        "id": 9,
+        "user_id": 2,
+        "charger_id": 1,
+        "connector": 1,
+        "starts_at": "2026-10-13T09:00:00-03:00",
+        "ends_at": "2026-10-13T10:00:00-03:00",
+        "status": "active",
+        "created_at": "2026-10-12T13:36:38.056868-03:00",
+        "cancelled_at": null
+      }
+    ],
+    "rfid_cards": [],
+    "tariff_windows": [
+      {
+        "id": 1,
+        "tariff_id": 1,
+        "band": "intermediate",
+        "start_time": "17:00:00",
+        "end_time": "18:00:00"
+      },
+      {
+        "id": 2,
+        "tariff_id": 1,
+        "band": "peak",
+        "start_time": "18:00:00",
+        "end_time": "21:00:00"
+      },
+      {
+        "id": 3,
+        "tariff_id": 1,
+        "band": "intermediate",
+        "start_time": "21:00:00",
+        "end_time": "22:00:00"
+      }
+    ],
+    "charging_sessions": [
+      {
+        "id": 1,
+        "source": "simulator",
+        "external_id": "demo-6532d705e17449518df42d3f259a637c",
+        "charger_id": 1,
+        "connector": 1,
+        "reservation_id": 1,
+        "user_id": 2,
+        "attribution_method": "reservation",
+        "started_at": "2026-10-08T01:09:26.445378-03:00",
+        "energy_ended_at": "2026-10-08T04:09:26.445378-03:00",
+        "ended_at": "2026-10-08T04:09:26.445378-03:00",
+        "total_kwh": "6.200",
+        "green_kwh": "1.000",
+        "grid_kwh": "5.200",
+        "average_power_kw": "2.30",
+        "max_power_kw": "3.30",
+        "end_status": "completed",
+        "failure_code": null,
+        "validation_status": "approved",
+        "created_at": "2026-10-08T00:09:26.472160-03:00",
+        "updated_at": "2026-10-08T00:09:26.472160-03:00"
+      },
+      {
+        "id": 2,
+        "source": "simulator",
+        "external_id": "goal-overview-pendente-v1",
+        "charger_id": 1,
+        "connector": 1,
+        "reservation_id": null,
+        "user_id": null,
+        "attribution_method": "unattributed",
+        "started_at": "2026-10-12T13:26:38-03:00",
+        "energy_ended_at": "2026-10-12T13:27:38-03:00",
+        "ended_at": "2026-10-12T13:27:38-03:00",
+        "total_kwh": "0.000",
+        "green_kwh": "0.000",
+        "grid_kwh": "0.000",
+        "average_power_kw": "0.00",
+        "max_power_kw": "0.00",
+        "end_status": "user_stopped",
+        "failure_code": null,
+        "validation_status": "suspended",
+        "created_at": "2026-10-12T13:36:38.145512-03:00",
+        "updated_at": "2026-10-12T13:36:38.145512-03:00"
+      },
+      {
+        "id": 3,
+        "source": "simulator",
+        "external_id": "goal-overview-rejeitada-v1",
+        "charger_id": 1,
+        "connector": 1,
+        "reservation_id": null,
+        "user_id": null,
+        "attribution_method": "unattributed",
+        "started_at": "2026-10-12T13:23:38-03:00",
+        "energy_ended_at": "2026-10-12T13:24:38-03:00",
+        "ended_at": "2026-10-12T13:24:38-03:00",
+        "total_kwh": "0.000",
+        "green_kwh": "0.000",
+        "grid_kwh": "0.000",
+        "average_power_kw": "0.00",
+        "max_power_kw": "0.00",
+        "end_status": "user_stopped",
+        "failure_code": null,
+        "validation_status": "rejected",
+        "created_at": "2026-10-12T13:36:38.183632-03:00",
+        "updated_at": "2026-10-12T13:38:55.617803-03:00"
+      }
+    ],
+    "anomalies": [
+      {
+        "id": 1,
+        "session_id": 2,
+        "detected_at": "2026-10-12T13:36:38.145512-03:00",
+        "detector": "rules",
+        "score": "1.0000",
+        "reasons": [
+          {
+            "code": "NO_ENERGY_DELIVERED",
+            "message": "Carro plugado sem receber energia: vaga ocupada sem recarga.",
+            "model_version": null
+          },
+          {
+            "code": "ORPHAN_SESSION",
+            "message": "Sem reserva correspondente; síndico deve atribuir o morador.",
+            "model_version": null
+          }
+        ],
+        "status": "pending_review",
+        "reviewed_by": null,
+        "reviewed_at": null,
+        "review_note": null
+      },
+      {
+        "id": 2,
+        "session_id": 3,
+        "detected_at": "2026-10-12T13:36:38.183632-03:00",
+        "detector": "rules",
+        "score": "1.0000",
+        "reasons": [
+          {
+            "code": "NO_ENERGY_DELIVERED",
+            "message": "Carro plugado sem receber energia: vaga ocupada sem recarga.",
+            "model_version": null
+          },
+          {
+            "code": "ORPHAN_SESSION",
+            "message": "Sem reserva correspondente; síndico deve atribuir o morador.",
+            "model_version": null
+          }
+        ],
+        "status": "rejected",
+        "reviewed_by": 1,
+        "reviewed_at": "2026-10-12T13:38:55.626107-03:00",
+        "review_note": "Demonstração acadêmica: sessão simulada sem energia e sem reserva; rejeitada para cobrança. Não representa telemetria física ou pagamento."
+      }
+    ],
+    "invoice_items": [
+      {
+        "id": 35,
+        "invoice_id": 1,
+        "user_id": 2,
+        "session_id": 1,
+        "tariff_id": 1,
+        "tax_rule_ids": [
+          1
+        ],
+        "charge_rule": "normal",
+        "is_late_entry": false,
+        "green_kwh": "1.000",
+        "grid_kwh": "5.200",
+        "idle_minutes": 0,
+        "green_amount": "0.30",
+        "grid_amount": "3.38",
+        "idle_amount": "0.00",
+        "subtotal": "3.68",
+        "tax_amount": "0.18",
+        "overhead_amount": "0.18",
+        "total": "4.04",
+        "calculation": {
+          "rule": {
+            "code": "normal",
+            "description": "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+          },
+          "notes": [],
+          "tariff": {
+            "id": 1,
+            "name": "Demonstração acadêmica",
+            "prices": {
+              "peak": {
+                "grid_price_per_kwh": "1.4500",
+                "green_price_per_kwh": "0.3000"
+              },
+              "off_peak": {
+                "grid_price_per_kwh": "0.6500",
+                "green_price_per_kwh": "0.3000"
+              },
+              "intermediate": {
+                "grid_price_per_kwh": "0.9500",
+                "green_price_per_kwh": "0.3000"
+              }
+            },
+            "valid_to": null,
+            "valid_from": "2025-12-31T21:00:00-03:00",
+            "weekday_windows": [
+              {
+                "end": "18:00",
+                "band": "intermediate",
+                "start": "17:00"
+              },
+              {
+                "end": "21:00",
+                "band": "peak",
+                "start": "18:00"
+              },
+              {
+                "end": "22:00",
+                "band": "intermediate",
+                "start": "21:00"
+              }
+            ],
+            "overhead_percent": "5.00",
+            "assembly_reference": null,
+            "idle_fee_per_minute": "0.2500",
+            "idle_tolerance_minutes": 15,
+            "weekends_holidays_off_peak": true
+          },
+          "session": {
+            "user_id": 2,
+            "ended_at": "2026-10-08T04:09:26.445378-03:00",
+            "grid_kwh": "5.200",
+            "green_kwh": "1.000",
+            "total_kwh": "6.200",
+            "end_status": "completed",
+            "session_id": 1,
+            "started_at": "2026-10-08T01:09:26.445378-03:00",
+            "failure_code": null,
+            "power_samples": 0,
+            "energy_ended_at": "2026-10-08T04:09:26.445378-03:00",
+            "energy_end_source": "informed",
+            "charger_rated_power_kw": "7.00"
+          },
+          "band_split": {
+            "method": "time_proportional",
+            "segments": [
+              {
+                "end": "2026-10-08T04:09:26.445378-03:00",
+                "band": "off_peak",
+                "index": 1,
+                "start": "2026-10-08T01:09:26.445378-03:00",
+                "minutes": "180.0",
+                "day_type": "dia útil",
+                "grid_kwh": "5.200",
+                "green_kwh": "1.000",
+                "band_label": "Fora de ponta",
+                "grid_value": "3.380000",
+                "green_value": "0.300000",
+                "grid_price_per_kwh": "0.6500",
+                "green_price_per_kwh": "0.3000"
+              }
+            ],
+            "method_description": "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante)."
+          },
+          "components": {
+            "grid": {
+              "kwh": "5.200",
+              "label": "Energia da rede",
+              "amount": "3.38",
+              "formula": "soma(kWh Grid do trecho x preço Grid da faixa), arredondada ao centavo",
+              "unrounded": "3.380000"
+            },
+            "idle": {
+              "label": "Ociosidade (vaga ocupada após o fim da carga)",
+              "amount": "0.00",
+              "applies": true,
+              "formula": "max(0, minutos completos após o fim da energia - tolerância) x taxa por minuto",
+              "fee_per_minute": "0.2500",
+              "billable_minutes": 0,
+              "energy_end_source": "informed",
+              "tolerance_minutes": 15,
+              "energy_end_source_label": "informado pela fonte de dados (SEMS/gateway)",
+              "minutes_after_energy_end": 0
+            },
+            "green": {
+              "kwh": "1.000",
+              "label": "Energia verde (solar/bateria)",
+              "amount": "0.30",
+              "formula": "soma(kWh Green do trecho x preço Green da faixa), arredondada ao centavo",
+              "unrounded": "0.300000"
+            },
+            "taxes": [
+              {
+                "base": "3.68",
+                "label": "ISS",
+                "amount": "0.18",
+                "rule_id": 1,
+                "tax_type": "iss",
+                "legal_basis": "Parâmetro fictício de demonstração acadêmica",
+                "rate_percent": "5.000",
+                "excluded_from_base": "0.00",
+                "exclude_compensated_energy": false
+              }
+            ],
+            "total": "4.04",
+            "overhead": {
+              "base": "3.68",
+              "label": "Overhead operacional",
+              "amount": "0.18",
+              "formula": "subtotal x percentual definido pela assembleia",
+              "percent": "5.00"
+            },
+            "subtotal": {
+              "amount": "3.68",
+              "formula": "Green + Grid + Ociosidade"
+            },
+            "tax_total": "0.18"
+          },
+          "explanation": [
+            "Trecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800",
+            "Energia verde (solar/bateria): R$ 0,30",
+            "Energia da rede: R$ 3,38",
+            "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00",
+            "Subtotal: R$ 3,68",
+            "ISS 5,000% sobre R$ 3,68: R$ 0,18",
+            "Overhead operacional 5,00% sobre o subtotal: R$ 0,18",
+            "Total da sessão: R$ 4,04"
+          ],
+          "engine_version": "1.0.0"
+        },
+        "created_at": "2026-10-11T18:16:04.767017-03:00"
+      }
+    ],
+    "session_power_samples": []
+  }
+}

@@ -1,0 +1,70 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#sugestao".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#sugestao
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Sugestão de horário Morador
+		71 container main-content
+			72 text PLANEJE SUA PRÓXIMA RECARGA
+			73 heading Sugestão de horário, Value: 1
+				74 text Sugestão de horário
+			75 text Compare uma janela sugerida com a estimativa de recarregar agora.
+			76 container
+				77 heading Dados da recarga, Value: 2
+					78 text Dados da recarga
+				79 container suggest-form
+					80 container Parâmetros da sugestão
+						81 text Parâmetros da sugestão
+						82 text Carregador
+						83 pop up button (collapsed, settable) Carregador, Value: HCA01 · Vaga compartilhada (simulação), ID: suggest-charger, Secondary Actions: Expand
+							84 menu
+								85 (selected) HCA01 · Vaga compartilhada (simulação)
+						86 text Energia desejada (kWh)
+						87 stepper (settable, float) Energia desejada (kWh), Value: 6.199999809265137, Details: 6,2, ID: suggest-kwh
+						88 text Potência estimada (kW)
+						89 stepper (settable, float) Potência estimada (kW), Value: 3.299999952316284, Details: 3,3, ID: suggest-power
+						90 container power-hint
+							91 text Até  7  kW neste carregador. A janela estimada deve caber em 12 horas.
+					92 button Consultar sugestão
+			93 container
+				94 heading Horário sugerido, Value: 2
+					95 text Horário sugerido
+				96 text Estimativa · geração solar hipotética 13 de out. de 2026 11:00  –  12:52 Horários de São Paulo
+				97 definition list
+					98 container Custo estimado na sugestão
+						99 text Custo estimado na sugestão
+					100 text R$ 2,10
+					101 container Custo estimado agora
+						102 text Custo estimado agora
+					103 text R$ 3,53
+					104 container Economia estimada
+						105 text Economia estimada
+					106 text R$ 1,43
+				107 heading Premissas da estimativa, Value: 3
+					108 text Premissas da estimativa
+				109 content list
+					110 container
+						111 AXListMarker • 
+						112 text Geração solar hipotética por hora; não usa previsão meteorológica nem regressão.
+					113 container
+						114 AXListMarker • 
+						115 text Tarifas e impostos cadastrados; potência constante; sem ociosidade prevista.
+					116 container
+						117 AXListMarker • 
+						118 text Disponibilidade consultada agora; somente criar a reserva garante a janela.
+				119 button Usar este horário
+				120 text Você ainda precisa escolher/conferir o conector e confirmar a reserva. A disponibilidade pode mudar.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#sugestao

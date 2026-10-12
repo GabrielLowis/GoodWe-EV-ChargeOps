@@ -1,0 +1,128 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#financeiro/1".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#financeiro/1
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 button Sair da conta
+		13 container
+			14 text Condomínio  Financeiro Síndico
+		69 container main-content
+			70 text FATURAMENTO DO CONDOMÍNIO
+			71 heading Detalhe da fatura, Value: 1
+				72 text Detalhe da fatura
+			73 text Consulte valores faturados, gere cálculos e confira cada parcela.
+			74 link Description: ← Voltar para o financeiro, Value: 127.0.0.1:5173/#financeiro
+			75 container
+				76 heading outubro de 2026, Value: 2
+					77 text outubro de 2026
+				78 text Aberta Total faturado R$ 4,04 Green 1 kWh Grid 5,2 kWh
+				79 definition list
+					80 container Energia Green · solar/bateria
+						81 text Energia Green · solar/bateria
+					82 text R$ 0,30
+					83 container Energia Grid · rede elétrica
+						84 text Energia Grid · rede elétrica
+					85 text R$ 3,38
+					86 container Ociosidade
+						87 text Ociosidade
+					88 text R$ 0,00
+					89 container Subtotal
+						90 text Subtotal
+					91 text R$ 3,68
+					92 container Impostos
+						93 text Impostos
+					94 text R$ 0,18
+					95 container Custo operacional
+						96 text Custo operacional
+					97 text R$ 0,18
+					98 container Total
+						99 text Total
+					100 text R$ 4,04
+				101 text 1  recarga(s) incluída(s) ·  0  min de ociosidade faturada. Fatura aberta: o cálculo ainda pode ser atualizado pelo síndico.  Esta situação não comprova pagamento.
+			102 container
+				103 heading Memória de cálculo, Value: 2
+					104 text Memória de cálculo
+				105 text Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead Sem observações adicionais.
+				106 button (expanded) Recarga #1 R$ 4,04, Secondary Actions: Collapse
+					107 text Recarga #
+					108 text 1
+					109 text R$ 4,04
+				116 link Description: Ver dados da recarga #1, Value: 127.0.0.1:5173/#sessoes/1
+				117 text Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.
+				118 definition list
+					119 container Energia Green · solar/bateria
+						120 text Energia Green · solar/bateria
+					121 text R$ 0,30
+					122 container Energia Grid · rede elétrica
+						123 text Energia Grid · rede elétrica
+					124 text R$ 3,38
+					125 container Ociosidade
+						126 text Ociosidade
+					127 text R$ 0,00
+					128 container Subtotal
+						129 text Subtotal
+					130 text R$ 3,68
+					131 container Impostos
+						132 text Impostos
+					133 text R$ 0,18
+					134 container Custo operacional
+						135 text Custo operacional
+					136 text R$ 0,18
+					137 container Total
+						138 text Total
+					139 text R$ 4,04
+				140 container
+					141 text 1 kWh  Green ·  5,2 kWh  Grid ·  0  min de ociosidade.
+				142 container
+					143 text Tarifa utilizada:  Demonstração acadêmica .
+				144 text Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).
+				145 heading Como o valor foi calculado, Value: 3
+					146 text Como o valor foi calculado
+				147 content list
+					148 container
+						149 AXListMarker • 
+						150 text Trecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800
+					151 container
+						152 AXListMarker • 
+						153 text Energia verde (solar/bateria): R$ 0,30
+					154 container
+						155 AXListMarker • 
+						156 text Energia da rede: R$ 3,38
+					157 container
+						158 AXListMarker • 
+						159 text Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00
+					160 container
+						161 AXListMarker • 
+						162 text Subtotal: R$ 3,68
+					163 container
+						164 AXListMarker • 
+						165 text ISS 5,000% sobre R$ 3,68: R$ 0,18
+					166 container
+						167 AXListMarker • 
+						168 text Overhead operacional 5,00% sobre o subtotal: R$ 0,18
+					169 container
+						170 AXListMarker • 
+						171 text Total da sessão: R$ 4,04
+				172 container
+					173 text ISS:  Parâmetro fictício de demonstração acadêmica
+				174 heading Observações da recarga, Value: 3
+					175 text Observações da recarga
+				176 text Sem observações adicionais.
+			110 container
+				111 heading Fechamento da fatura, Value: 2
+					112 text Fechamento da fatura
+				113 text Morador:  Morador Demo  · Fatura # 1 . Fechamento disponível a partir de  01 de nov. de 2026 , 00:00 (São Paulo), após o término do período. A fatura permanece aberta para atualização.
+				114 button (disabled) Fechar fatura #1
+					115 text Fechar fatura # 1
+		67 container
+			68 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 106 button (expanded) Recarga #1 R$ 4,04, Secondary Actions: Collapse

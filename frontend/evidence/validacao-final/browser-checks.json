@@ -1,0 +1,240 @@
+[
+  {
+    "name": "login-390",
+    "focus": "password",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "dashboard-empty-390",
+    "focus": "main-content",
+    "heading": "Visão geral",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "manager-session-390",
+    "focus": "main-content",
+    "heading": "Detalhe da sessão",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "agenda-390",
+    "focus": "main-content",
+    "heading": "Agenda do condomínio",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "finance-390",
+    "focus": "main-content",
+    "heading": "Financeiro",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "invoice-memory-390",
+    "focus": "Recarga #1R$ 4,04",
+    "heading": "Detalhe da fatura",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "parameters-390",
+    "focus": "main-content",
+    "heading": "Cadastros e parâmetros",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "anomalies-390",
+    "focus": "main-content",
+    "heading": "Fila de anomalias",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "resident-home-390",
+    "focus": "main-content",
+    "heading": "Olá, Morador.",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "recommendation-390",
+    "focus": "Pular para o conteúdoEV ChargeOpsGOODWE × FIAPÁrea do moradorInícioNova reservaMinhas rese",
+    "heading": "Sugestão de horário",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "reservation-form-390",
+    "focus": "main-content",
+    "heading": "Nova reserva",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "reservation-form-desktop",
+    "focus": "main-content",
+    "heading": "Nova reserva",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "dashboard-active-desktop",
+    "focus": "main-content",
+    "heading": "Visão geral",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "dashboard-active-390",
+    "focus": "main-content",
+    "heading": "Visão geral",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "dashboard-agenda-link-390",
+    "focus": "main-content",
+    "heading": "Agenda do condomínio",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "finance-recalculation-desktop",
+    "focus": "Pular para o conteúdoEV ChargeOpsGOODWE × FIAPÁrea do síndicoVisão geralAgendaSessõesAnoma",
+    "heading": "Financeiro",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "closed-invoice-desktop",
+    "focus": "main-content",
+    "heading": "Detalhe da fatura",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "closed-invoice-390",
+    "focus": "main-content",
+    "heading": "Detalhe da fatura",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "resident-reservations-390",
+    "focus": "main-content",
+    "heading": "Minhas reservas",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "resident-sessions-list-390",
+    "focus": "main-content",
+    "heading": "Minhas recargas",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "resident-session-390",
+    "focus": "main-content",
+    "heading": "Detalhe da recarga",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "resident-session-desktop",
+    "focus": "main-content",
+    "heading": "Detalhe da recarga",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "resident-invoices-list-desktop",
+    "focus": "main-content",
+    "heading": "Minhas faturas",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "resident-invoices-list-390",
+    "focus": "main-content",
+    "heading": "Minhas faturas",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "resident-invoice-390",
+    "focus": "main-content",
+    "heading": "Detalhe da fatura",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "name": "resident-invoice-desktop",
+    "focus": "Recarga #1R$ 4,04",
+    "heading": "Detalhe da fatura",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "resident-reload-returns-login",
+    "focus": "EV ChargeOpsGOODWE × FIAPRECARGA NO SEU CONDOMÍNIOSeu próximo trajetocomeça aqui.Reserve s",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "dashboard-final-desktop",
+    "focus": "main-content",
+    "heading": "Visão geral",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "parameters-desktop",
+    "focus": "main-content",
+    "heading": "Cadastros e parâmetros",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "agenda-desktop",
+    "focus": "main-content",
+    "heading": "Agenda do condomínio",
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "name": "manager-sessions-list-desktop",
+    "focus": "main-content",
+    "heading": "Sessões do condomínio",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "manager-sessions-list-390",
+    "focus": "main-content",
+    "heading": "Sessões do condomínio",
+    "scrollWidth": 390,
+    "width": 390
+  },
+  {
+    "name": "anomalies-desktop",
+    "focus": "main-content",
+    "heading": "Fila de anomalias",
+    "scrollWidth": 1280,
+    "width": 1280
+  },
+  {
+    "name": "manager-reload-returns-login",
+    "focus": "EV ChargeOpsGOODWE × FIAPRECARGA NO SEU CONDOMÍNIOSeu próximo trajetocomeça aqui.Reserve s",
+    "heading": "Seu próximo trajetocomeça aqui.",
+    "scrollWidth": 1265,
+    "width": 1280
+  }
+]

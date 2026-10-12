@@ -1,0 +1,55 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do morador
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: M
+  - strong: Morador Demo
+  - generic: Morador
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Minhas recargas
+  - generic: Morador
+- main [active]:
+  - paragraph: SEU HISTÓRICO DE RECARGA
+  - heading "Minhas recargas" [level=1]
+  - paragraph: Confira a energia registrada e a situação de cada recarga.
+  - heading "Histórico" [level=2]
+  - button "Atualizar lista"
+  - list:
+    - 'link "Recarga #1"':
+      - /url: "#recargas/1"
+    - paragraph: 08 de out. de 2026 · 01:09 · 6,2 kWh
+    - generic: Concluída
+    - generic: Aprovada para cobrança
+    - generic: Simulação
+    - 'link "Ver recarga #1"':
+      - /url: "#recargas/1"
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

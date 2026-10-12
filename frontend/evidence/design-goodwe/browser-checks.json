@@ -1,0 +1,502 @@
+[
+  {
+    "surface": "password-toggle",
+    "showType": "text",
+    "hideType": "password",
+    "via": "Space/Enter"
+  },
+  {
+    "surface": "login",
+    "productDisplay": "none",
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "surface": "login",
+    "productDisplay": "none",
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "overview",
+    "focus": "",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Visão geral",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "agenda",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Agenda do condomínio",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Sessões do condomínio",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "anomalies",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "title": "Fila de anomalias",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "finance",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Financeiro",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "parameters",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Cadastros e parâmetros",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "overview",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Visão geral",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "agenda",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Agenda do condomínio",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Sessões do condomínio",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "anomalies",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Fila de anomalias",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "finance",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Financeiro",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "parameters",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Cadastros e parâmetros",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "overview",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Visão geral",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "agenda",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Agenda do condomínio",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Sessões do condomínio",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "anomalies",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Fila de anomalias",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "finance",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Financeiro",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "parameters",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Cadastros e parâmetros",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "anomaly-detail",
+    "scrollWidth": 1265,
+    "textareaBorder": "rgb(115, 115, 115)",
+    "textareaColor": "rgb(51, 51, 51)",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "anomaly-detail",
+    "scrollWidth": 375,
+    "textareaBorder": "rgb(115, 115, 115)",
+    "textareaColor": "rgb(51, 51, 51)",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "anomaly-detail",
+    "scrollWidth": 305,
+    "textareaBorder": "rgb(115, 115, 115)",
+    "textareaColor": "rgb(51, 51, 51)",
+    "width": 320
+  },
+  {
+    "role": "manager",
+    "surface": "invoice-detail-expanded",
+    "detailsOpen": true,
+    "scrollWidth": 1265,
+    "totalColor": "rgb(51, 51, 51)",
+    "width": 1280
+  },
+  {
+    "role": "manager",
+    "surface": "invoice-detail-expanded",
+    "detailsOpen": true,
+    "scrollWidth": 375,
+    "totalColor": "rgb(51, 51, 51)",
+    "width": 390
+  },
+  {
+    "role": "manager",
+    "surface": "invoice-detail-expanded",
+    "detailsOpen": true,
+    "scrollWidth": 305,
+    "totalColor": "rgb(51, 51, 51)",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "home",
+    "focus": "",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Olá, Morador.",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "new-reservation",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Nova reserva",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "reservations",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Minhas reservas",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "title": "Minhas recargas",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "invoices",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1280,
+    "title": "Minhas faturas",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 1265,
+    "title": "Sugestão de horário",
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "home",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Olá, Morador.",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "new-reservation",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Nova reserva",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "reservations",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Minhas reservas",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Minhas recargas",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "invoices",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Minhas faturas",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 375,
+    "title": "Sugestão de horário",
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "home",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Olá, Morador.",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "new-reservation",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 306,
+    "title": "Nova reserva",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "reservations",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Minhas reservas",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "sessions",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Minhas recargas",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "invoices",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Minhas faturas",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion",
+    "focus": "main-content",
+    "fontReady": true,
+    "overflow": [],
+    "scrollWidth": 305,
+    "title": "Sugestão de horário",
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "new-reservation-corrected",
+    "clientWidth": 305,
+    "columns": "227.2px",
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion-result",
+    "clientWidth": 1265,
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion-result",
+    "clientWidth": 375,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "suggestion-result",
+    "clientWidth": 305,
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "session-detail",
+    "clientWidth": 1265,
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "session-detail",
+    "clientWidth": 375,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "session-detail",
+    "clientWidth": 305,
+    "scrollWidth": 305,
+    "width": 320
+  },
+  {
+    "role": "resident",
+    "surface": "invoice-detail-expanded",
+    "clientWidth": 1265,
+    "detailsOpen": true,
+    "scrollWidth": 1265,
+    "width": 1280
+  },
+  {
+    "role": "resident",
+    "surface": "invoice-detail-expanded",
+    "clientWidth": 375,
+    "detailsOpen": true,
+    "scrollWidth": 375,
+    "width": 390
+  },
+  {
+    "role": "resident",
+    "surface": "invoice-detail-expanded",
+    "clientWidth": 305,
+    "detailsOpen": true,
+    "scrollWidth": 305,
+    "width": 320
+  }
+]

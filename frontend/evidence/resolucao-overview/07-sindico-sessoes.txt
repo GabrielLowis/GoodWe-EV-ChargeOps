@@ -1,0 +1,44 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#sessoes".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#sessoes
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Sessões do condomínio Síndico
+		71 container main-content
+			72 text USO REGISTRADO
+			73 heading Sessões do condomínio, Value: 1
+				74 text Sessões do condomínio
+			75 text Encerramento e validação para cobrança são situações distintas.
+			76 container
+				77 heading Todas as sessões, Value: 2
+					78 text Todas as sessões
+				79 button Atualizar lista
+				80 content list
+					81 container
+						82 link Description: Sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+						83 text Sem morador identificado  ·  12 de out. de 2026 ,  13:26  ·  0 kWh Encerrada pelo usuário Suspensa para revisão Simulação
+						84 link Description: Ver sessão #2, Value: 127.0.0.1:5173/#sessoes/2
+					85 container
+						86 link Description: Sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+						87 text Sem morador identificado  ·  12 de out. de 2026 ,  13:23  ·  0 kWh Encerrada pelo usuário Rejeitada Simulação
+						88 link Description: Ver sessão #3, Value: 127.0.0.1:5173/#sessoes/3
+					89 container
+						90 link Description: Sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+						91 text Morador Demo  ·  08 de out. de 2026 ,  01:09  ·  6,2 kWh Concluída Aprovada para cobrança Simulação
+						92 link Description: Ver sessão #1, Value: 127.0.0.1:5173/#sessoes/1
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

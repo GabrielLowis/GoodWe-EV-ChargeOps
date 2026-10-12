@@ -1,0 +1,64 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Sessões do condomínio
+  - generic: Síndico
+- main [active]:
+  - paragraph: USO REGISTRADO
+  - heading "Sessões do condomínio" [level=1]
+  - paragraph: Encerramento e validação para cobrança são situações distintas.
+  - heading "Todas as sessões" [level=2]
+  - button "Atualizar lista"
+  - list:
+    - 'link "Sessão #2"':
+      - /url: "#sessoes/2"
+    - paragraph: Sem morador identificado · 12 de out. de 2026, 13:26 · 0 kWh
+    - generic: Encerrada pelo usuário
+    - generic: Suspensa para revisão
+    - generic: Simulação
+    - 'link "Ver sessão #2"':
+      - /url: "#sessoes/2"
+    - 'link "Sessão #3"':
+      - /url: "#sessoes/3"
+    - paragraph: Sem morador identificado · 12 de out. de 2026, 13:23 · 0 kWh
+    - generic: Encerrada pelo usuário
+    - generic: Rejeitada
+    - generic: Simulação
+    - 'link "Ver sessão #3"':
+      - /url: "#sessoes/3"
+    - 'link "Sessão #1"':
+      - /url: "#sessoes/1"
+    - paragraph: Morador Demo · 08 de out. de 2026, 01:09 · 6,2 kWh
+    - generic: Concluída
+    - generic: Aprovada para cobrança
+    - generic: Simulação
+    - 'link "Ver sessão #1"':
+      - /url: "#sessoes/1"
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

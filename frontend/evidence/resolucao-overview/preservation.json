@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-12T16:03:41.372898-03:00",
+  "database_tables_changed": [
+    "holidays",
+    "audit_events",
+    "reservations",
+    "charging_sessions",
+    "anomalies"
+  ],
+  "protected_files_changed": [
+    "backend/api/routes.py",
+    "backend/faturamento/service.py",
+    "frontend/src/hooks/useTimeBoundaries.test.ts",
+    "frontend/src/hooks/useTimeBoundaries.ts",
+    "frontend/src/pages/FinancePage.tsx",
+    "frontend/src/pages/HomePage.test.tsx",
+    "frontend/src/pages/HomePage.tsx",
+    "frontend/src/pages/InvoicesPage.test.tsx",
+    "frontend/src/pages/InvoicesPage.tsx",
+    "frontend/src/pages/ParametersPage.tsx",
+    "frontend/src/pages/ReservationsPage.test.tsx",
+    "frontend/src/pages/ReservationsPage.tsx",
+    "frontend/src/pages/SessionsPage.test.tsx",
+    "frontend/src/pages/SessionsPage.tsx",
+    "frontend/src/utils/finance.ts",
+    "frontend/src/utils/reservations.ts",
+    "scripts/register_demo_holiday.py"
+  ],
+  "protected_files_removed": [],
+  "protected_files_count": 282,
+  "domain_post_requests": []
+}

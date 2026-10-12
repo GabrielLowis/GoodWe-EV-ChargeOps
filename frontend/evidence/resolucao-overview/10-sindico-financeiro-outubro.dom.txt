@@ -1,0 +1,113 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do síndico
+  - navigation "Menu principal":
+    - link "Visão geral":
+      - /url: "#inicio"
+      - text: Visão geral
+    - link "Agenda":
+      - /url: "#agenda"
+      - text: Agenda
+    - link "Sessões":
+      - /url: "#sessoes"
+      - text: Sessões
+    - link "Anomalias":
+      - /url: "#anomalias"
+      - text: Anomalias
+    - link "Financeiro":
+      - /url: "#financeiro"
+      - text: Financeiro
+    - link "Cadastros e parâmetros":
+      - /url: "#parametros"
+      - text: Cadastros e parâmetros
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: S
+  - strong: Síndico Demo
+  - generic: Síndico
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Financeiro
+  - generic: Síndico
+- main [active]:
+  - paragraph: FATURAMENTO DO CONDOMÍNIO
+  - heading "Financeiro" [level=1]
+  - paragraph: Consulte valores faturados, gere cálculos e confira cada parcela.
+  - heading "Período de faturamento" [level=2]
+  - button "Atualizar consultas"
+  - text: Mês e ano
+  - textbox "Mês e ano": 2026-10
+  - paragraph: A geração atende o conjunto de moradores elegíveis. Faturas abertas podem ser recalculadas; faturas fechadas mantêm o cálculo definitivo. Residentes ativos sem consumo podem receber fatura de valor zero.
+  - button "Gerar / recalcular faturas"
+  - heading "Faturas de outubro de 2026" [level=2]
+  - list:
+    - 'link "Fatura #1 · Morador Demo"':
+      - /url: "#financeiro/1"
+    - paragraph: 1 recarga(s) incluída(s) · Aberta
+    - strong: R$ 4,04
+    - 'link "Ver fatura #1"':
+      - /url: "#financeiro/1"
+  - heading "Resumo mensal do faturamento" [level=2]
+  - paragraph: 1 fatura(s) · 0 fechada(s).
+  - generic: Total faturado
+  - strong: R$ 4,04
+  - generic: Energia faturada
+  - strong: 6,2 kWh
+  - generic: Energia registrada no mês
+  - strong: 6,2 kWh
+  - term: Energia Green
+  - definition: R$ 0,30
+  - term: Energia Grid
+  - definition: R$ 3,38
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Subtotal
+  - definition: R$ 3,68
+  - term: Impostos
+  - definition: R$ 0,18
+  - term: Custo operacional
+  - definition: R$ 0,18
+  - term: Total faturado
+  - definition: R$ 4,04
+  - heading "Distribuição dos valores faturados" [level=3]
+  - term: Energia destinada ao condomínio
+  - definition: R$ 3,68
+  - term: Ociosidade
+  - definition: R$ 0,00
+  - term: Custo operacional
+  - definition: R$ 0,18
+  - term: Impostos destacados
+  - definition: R$ 0,18
+  - heading "Situação da energia registrada" [level=3]
+  - term: Sessões faturadas
+  - definition:
+    - text: 1 sessão(ões) · 6,2 kWh
+    - 'link "Sessão #1"':
+      - /url: "#sessoes/1"
+  - term: Aguardando revisão
+  - definition: 0 sessão(ões) · 0 kWh
+  - term: Rejeitadas
+  - definition: 0 sessão(ões) · 0 kWh
+  - term: Sem morador identificado
+  - definition:
+    - text: 2 sessão(ões) · 0 kWh
+    - 'link "Sessão #2"':
+      - /url: "#sessoes/2"
+    - 'link "Sessão #3"':
+      - /url: "#sessoes/3"
+  - term: Aprovadas sem fatura
+  - definition: 0 sessão(ões) · 0 kWh
+  - term: Falha do sistema · sem cobrança
+  - definition: 0 sessão(ões) · 0 kWh
+  - paragraph: "Lançamentos de meses anteriores: 0 · R$ 0,00. Energia faturada pode incluir esses lançamentos."
+  - paragraph: Valores faturados; pagamentos e recebimentos não são registrados neste MVP.
+  - paragraph: Faturamento é o valor calculado nas faturas. O sistema não registra pagamentos nem dinheiro recebido.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,49 @@
+{
+  "id": 2,
+  "user_id": 2,
+  "period": "2026-11-01",
+  "status": "closed",
+  "sessions_count": 0,
+  "green_kwh": "0.000",
+  "grid_kwh": "0.000",
+  "idle_minutes": 0,
+  "green_amount": "0.00",
+  "grid_amount": "0.00",
+  "idle_amount": "0.00",
+  "subtotal": "0.00",
+  "tax_amount": "0.00",
+  "overhead_amount": "0.00",
+  "total": "0.00",
+  "calculation": {
+    "user": {
+      "id": 2,
+      "name": "Morador Demo",
+      "unit": "A-101"
+    },
+    "lines": [],
+    "notes": [
+      "Fatura zero: nenhuma sessão faturável no período; não há cobrança mínima."
+    ],
+    "period": "2026-11",
+    "totals": {
+      "total": "0.00",
+      "grid_kwh": "0.000",
+      "subtotal": "0.00",
+      "green_kwh": "0.000",
+      "tax_amount": "0.00",
+      "grid_amount": "0.00",
+      "idle_amount": "0.00",
+      "green_amount": "0.00",
+      "idle_minutes": 0,
+      "sessions_count": 0,
+      "overhead_amount": "0.00"
+    },
+    "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+    "period_end": "2026-12-01T00:00:00-03:00",
+    "not_included": [],
+    "period_start": "2026-11-01T00:00:00-03:00",
+    "engine_version": "1.0.0"
+  },
+  "engine_version": "1.0.0",
+  "items": []
+}

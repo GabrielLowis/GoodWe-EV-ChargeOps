@@ -1,0 +1,17 @@
+
+> ev-chargeops-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.3 C:/Users/Gabriel Luis/Documents/ChatGPT/GoodWe/frontend
+
+
+ Test Files  12 passed (12)
+      Tests  50 passed (50)
+   Start at  13:44:08
+   Duration  918ms (transform 52%, import 30%, tests 15%, worker 3%)
+
+  Transform  transforming modules took 2.01s · 52% of tracked time, re-done on every run
+             persist transforms across runs with fsModuleCache: true
+             learn more: https://vitest.dev/guide/improving-performance#caching-between-reruns
+

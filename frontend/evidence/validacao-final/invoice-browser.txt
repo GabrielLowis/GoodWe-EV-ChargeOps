@@ -1,0 +1,91 @@
+FATURAMENTO DO CONDOMÍNIO
+
+Detalhe da fatura
+
+Consulte valores faturados, gere cálculos e confira cada parcela.
+
+← Voltar para o financeiro
+outubro de 2026
+Aberta
+Total faturado
+R$ 4,04
+Green
+1 kWh
+Grid
+5,2 kWh
+Energia Green · solar/bateria
+R$ 0,30
+Energia Grid · rede elétrica
+R$ 3,38
+Ociosidade
+R$ 0,00
+Subtotal
+R$ 3,68
+Impostos
+R$ 0,18
+Custo operacional
+R$ 0,18
+Total
+R$ 4,04
+
+1 recarga(s) incluída(s) · 0 min de ociosidade faturada.
+
+Fatura aberta: o cálculo ainda pode ser atualizado pelo síndico. Esta situação não comprova pagamento.
+
+Memória de cálculo
+
+Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead
+
+Sem observações adicionais.
+
+Recarga #1
+R$ 4,04
+
+Ver dados da recarga #1
+
+Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância.
+
+Energia Green · solar/bateria
+R$ 0,30
+Energia Grid · rede elétrica
+R$ 3,38
+Ociosidade
+R$ 0,00
+Subtotal
+R$ 3,68
+Impostos
+R$ 0,18
+Custo operacional
+R$ 0,18
+Total
+R$ 4,04
+
+1 kWh Green · 5,2 kWh Grid · 0 min de ociosidade.
+
+Tarifa utilizada: Demonstração acadêmica.
+
+Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante).
+
+Como o valor foi calculado
+Trecho 1: 08/10 01:09-04:09 (Fora de ponta, dia útil): 1,000 kWh Green x R$ 0,3000 + 5,200 kWh Grid x R$ 0,6500 = R$ 3,6800
+Energia verde (solar/bateria): R$ 0,30
+Energia da rede: R$ 3,38
+Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00
+Subtotal: R$ 3,68
+ISS 5,000% sobre R$ 3,68: R$ 0,18
+Overhead operacional 5,00% sobre o subtotal: R$ 0,18
+Total da sessão: R$ 4,04
+
+ISS: Parâmetro fictício de demonstração acadêmica
+
+Observações da recarga
+
+Sem observações adicionais.
+
+Fechamento da fatura
+
+Morador: Morador Demo · Fatura #1.
+
+Confira as parcelas e a memória de cálculo antes de fechar. O fechamento torna este cálculo definitivo.
+
+Fechar fatura #1

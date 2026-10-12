@@ -1,0 +1,25 @@
+inicio,green_kwh,importada_kwh,potencia_media_kw,potencia_maxima_kw,motivo_fim
+2026-09-01 21:22:44,10.30,0.00,2.51,3.50,Charging stopped at full charge
+2026-09-03 22:04:08,9.50,0.00,2.48,3.50,Charging stopped at full charge
+2026-09-04 22:18:16,4.80,0.00,1.83,3.40,Charging stopped at full charge
+2026-09-07 20:32:03,14.40,0.00,2.76,3.50,Charging stopped at full charge
+2026-09-09 12:26:54,3.10,0.00,3.29,3.40,Abnormal disconnection of charging gun from vehicle.
+2026-09-09 21:20:34,13.70,0.00,2.72,3.50,Charging stopped at full charge
+2026-09-11 15:06:52,1.20,0.00,3.16,3.40,Abnormal disconnection of charging gun from vehicle.
+2026-09-12 17:42:04,8.40,0.00,3.38,3.50,Abnormal disconnection of charging gun from vehicle.
+2026-09-13 09:04:53,5.70,0.00,2.05,3.40,Charging stopped at full charge
+2026-09-14 15:33:05,0.00,0.00,0.00,0.00,Abnormal disconnection of charging gun from vehicle.
+2026-09-14 20:47:11,9.10,0.00,2.48,3.40,Charging stopped at full charge
+2026-09-15 20:43:09,5.90,0.00,2.16,3.50,Charging stopped at full charge
+2026-09-17 20:58:18,10.30,0.00,2.56,3.50,Charging stopped at full charge
+2026-09-20 20:29:15,8.60,0.00,2.41,3.50,Charging stopped at full charge
+2026-09-21 21:34:26,6.00,0.00,2.06,3.40,Charging stopped at full charge
+2026-09-22 03:37:58,,,,,"SEM DADOS NA PLATAFORMA (painel retorna ""--"" em todos os campos; sessao de 0 Minutos)"
+2026-09-22 03:39:31,0.00,0.00,0.00,0.00,Charging stopped at full charge
+2026-09-22 21:06:20,4.60,0.00,1.91,3.40,Charging stopped at full charge
+2026-09-24 18:09:09,9.40,0.00,2.50,3.50,Charging stopped at full charge
+2026-09-25 21:59:40,7.10,0.00,2.30,3.50,Charging stopped at full charge
+2026-09-27 21:38:44,7.40,0.00,2.20,3.50,Charging stopped at full charge
+2026-09-28 20:51:52,10.60,0.00,2.55,3.40,Charging stopped at full charge
+2026-09-29 21:02:57,5.90,0.00,1.74,3.50,Charging stopped at full charge
+2026-09-30 22:07:50,5.70,0.00,1.70,3.50,Charging stopped at full charge

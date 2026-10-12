@@ -1,0 +1,36 @@
+PLANEJE SUA PRÓXIMA RECARGA
+
+Sugestão de horário
+
+Compare uma janela sugerida com a estimativa de recarregar agora.
+
+Dados da recarga
+Parâmetros da sugestão
+Carregador
+HCA01 · Vaga compartilhada (simulação)
+Energia desejada (kWh)
+Potência estimada (kW)
+
+Até 7 kW neste carregador. A janela estimada deve caber em 12 horas.
+
+Consultar sugestão
+Horário sugerido
+Estimativa · geração solar hipotética
+
+12 de out. de 2026
+11:00 – 12:52
+Horários de São Paulo
+
+Custo estimado na sugestão
+R$ 2,10
+Custo estimado agora
+R$ 4,43
+Economia estimada
+R$ 2,33
+Premissas da estimativa
+Geração solar hipotética por hora; não usa previsão meteorológica nem regressão.
+Tarifas e impostos cadastrados; potência constante; sem ociosidade prevista.
+Disponibilidade consultada agora; somente criar a reserva garante a janela.
+Usar este horário
+
+Você ainda precisa escolher/conferir o conector e confirmar a reserva. A disponibilidade pode mudar.

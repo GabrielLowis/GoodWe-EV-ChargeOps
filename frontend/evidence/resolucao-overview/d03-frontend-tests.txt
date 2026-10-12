@@ -1,0 +1,13 @@
+
+> ev-chargeops-frontend@0.1.0 test
+> vitest run --run src/pages/SessionsPage.test.tsx src/pages/InvoicesPage.test.tsx
+
+
+ RUN  v5.0.3 C:/Users/Gabriel Luis/Documents/ChatGPT/GoodWe/frontend
+
+
+ Test Files  2 passed (2)
+      Tests  13 passed (13)
+   Start at  13:34:16
+   Duration  442ms (transform 52%, import 28%, tests 17%, worker 3%)
+

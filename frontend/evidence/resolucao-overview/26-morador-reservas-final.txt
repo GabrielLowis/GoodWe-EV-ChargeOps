@@ -1,0 +1,52 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#reservas".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#reservas
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO MORADOR
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Morador Demo Morador
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Minhas reservas Morador
+		71 container main-content
+			72 text SUA RECARGA, ORGANIZADA
+			73 heading Minhas reservas, Value: 1
+				74 text Minhas reservas
+			75 text Acompanhe seus agendamentos e libere os horários que não vai usar.
+			76 container
+				77 heading Seus agendamentos, Value: 2
+					78 text Seus agendamentos
+				79 button Atualizar lista
+				80 content list
+					81 container
+						82 text HCA01 · Conector  1 13 de out. de 2026  ·  09:00  –  10:00 Reserva # 9 Agendada
+						83 button Cancelar reserva #9
+					84 container
+						85 text HCA01 · Conector  1 14 de out. de 2026  ·  10:00  –  11:00 Reserva # 6 Cancelada
+					86 container
+						87 text HCA01 · Conector  1 13 de out. de 2026  ·  10:00  –  11:00 Reserva # 2 Cancelada
+					88 container
+						89 text HCA01 · Conector  1 13 de out. de 2026  ·  10:00  –  11:00 Reserva # 4 Cancelada
+					90 container
+						91 text HCA01 · Conector  1 12 de out. de 2026  ·  11:00  –  12:52 Reserva # 8 Cancelada
+					92 container
+						93 text HCA01 · Conector  1 09 de out. de 2026  ·  13:00  –  18:00 Reserva # 3 Não compareceu
+					94 container
+						95 text HCA01 · Conector  1 09 de out. de 2026  ·  11:00  –  12:52 Reserva # 5 Cancelada
+					96 container
+						97 text HCA01 · Conector  1 09 de out. de 2026  ·  11:00  –  12:52 Reserva # 7 Cancelada
+					98 container
+						99 text HCA01 · Conector  1 08 de out. de 2026  ·  01:09  –  04:09 Reserva # 1 Concluída
+				100 text Horários de São Paulo (UTC−03:00). Somente reservas ativas, antes do início, podem ser canceladas.
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

@@ -1,0 +1,93 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do morador
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: M
+  - strong: Morador Demo
+  - generic: Morador
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Meu condomínio
+  - generic: Morador
+- main [active]:
+  - paragraph: ÁREA DO MORADOR
+  - heading "Olá, Morador." [level=1]
+  - paragraph: Organize sua próxima recarga, no seu tempo.
+  - generic: VAMOS AGENDAR?
+  - heading "Um horário reservado para você." [level=2]
+  - paragraph: Escolha um carregador, consulte os horários ocupados e confirme sua reserva.
+  - button "Nova reserva":
+    - text: Nova reserva
+  - heading "Próxima reserva" [level=2]
+  - paragraph:
+    - text: 13 de out. de 2026
+    - strong: 09:00 – 10:00
+  - paragraph: "Reserva #9 · Conector 1"
+  - link "Ver minhas reservas →":
+    - /url: "#reservas"
+  - heading "Fatura do mês" [level=2]
+  - paragraph:
+    - text: outubro de 2026
+    - strong: R$ 4,04
+  - paragraph: Aberta
+  - link "Entender minha fatura →":
+    - /url: "#faturas/1"
+  - heading "Recargas recentes" [level=2]
+  - link "Ver todas →":
+    - /url: "#recargas"
+  - list:
+    - 'link "Recarga #1 · 08 de out. de 2026"':
+      - /url: "#recargas/1"
+    - paragraph: 6,2 kWh · 01:09
+    - generic: Concluída
+    - generic: Aprovada para cobrança
+    - generic: Simulação
+    - 'link "Ver recarga #1"':
+      - /url: "#recargas/1"
+      - text: Ver detalhes →
+  - heading "Minha conta" [level=2]
+  - generic: Morador
+  - term: Nome
+  - definition: Morador Demo
+  - term: E-mail
+  - definition: morador@demo.local
+  - term: Unidade
+  - definition: A-101
+  - heading "Acesso rápido" [level=2]
+  - button "Minhas reservas Consulte horários e cancele uma reserva ativa.":
+    - strong: Minhas reservas
+    - generic: Consulte horários e cancele uma reserva ativa.
+  - link "Sugestão de horário Consulte uma estimativa para planejar a recarga.":
+    - /url: "#sugestao"
+    - strong: Sugestão de horário
+    - generic: Consulte uma estimativa para planejar a recarga.
+  - paragraph: Projeto acadêmico. A integração física com o carregador ainda não está conectada.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

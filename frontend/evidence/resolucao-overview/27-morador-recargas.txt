@@ -1,0 +1,36 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#recargas".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#recargas
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO MORADOR
+			5 container Menu principal
+				6 link Description: Início, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Nova reserva, Value: 127.0.0.1:5173/#nova-reserva
+				8 link Description: Minhas reservas, Value: 127.0.0.1:5173/#reservas
+				9 link Description: Minhas recargas, Value: 127.0.0.1:5173/#recargas
+				10 link Description: Minhas faturas, Value: 127.0.0.1:5173/#faturas
+				11 link Description: Sugestão de horário, Value: 127.0.0.1:5173/#sugestao
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Morador Demo Morador
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Minhas recargas Morador
+		71 container main-content
+			72 text SEU HISTÓRICO DE RECARGA
+			73 heading Minhas recargas, Value: 1
+				74 text Minhas recargas
+			75 text Confira a energia registrada e a situação de cada recarga.
+			76 container
+				77 heading Histórico, Value: 2
+					78 text Histórico
+				79 button Atualizar lista
+				80 content list
+					81 container
+						82 link Description: Recarga #1, Value: 127.0.0.1:5173/#recargas/1
+						83 text 08 de out. de 2026  ·  01:09  ·  6,2 kWh Concluída Aprovada para cobrança Simulação
+						84 link Description: Ver recarga #1, Value: 127.0.0.1:5173/#recargas/1
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content

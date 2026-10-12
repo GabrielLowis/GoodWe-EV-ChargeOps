@@ -1,0 +1,61 @@
+- link "Pular para o conteúdo":
+  - /url: "#main-content"
+- complementary:
+  - text: EV ChargeOps
+  - generic: GOODWE × FIAP
+  - generic: Área do morador
+  - navigation "Menu principal":
+    - link "Início":
+      - /url: "#inicio"
+      - text: Início
+    - link "Nova reserva":
+      - /url: "#nova-reserva"
+      - text: Nova reserva
+    - link "Minhas reservas":
+      - /url: "#reservas"
+      - text: Minhas reservas
+    - link "Minhas recargas":
+      - /url: "#recargas"
+      - text: Minhas recargas
+    - link "Minhas faturas":
+      - /url: "#faturas"
+      - text: Minhas faturas
+    - link "Sugestão de horário":
+      - /url: "#sugestao"
+      - text: Sugestão de horário
+  - paragraph:
+    - text: Recarga compartilhada.
+    - text: Organização para todos.
+  - generic: M
+  - strong: Morador Demo
+  - generic: Morador
+  - button "Sair da conta":
+    - text: Sair da conta
+- banner:
+  - text: Condomínio /
+  - strong: Minhas faturas
+  - generic: Morador
+- main [active]:
+  - paragraph: SEU USO, COM TRANSPARÊNCIA
+  - heading "Minhas faturas" [level=1]
+  - paragraph: Consulte os valores faturados e entenda cada parcela.
+  - heading "Faturas mensais" [level=2]
+  - button "Atualizar lista"
+  - list:
+    - link "novembro de 2026":
+      - /url: "#faturas/2"
+    - text: Período futuro
+    - paragraph: 0 recargas incluídas · Fechada
+    - strong: R$ 0,00
+    - 'link "Ver fatura #2"':
+      - /url: "#faturas/2"
+    - link "outubro de 2026":
+      - /url: "#faturas/1"
+    - paragraph: 1 recarga incluída · Aberta
+    - strong: R$ 4,04
+    - 'link "Ver fatura #1"':
+      - /url: "#faturas/1"
+  - paragraph: Aberta ou fechada indica a situação do cálculo. Pagamentos não são registrados neste sistema.
+- contentinfo:
+  - text: EV ChargeOps
+  - generic: GoodWe × FIAP · Projeto acadêmico

@@ -1,0 +1,48 @@
+Browser tab: 2, Title: "EV ChargeOps", URL: "http://127.0.0.1:5173/#anomalias".
+0 AXWebArea EV ChargeOps, URL: 127.0.0.1:5173/#anomalias
+	1 container root
+		2 link Description: Pular para o conteúdo, Value: 127.0.0.1:5173/#main-content
+		3 container
+			4 text EV ChargeOps GOODWE × FIAP ÁREA DO SÍNDICO
+			5 container Menu principal
+				6 link Description: Visão geral, Value: 127.0.0.1:5173/#inicio
+				7 link Description: Agenda, Value: 127.0.0.1:5173/#agenda
+				8 link Description: Sessões, Value: 127.0.0.1:5173/#sessoes
+				9 link Description: Anomalias, Value: 127.0.0.1:5173/#anomalias
+				10 link Description: Financeiro, Value: 127.0.0.1:5173/#financeiro
+				11 link Description: Cadastros e parâmetros, Value: 127.0.0.1:5173/#parametros
+			12 text Recarga compartilhada.
+			13 text Organização para todos. Síndico Demo Síndico
+			14 button Sair da conta
+		15 container
+			16 text Condomínio  Fila de anomalias Síndico
+		71 container main-content
+			72 text VALIDAÇÃO DAS RECARGAS
+			73 heading Fila de anomalias, Value: 1
+				74 text Fila de anomalias
+			75 text Confira os motivos e os dados registrados antes de decidir sobre a cobrança.
+			76 container
+				77 heading Ocorrências, Value: 2
+					78 text Ocorrências
+				79 button Atualizar lista
+					80 text Atualizar 
+					81 text lista
+				82 text Situação
+				83 pop up button (collapsed, settable) Situação, Value: Pendente, Secondary Actions: Expand
+					84 menu
+						85 (selected) Pendente
+						86 Aprovada
+						87 Rejeitada
+				88 content list
+					89 container
+						90 link Description: Ocorrência #2 · Sessão #3, Value: 127.0.0.1:5173/#anomalias/2
+						91 text 12 de out. de 2026 ,  13:36 Pendente
+						92 link Description: Conferir ocorrência #2, Value: 127.0.0.1:5173/#anomalias/2
+					93 container
+						94 link Description: Ocorrência #1 · Sessão #2, Value: 127.0.0.1:5173/#anomalias/1
+						95 text 12 de out. de 2026 ,  13:36 Pendente
+						96 link Description: Conferir ocorrência #1, Value: 127.0.0.1:5173/#anomalias/1
+		69 container
+			70 text EV ChargeOps GoodWe × FIAP · Projeto acadêmico
+
+The focused UI element is 71 container main-content
