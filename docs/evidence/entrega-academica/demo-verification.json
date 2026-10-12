@@ -1,0 +1,997 @@
+{
+  "date": "2026-10-12T20:02:11.478830-03:00",
+  "surface": "native isolated Windows",
+  "database": "evchargeops_entrega",
+  "test_database": "evchargeops_entrega_test",
+  "ports": {
+    "postgres": 55432,
+    "api": 18000,
+    "frontend": 15173
+  },
+  "health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "schema_version": "0001_schema_inicial",
+      "ai_model": "v1.0.0"
+    }
+  },
+  "frontend": {
+    "status": 200,
+    "body": "HTML"
+  },
+  "proxy_health": {
+    "status": 200,
+    "body": {
+      "status": "ok",
+      "database": "ok",
+      "schema_version": "0001_schema_inicial",
+      "ai_model": "v1.0.0"
+    }
+  },
+  "identities": [
+    {
+      "email": "sindico@demo.local",
+      "role": "manager",
+      "id": 1
+    },
+    {
+      "email": "morador@demo.local",
+      "role": "resident",
+      "id": 2
+    }
+  ],
+  "simulator": {
+    "exit_code": 0,
+    "reused_existing_execution": true
+  },
+  "resident_anomalies_forbidden": 403,
+  "domain": {
+    "reservation_id": 1,
+    "session_id": 1,
+    "invoice_id": 1,
+    "invoice_year": 2026,
+    "invoice_month": 10,
+    "invoice_period": "2026-10-01",
+    "invoice_total": "4.61",
+    "source": "simulator",
+    "invoice_includes_session": true
+  },
+  "http_collections": {
+    "manager": {
+      "reservas": [
+        {
+          "charger_id": 1,
+          "connector": 1,
+          "starts_at": "2026-10-12T21:01:21.531013-03:00",
+          "ends_at": "2026-10-13T00:01:21.531013-03:00",
+          "id": 1,
+          "user_id": 2,
+          "status": "completed"
+        }
+      ],
+      "sessoes": [
+        {
+          "id": 1,
+          "source": "simulator",
+          "external_id": "demo-045985c787bf4f8084b622ce086ea079",
+          "charger_id": 1,
+          "connector": 1,
+          "card_id": "SHARED-DEMO",
+          "reservation_id": 1,
+          "user_id": 2,
+          "attribution_method": "reservation",
+          "started_at": "2026-10-12T21:01:21.531013-03:00",
+          "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+          "ended_at": "2026-10-13T00:01:21.531013-03:00",
+          "total_kwh": "6.200",
+          "green_kwh": "1.000",
+          "grid_kwh": "5.200",
+          "average_power_kw": "2.30",
+          "max_power_kw": "3.30",
+          "end_status": "completed",
+          "validation_status": "approved"
+        }
+      ],
+      "faturas": [
+        {
+          "id": 1,
+          "user_id": 2,
+          "period": "2026-10-01",
+          "status": "open",
+          "sessions_count": 1,
+          "green_kwh": "1.000",
+          "grid_kwh": "5.200",
+          "idle_minutes": 0,
+          "green_amount": "0.30",
+          "grid_amount": "3.89",
+          "idle_amount": "0.00",
+          "subtotal": "4.19",
+          "tax_amount": "0.21",
+          "overhead_amount": "0.21",
+          "total": "4.61",
+          "calculation": {
+            "user": {
+              "id": 2,
+              "name": "Morador Demo",
+              "unit": "A-101"
+            },
+            "lines": [
+              {
+                "total": "4.61",
+                "tariff_id": 1,
+                "session_id": 1,
+                "started_at": "2026-10-12T21:01:21.531013-03:00",
+                "charge_rule": "normal",
+                "is_late_entry": false
+              }
+            ],
+            "notes": [],
+            "period": "2026-10",
+            "totals": {
+              "total": "4.61",
+              "grid_kwh": "5.200",
+              "subtotal": "4.19",
+              "green_kwh": "1.000",
+              "tax_amount": "0.21",
+              "grid_amount": "3.89",
+              "idle_amount": "0.00",
+              "green_amount": "0.30",
+              "idle_minutes": 0,
+              "sessions_count": 1,
+              "overhead_amount": "0.21"
+            },
+            "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+            "period_end": "2026-11-01T00:00:00-03:00",
+            "not_included": [],
+            "period_start": "2026-10-01T00:00:00-03:00",
+            "engine_version": "1.0.0"
+          },
+          "engine_version": "1.0.0",
+          "items": [
+            {
+              "id": 1,
+              "session_id": 1,
+              "tariff_id": 1,
+              "charge_rule": "normal",
+              "is_late_entry": false,
+              "green_kwh": "1.000",
+              "grid_kwh": "5.200",
+              "idle_minutes": 0,
+              "green_amount": "0.30",
+              "grid_amount": "3.89",
+              "idle_amount": "0.00",
+              "subtotal": "4.19",
+              "tax_amount": "0.21",
+              "overhead_amount": "0.21",
+              "total": "4.61",
+              "calculation": {
+                "rule": {
+                  "code": "normal",
+                  "description": "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+                },
+                "notes": [
+                  "Sessão atravessou faixas sem curva de potência: divisão estimada pelo tempo."
+                ],
+                "tariff": {
+                  "id": 1,
+                  "name": "Demonstração acadêmica",
+                  "prices": {
+                    "peak": {
+                      "grid_price_per_kwh": "1.4500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    "off_peak": {
+                      "grid_price_per_kwh": "0.6500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    "intermediate": {
+                      "grid_price_per_kwh": "0.9500",
+                      "green_price_per_kwh": "0.3000"
+                    }
+                  },
+                  "valid_to": null,
+                  "valid_from": "2025-12-31T21:00:00-03:00",
+                  "weekday_windows": [
+                    {
+                      "end": "18:00",
+                      "band": "intermediate",
+                      "start": "17:00"
+                    },
+                    {
+                      "end": "21:00",
+                      "band": "peak",
+                      "start": "18:00"
+                    },
+                    {
+                      "end": "22:00",
+                      "band": "intermediate",
+                      "start": "21:00"
+                    }
+                  ],
+                  "overhead_percent": "5.00",
+                  "assembly_reference": null,
+                  "idle_fee_per_minute": "0.2500",
+                  "idle_tolerance_minutes": 15,
+                  "weekends_holidays_off_peak": true
+                },
+                "session": {
+                  "user_id": 2,
+                  "ended_at": "2026-10-13T00:01:21.531013-03:00",
+                  "grid_kwh": "5.200",
+                  "green_kwh": "1.000",
+                  "total_kwh": "6.200",
+                  "end_status": "completed",
+                  "session_id": 1,
+                  "started_at": "2026-10-12T21:01:21.531013-03:00",
+                  "failure_code": null,
+                  "power_samples": 0,
+                  "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+                  "energy_end_source": "informed",
+                  "charger_rated_power_kw": "7.00"
+                },
+                "band_split": {
+                  "method": "time_proportional",
+                  "segments": [
+                    {
+                      "end": "2026-10-12T22:00:00-03:00",
+                      "band": "intermediate",
+                      "index": 1,
+                      "start": "2026-10-12T21:01:21.531013-03:00",
+                      "minutes": "58.6",
+                      "day_type": "dia útil",
+                      "grid_kwh": "1.694",
+                      "green_kwh": "0.326",
+                      "band_label": "Intermediário",
+                      "grid_value": "1.609300",
+                      "green_value": "0.097800",
+                      "grid_price_per_kwh": "0.9500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    {
+                      "end": "2026-10-13T00:01:21.531013-03:00",
+                      "band": "off_peak",
+                      "index": 2,
+                      "start": "2026-10-12T22:00:00-03:00",
+                      "minutes": "121.4",
+                      "day_type": "dia útil",
+                      "grid_kwh": "3.506",
+                      "green_kwh": "0.674",
+                      "band_label": "Fora de ponta",
+                      "grid_value": "2.278900",
+                      "green_value": "0.202200",
+                      "grid_price_per_kwh": "0.6500",
+                      "green_price_per_kwh": "0.3000"
+                    }
+                  ],
+                  "method_description": "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante)."
+                },
+                "components": {
+                  "grid": {
+                    "kwh": "5.200",
+                    "label": "Energia da rede",
+                    "amount": "3.89",
+                    "formula": "soma(kWh Grid do trecho x preço Grid da faixa), arredondada ao centavo",
+                    "unrounded": "3.888200"
+                  },
+                  "idle": {
+                    "label": "Ociosidade (vaga ocupada após o fim da carga)",
+                    "amount": "0.00",
+                    "applies": true,
+                    "formula": "max(0, minutos completos após o fim da energia - tolerância) x taxa por minuto",
+                    "fee_per_minute": "0.2500",
+                    "billable_minutes": 0,
+                    "energy_end_source": "informed",
+                    "tolerance_minutes": 15,
+                    "energy_end_source_label": "informado pela fonte de dados (SEMS/gateway)",
+                    "minutes_after_energy_end": 0
+                  },
+                  "green": {
+                    "kwh": "1.000",
+                    "label": "Energia verde (solar/bateria)",
+                    "amount": "0.30",
+                    "formula": "soma(kWh Green do trecho x preço Green da faixa), arredondada ao centavo",
+                    "unrounded": "0.300000"
+                  },
+                  "taxes": [
+                    {
+                      "base": "4.19",
+                      "label": "ISS",
+                      "amount": "0.21",
+                      "rule_id": 1,
+                      "tax_type": "iss",
+                      "legal_basis": "Parâmetro fictício de demonstração acadêmica",
+                      "rate_percent": "5.000",
+                      "excluded_from_base": "0.00",
+                      "exclude_compensated_energy": false
+                    }
+                  ],
+                  "total": "4.61",
+                  "overhead": {
+                    "base": "4.19",
+                    "label": "Overhead operacional",
+                    "amount": "0.21",
+                    "formula": "subtotal x percentual definido pela assembleia",
+                    "percent": "5.00"
+                  },
+                  "subtotal": {
+                    "amount": "4.19",
+                    "formula": "Green + Grid + Ociosidade"
+                  },
+                  "tax_total": "0.21"
+                },
+                "explanation": [
+                  "Trecho 1: 12/10 21:01-22:00 (Intermediário, dia útil): 0,326 kWh Green x R$ 0,3000 + 1,694 kWh Grid x R$ 0,9500 = R$ 1,7071",
+                  "Trecho 2: 12/10 22:00-00:01 (Fora de ponta, dia útil): 0,674 kWh Green x R$ 0,3000 + 3,506 kWh Grid x R$ 0,6500 = R$ 2,4811",
+                  "Energia verde (solar/bateria): R$ 0,30",
+                  "Energia da rede: R$ 3,89",
+                  "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00",
+                  "Subtotal: R$ 4,19",
+                  "ISS 5,000% sobre R$ 4,19: R$ 0,21",
+                  "Overhead operacional 5,00% sobre o subtotal: R$ 0,21",
+                  "Total da sessão: R$ 4,61"
+                ],
+                "engine_version": "1.0.0"
+              }
+            }
+          ]
+        }
+      ],
+      "carregadores": [
+        {
+          "code": "HCA01",
+          "serial_number": "DEMO-HCA01",
+          "model": "GoodWe HCA G2",
+          "rated_power_kw": "7.00",
+          "connectors": 1,
+          "location": "Vaga compartilhada (simulação)",
+          "id": 1,
+          "active": true,
+          "telemetry_status": "unavailable"
+        }
+      ],
+      "anomalias": []
+    },
+    "resident": {
+      "reservas": [
+        {
+          "charger_id": 1,
+          "connector": 1,
+          "starts_at": "2026-10-12T21:01:21.531013-03:00",
+          "ends_at": "2026-10-13T00:01:21.531013-03:00",
+          "id": 1,
+          "user_id": 2,
+          "status": "completed"
+        }
+      ],
+      "sessoes": [
+        {
+          "id": 1,
+          "source": "simulator",
+          "external_id": "demo-045985c787bf4f8084b622ce086ea079",
+          "charger_id": 1,
+          "connector": 1,
+          "card_id": "SHARED-DEMO",
+          "reservation_id": 1,
+          "user_id": 2,
+          "attribution_method": "reservation",
+          "started_at": "2026-10-12T21:01:21.531013-03:00",
+          "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+          "ended_at": "2026-10-13T00:01:21.531013-03:00",
+          "total_kwh": "6.200",
+          "green_kwh": "1.000",
+          "grid_kwh": "5.200",
+          "average_power_kw": "2.30",
+          "max_power_kw": "3.30",
+          "end_status": "completed",
+          "validation_status": "approved"
+        }
+      ],
+      "faturas": [
+        {
+          "id": 1,
+          "user_id": 2,
+          "period": "2026-10-01",
+          "status": "open",
+          "sessions_count": 1,
+          "green_kwh": "1.000",
+          "grid_kwh": "5.200",
+          "idle_minutes": 0,
+          "green_amount": "0.30",
+          "grid_amount": "3.89",
+          "idle_amount": "0.00",
+          "subtotal": "4.19",
+          "tax_amount": "0.21",
+          "overhead_amount": "0.21",
+          "total": "4.61",
+          "calculation": {
+            "user": {
+              "id": 2,
+              "name": "Morador Demo",
+              "unit": "A-101"
+            },
+            "lines": [
+              {
+                "total": "4.61",
+                "tariff_id": 1,
+                "session_id": 1,
+                "started_at": "2026-10-12T21:01:21.531013-03:00",
+                "charge_rule": "normal",
+                "is_late_entry": false
+              }
+            ],
+            "notes": [],
+            "period": "2026-10",
+            "totals": {
+              "total": "4.61",
+              "grid_kwh": "5.200",
+              "subtotal": "4.19",
+              "green_kwh": "1.000",
+              "tax_amount": "0.21",
+              "grid_amount": "3.89",
+              "idle_amount": "0.00",
+              "green_amount": "0.30",
+              "idle_minutes": 0,
+              "sessions_count": 1,
+              "overhead_amount": "0.21"
+            },
+            "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+            "period_end": "2026-11-01T00:00:00-03:00",
+            "not_included": [],
+            "period_start": "2026-10-01T00:00:00-03:00",
+            "engine_version": "1.0.0"
+          },
+          "engine_version": "1.0.0",
+          "items": [
+            {
+              "id": 1,
+              "session_id": 1,
+              "tariff_id": 1,
+              "charge_rule": "normal",
+              "is_late_entry": false,
+              "green_kwh": "1.000",
+              "grid_kwh": "5.200",
+              "idle_minutes": 0,
+              "green_amount": "0.30",
+              "grid_amount": "3.89",
+              "idle_amount": "0.00",
+              "subtotal": "4.19",
+              "tax_amount": "0.21",
+              "overhead_amount": "0.21",
+              "total": "4.61",
+              "calculation": {
+                "rule": {
+                  "code": "normal",
+                  "description": "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+                },
+                "notes": [
+                  "Sessão atravessou faixas sem curva de potência: divisão estimada pelo tempo."
+                ],
+                "tariff": {
+                  "id": 1,
+                  "name": "Demonstração acadêmica",
+                  "prices": {
+                    "peak": {
+                      "grid_price_per_kwh": "1.4500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    "off_peak": {
+                      "grid_price_per_kwh": "0.6500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    "intermediate": {
+                      "grid_price_per_kwh": "0.9500",
+                      "green_price_per_kwh": "0.3000"
+                    }
+                  },
+                  "valid_to": null,
+                  "valid_from": "2025-12-31T21:00:00-03:00",
+                  "weekday_windows": [
+                    {
+                      "end": "18:00",
+                      "band": "intermediate",
+                      "start": "17:00"
+                    },
+                    {
+                      "end": "21:00",
+                      "band": "peak",
+                      "start": "18:00"
+                    },
+                    {
+                      "end": "22:00",
+                      "band": "intermediate",
+                      "start": "21:00"
+                    }
+                  ],
+                  "overhead_percent": "5.00",
+                  "assembly_reference": null,
+                  "idle_fee_per_minute": "0.2500",
+                  "idle_tolerance_minutes": 15,
+                  "weekends_holidays_off_peak": true
+                },
+                "session": {
+                  "user_id": 2,
+                  "ended_at": "2026-10-13T00:01:21.531013-03:00",
+                  "grid_kwh": "5.200",
+                  "green_kwh": "1.000",
+                  "total_kwh": "6.200",
+                  "end_status": "completed",
+                  "session_id": 1,
+                  "started_at": "2026-10-12T21:01:21.531013-03:00",
+                  "failure_code": null,
+                  "power_samples": 0,
+                  "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+                  "energy_end_source": "informed",
+                  "charger_rated_power_kw": "7.00"
+                },
+                "band_split": {
+                  "method": "time_proportional",
+                  "segments": [
+                    {
+                      "end": "2026-10-12T22:00:00-03:00",
+                      "band": "intermediate",
+                      "index": 1,
+                      "start": "2026-10-12T21:01:21.531013-03:00",
+                      "minutes": "58.6",
+                      "day_type": "dia útil",
+                      "grid_kwh": "1.694",
+                      "green_kwh": "0.326",
+                      "band_label": "Intermediário",
+                      "grid_value": "1.609300",
+                      "green_value": "0.097800",
+                      "grid_price_per_kwh": "0.9500",
+                      "green_price_per_kwh": "0.3000"
+                    },
+                    {
+                      "end": "2026-10-13T00:01:21.531013-03:00",
+                      "band": "off_peak",
+                      "index": 2,
+                      "start": "2026-10-12T22:00:00-03:00",
+                      "minutes": "121.4",
+                      "day_type": "dia útil",
+                      "grid_kwh": "3.506",
+                      "green_kwh": "0.674",
+                      "band_label": "Fora de ponta",
+                      "grid_value": "2.278900",
+                      "green_value": "0.202200",
+                      "grid_price_per_kwh": "0.6500",
+                      "green_price_per_kwh": "0.3000"
+                    }
+                  ],
+                  "method_description": "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante)."
+                },
+                "components": {
+                  "grid": {
+                    "kwh": "5.200",
+                    "label": "Energia da rede",
+                    "amount": "3.89",
+                    "formula": "soma(kWh Grid do trecho x preço Grid da faixa), arredondada ao centavo",
+                    "unrounded": "3.888200"
+                  },
+                  "idle": {
+                    "label": "Ociosidade (vaga ocupada após o fim da carga)",
+                    "amount": "0.00",
+                    "applies": true,
+                    "formula": "max(0, minutos completos após o fim da energia - tolerância) x taxa por minuto",
+                    "fee_per_minute": "0.2500",
+                    "billable_minutes": 0,
+                    "energy_end_source": "informed",
+                    "tolerance_minutes": 15,
+                    "energy_end_source_label": "informado pela fonte de dados (SEMS/gateway)",
+                    "minutes_after_energy_end": 0
+                  },
+                  "green": {
+                    "kwh": "1.000",
+                    "label": "Energia verde (solar/bateria)",
+                    "amount": "0.30",
+                    "formula": "soma(kWh Green do trecho x preço Green da faixa), arredondada ao centavo",
+                    "unrounded": "0.300000"
+                  },
+                  "taxes": [
+                    {
+                      "base": "4.19",
+                      "label": "ISS",
+                      "amount": "0.21",
+                      "rule_id": 1,
+                      "tax_type": "iss",
+                      "legal_basis": "Parâmetro fictício de demonstração acadêmica",
+                      "rate_percent": "5.000",
+                      "excluded_from_base": "0.00",
+                      "exclude_compensated_energy": false
+                    }
+                  ],
+                  "total": "4.61",
+                  "overhead": {
+                    "base": "4.19",
+                    "label": "Overhead operacional",
+                    "amount": "0.21",
+                    "formula": "subtotal x percentual definido pela assembleia",
+                    "percent": "5.00"
+                  },
+                  "subtotal": {
+                    "amount": "4.19",
+                    "formula": "Green + Grid + Ociosidade"
+                  },
+                  "tax_total": "0.21"
+                },
+                "explanation": [
+                  "Trecho 1: 12/10 21:01-22:00 (Intermediário, dia útil): 0,326 kWh Green x R$ 0,3000 + 1,694 kWh Grid x R$ 0,9500 = R$ 1,7071",
+                  "Trecho 2: 12/10 22:00-00:01 (Fora de ponta, dia útil): 0,674 kWh Green x R$ 0,3000 + 3,506 kWh Grid x R$ 0,6500 = R$ 2,4811",
+                  "Energia verde (solar/bateria): R$ 0,30",
+                  "Energia da rede: R$ 3,89",
+                  "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00",
+                  "Subtotal: R$ 4,19",
+                  "ISS 5,000% sobre R$ 4,19: R$ 0,21",
+                  "Overhead operacional 5,00% sobre o subtotal: R$ 0,21",
+                  "Total da sessão: R$ 4,61"
+                ],
+                "engine_version": "1.0.0"
+              }
+            }
+          ]
+        }
+      ],
+      "carregadores": [
+        {
+          "code": "HCA01",
+          "serial_number": "DEMO-HCA01",
+          "model": "GoodWe HCA G2",
+          "rated_power_kw": "7.00",
+          "connectors": 1,
+          "location": "Vaga compartilhada (simulação)",
+          "id": 1,
+          "active": true,
+          "telemetry_status": "unavailable"
+        }
+      ]
+    }
+  },
+  "report": {
+    "period": "2026-10",
+    "invoices": [
+      {
+        "invoice_id": 1,
+        "user_id": 2,
+        "user_name": "Morador Demo",
+        "unit": "A-101",
+        "status": "open",
+        "sessions_count": 1,
+        "green_kwh": "1.000",
+        "grid_kwh": "5.200",
+        "green_amount": "0.30",
+        "grid_amount": "3.89",
+        "idle_amount": "0.00",
+        "subtotal": "4.19",
+        "tax_amount": "0.21",
+        "overhead_amount": "0.21",
+        "total": "4.61"
+      }
+    ],
+    "totals": {
+      "green_amount": "0.30",
+      "grid_amount": "3.89",
+      "idle_amount": "0.00",
+      "subtotal": "4.19",
+      "tax_amount": "0.21",
+      "overhead_amount": "0.21",
+      "total": "4.61",
+      "invoices_count": 1,
+      "closed_invoices": 0,
+      "billed_kwh": "6.200"
+    },
+    "condominium_reimbursement": {
+      "energy_amount": "4.19",
+      "idle_amount": "0.00",
+      "overhead_amount": "0.21",
+      "tax_to_collect": "0.21",
+      "description": "Energia (Green + Grid) reembolsa o que o condomínio pagou à distribuidora; ociosidade e overhead ficam com o condomínio; o imposto destacado deve ser recolhido."
+    },
+    "energy_balance": {
+      "delivered_kwh": "6.200",
+      "sessions_in_period": 1,
+      "billed": {
+        "count": 1,
+        "kwh": "6.200",
+        "session_ids": [
+          1
+        ]
+      },
+      "system_failure_not_charged": {
+        "count": 0,
+        "kwh": "0.000",
+        "session_ids": []
+      },
+      "waiting_review": {
+        "count": 0,
+        "kwh": "0.000",
+        "session_ids": []
+      },
+      "rejected": {
+        "count": 0,
+        "kwh": "0.000",
+        "session_ids": []
+      },
+      "unattributed": {
+        "count": 0,
+        "kwh": "0.000",
+        "session_ids": []
+      },
+      "approved_not_invoiced": {
+        "count": 0,
+        "kwh": "0.000",
+        "session_ids": []
+      },
+      "late_entries_from_previous_periods": {
+        "count": 0,
+        "kwh": "0.000",
+        "amount": "0.00"
+      }
+    },
+    "scope": "Valores faturados; pagamentos e recebimentos não são registrados neste MVP."
+  },
+  "session_detail": {
+    "id": 1,
+    "source": "simulator",
+    "external_id": "demo-045985c787bf4f8084b622ce086ea079",
+    "charger_id": 1,
+    "connector": 1,
+    "card_id": "SHARED-DEMO",
+    "reservation_id": 1,
+    "user_id": 2,
+    "attribution_method": "reservation",
+    "started_at": "2026-10-12T21:01:21.531013-03:00",
+    "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+    "ended_at": "2026-10-13T00:01:21.531013-03:00",
+    "total_kwh": "6.200",
+    "green_kwh": "1.000",
+    "grid_kwh": "5.200",
+    "average_power_kw": "2.30",
+    "max_power_kw": "3.30",
+    "end_status": "completed",
+    "validation_status": "approved"
+  },
+  "invoice_detail": {
+    "id": 1,
+    "user_id": 2,
+    "period": "2026-10-01",
+    "status": "open",
+    "sessions_count": 1,
+    "green_kwh": "1.000",
+    "grid_kwh": "5.200",
+    "idle_minutes": 0,
+    "green_amount": "0.30",
+    "grid_amount": "3.89",
+    "idle_amount": "0.00",
+    "subtotal": "4.19",
+    "tax_amount": "0.21",
+    "overhead_amount": "0.21",
+    "total": "4.61",
+    "calculation": {
+      "user": {
+        "id": 2,
+        "name": "Morador Demo",
+        "unit": "A-101"
+      },
+      "lines": [
+        {
+          "total": "4.61",
+          "tariff_id": 1,
+          "session_id": 1,
+          "started_at": "2026-10-12T21:01:21.531013-03:00",
+          "charge_rule": "normal",
+          "is_late_entry": false
+        }
+      ],
+      "notes": [],
+      "period": "2026-10",
+      "totals": {
+        "total": "4.61",
+        "grid_kwh": "5.200",
+        "subtotal": "4.19",
+        "green_kwh": "1.000",
+        "tax_amount": "0.21",
+        "grid_amount": "3.89",
+        "idle_amount": "0.00",
+        "green_amount": "0.30",
+        "idle_minutes": 0,
+        "sessions_count": 1,
+        "overhead_amount": "0.21"
+      },
+      "formula": "Total = soma, por sessão, de (Green + Grid + Ociosidade) + Imposto + Overhead",
+      "period_end": "2026-11-01T00:00:00-03:00",
+      "not_included": [],
+      "period_start": "2026-10-01T00:00:00-03:00",
+      "engine_version": "1.0.0"
+    },
+    "engine_version": "1.0.0",
+    "items": [
+      {
+        "id": 1,
+        "session_id": 1,
+        "tariff_id": 1,
+        "charge_rule": "normal",
+        "is_late_entry": false,
+        "green_kwh": "1.000",
+        "grid_kwh": "5.200",
+        "idle_minutes": 0,
+        "green_amount": "0.30",
+        "grid_amount": "3.89",
+        "idle_amount": "0.00",
+        "subtotal": "4.19",
+        "tax_amount": "0.21",
+        "overhead_amount": "0.21",
+        "total": "4.61",
+        "calculation": {
+          "rule": {
+            "code": "normal",
+            "description": "Sessão concluída normalmente: cobra-se a energia (Green + Grid) e a ociosidade após a tolerância."
+          },
+          "notes": [
+            "Sessão atravessou faixas sem curva de potência: divisão estimada pelo tempo."
+          ],
+          "tariff": {
+            "id": 1,
+            "name": "Demonstração acadêmica",
+            "prices": {
+              "peak": {
+                "grid_price_per_kwh": "1.4500",
+                "green_price_per_kwh": "0.3000"
+              },
+              "off_peak": {
+                "grid_price_per_kwh": "0.6500",
+                "green_price_per_kwh": "0.3000"
+              },
+              "intermediate": {
+                "grid_price_per_kwh": "0.9500",
+                "green_price_per_kwh": "0.3000"
+              }
+            },
+            "valid_to": null,
+            "valid_from": "2025-12-31T21:00:00-03:00",
+            "weekday_windows": [
+              {
+                "end": "18:00",
+                "band": "intermediate",
+                "start": "17:00"
+              },
+              {
+                "end": "21:00",
+                "band": "peak",
+                "start": "18:00"
+              },
+              {
+                "end": "22:00",
+                "band": "intermediate",
+                "start": "21:00"
+              }
+            ],
+            "overhead_percent": "5.00",
+            "assembly_reference": null,
+            "idle_fee_per_minute": "0.2500",
+            "idle_tolerance_minutes": 15,
+            "weekends_holidays_off_peak": true
+          },
+          "session": {
+            "user_id": 2,
+            "ended_at": "2026-10-13T00:01:21.531013-03:00",
+            "grid_kwh": "5.200",
+            "green_kwh": "1.000",
+            "total_kwh": "6.200",
+            "end_status": "completed",
+            "session_id": 1,
+            "started_at": "2026-10-12T21:01:21.531013-03:00",
+            "failure_code": null,
+            "power_samples": 0,
+            "energy_ended_at": "2026-10-13T00:01:21.531013-03:00",
+            "energy_end_source": "informed",
+            "charger_rated_power_kw": "7.00"
+          },
+          "band_split": {
+            "method": "time_proportional",
+            "segments": [
+              {
+                "end": "2026-10-12T22:00:00-03:00",
+                "band": "intermediate",
+                "index": 1,
+                "start": "2026-10-12T21:01:21.531013-03:00",
+                "minutes": "58.6",
+                "day_type": "dia útil",
+                "grid_kwh": "1.694",
+                "green_kwh": "0.326",
+                "band_label": "Intermediário",
+                "grid_value": "1.609300",
+                "green_value": "0.097800",
+                "grid_price_per_kwh": "0.9500",
+                "green_price_per_kwh": "0.3000"
+              },
+              {
+                "end": "2026-10-13T00:01:21.531013-03:00",
+                "band": "off_peak",
+                "index": 2,
+                "start": "2026-10-12T22:00:00-03:00",
+                "minutes": "121.4",
+                "day_type": "dia útil",
+                "grid_kwh": "3.506",
+                "green_kwh": "0.674",
+                "band_label": "Fora de ponta",
+                "grid_value": "2.278900",
+                "green_value": "0.202200",
+                "grid_price_per_kwh": "0.6500",
+                "green_price_per_kwh": "0.3000"
+              }
+            ],
+            "method_description": "Sem curva de potência suficiente: proporção de cada trecho estimada pelo tempo (potência constante)."
+          },
+          "components": {
+            "grid": {
+              "kwh": "5.200",
+              "label": "Energia da rede",
+              "amount": "3.89",
+              "formula": "soma(kWh Grid do trecho x preço Grid da faixa), arredondada ao centavo",
+              "unrounded": "3.888200"
+            },
+            "idle": {
+              "label": "Ociosidade (vaga ocupada após o fim da carga)",
+              "amount": "0.00",
+              "applies": true,
+              "formula": "max(0, minutos completos após o fim da energia - tolerância) x taxa por minuto",
+              "fee_per_minute": "0.2500",
+              "billable_minutes": 0,
+              "energy_end_source": "informed",
+              "tolerance_minutes": 15,
+              "energy_end_source_label": "informado pela fonte de dados (SEMS/gateway)",
+              "minutes_after_energy_end": 0
+            },
+            "green": {
+              "kwh": "1.000",
+              "label": "Energia verde (solar/bateria)",
+              "amount": "0.30",
+              "formula": "soma(kWh Green do trecho x preço Green da faixa), arredondada ao centavo",
+              "unrounded": "0.300000"
+            },
+            "taxes": [
+              {
+                "base": "4.19",
+                "label": "ISS",
+                "amount": "0.21",
+                "rule_id": 1,
+                "tax_type": "iss",
+                "legal_basis": "Parâmetro fictício de demonstração acadêmica",
+                "rate_percent": "5.000",
+                "excluded_from_base": "0.00",
+                "exclude_compensated_energy": false
+              }
+            ],
+            "total": "4.61",
+            "overhead": {
+              "base": "4.19",
+              "label": "Overhead operacional",
+              "amount": "0.21",
+              "formula": "subtotal x percentual definido pela assembleia",
+              "percent": "5.00"
+            },
+            "subtotal": {
+              "amount": "4.19",
+              "formula": "Green + Grid + Ociosidade"
+            },
+            "tax_total": "0.21"
+          },
+          "explanation": [
+            "Trecho 1: 12/10 21:01-22:00 (Intermediário, dia útil): 0,326 kWh Green x R$ 0,3000 + 1,694 kWh Grid x R$ 0,9500 = R$ 1,7071",
+            "Trecho 2: 12/10 22:00-00:01 (Fora de ponta, dia útil): 0,674 kWh Green x R$ 0,3000 + 3,506 kWh Grid x R$ 0,6500 = R$ 2,4811",
+            "Energia verde (solar/bateria): R$ 0,30",
+            "Energia da rede: R$ 3,89",
+            "Ociosidade: 0 min após o fim da carga - 15 min de tolerância = 0 min x R$ 0,2500 = R$ 0,00",
+            "Subtotal: R$ 4,19",
+            "ISS 5,000% sobre R$ 4,19: R$ 0,21",
+            "Overhead operacional 5,00% sobre o subtotal: R$ 0,21",
+            "Total da sessão: R$ 4,61"
+          ],
+          "engine_version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "model_reconstructed": true
+}

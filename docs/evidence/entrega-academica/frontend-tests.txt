@@ -1,0 +1,13 @@
+
+> ev-chargeops-frontend@0.1.0 test
+> vitest run
+
+
+ RUN  v5.0.3 <copia-isolada>/frontend
+
+
+ Test Files  12 passed (12)
+      Tests  50 passed (50)
+   Start at  20:01:04
+   Duration  1.10s (transform 42%, import 41%, tests 13%, worker 4%, environment 1%)
+

@@ -1,0 +1,4 @@
+{
+  "docs/openapi.json": true,
+  "frontend/src/api/schema.d.ts": true
+}
